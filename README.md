@@ -165,10 +165,11 @@ Então a estrutura final do nosso arquivo será assim:
 
 Para criar um arquivo HTML, no editor de texto que você escolheu para criar a sua página, basta clicar em **File / Save as…**, no nosso caso, estamos utilizando o VSCode como editor de texto.
 
-![VSCode Save As](/imagens/vscode_saveAs.png =100x)
+![VSCode Save As](/imagens/vscode_saveAs.png)
+<img src="Assets//imagens/vscode_saveAs.png" width="200">
 
-![VSCode Save](/imagens/vscode_nomeArquivo.png =100x)
-
+![VSCode Save](/imagens/vscode_nomeArquivo.png)
+<img src="Assets//imagens/vscode_nomeArquivog" width="200">
 
 
 
@@ -193,7 +194,7 @@ O cabeçalho possui seis níveis, iniciando pelo <h1> e finalizando no <h6> send
 ```
 
 Veja como isso é mostrado no navegador:
-![Cabeçalho](/imagens/cabeçalho.png =300x)
+![Cabeçalho](/imagens/cabeçalho.png)
 
 
 #### Parágrafo:
@@ -210,7 +211,7 @@ Para criar um parágrafo, utilizamos o elemento <p>, tudo que for escrito entre 
 </body>
 ```
 
-![Parágrafo](/imagens/paragrafo.png =300x)
+![Parágrafo](/imagens/paragrafo.png)
 
 
 #### Bold e Itálico:
@@ -227,7 +228,7 @@ Para destacar uma parte do texto, podemos mostrá-los com a fonte em negrito ou 
 </body>
 ```
 
-![Negrito e Itálico](/imagens/negrito_italico.png =300x)
+![Negrito e Itálico](/imagens/negrito_italico.png)
 
 
 #### Quebra de linha:
