@@ -45,7 +45,7 @@ O HTML é uma sigla que significa **H**yperText **M**arkup **L**anguage (Linguag
 **Hypertext** são os links entre páginas Web que conectam uma página na outra, mesmo quando criamos links para navegação entre páginas do mesmo site ou entre sites diferentes. Afinal o principal objetivo da Web é conectar pessoas, quando criamos links entre páginas nos tornamos ativos na Internet e colaboramos para que ela cresça cada vez mais. 
 
 **Markup** são como etiquetas utilizadas para falar ao browser como mostrar o conteúdo do site na tela do computador, celular, etc. Na verdade, não só isso! Existem tags especiais que não mostram nenhum conteúdo na tela, mas servem para estruturar o site.
-Um exemplo de algumas tags que utilizamos <html>, <head>, <body> e <p>.
+Um exemplo de algumas tags que utilizamos \<html\>, \<head\>, \<body\> e \<p\>.
     
 *Não se preocupem em entender para que elas servem agora, porque veremos em detalhes mais pra frente! =)*
 
