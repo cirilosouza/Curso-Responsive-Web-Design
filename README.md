@@ -1,4 +1,4 @@
-# Curso - Web Designer</h1>
+# Curso - Web Designer
 Escrito por: Cirilo Souza
 Data da ultima atualização: 19/03/2019
 
