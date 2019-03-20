@@ -7,6 +7,6 @@
 Bom, antes de começarmos efetivamente, vamos a algumas convenções que usaremos neste livro!
 
 * Todos os exemplos de código serão mostrados desta forma;
-'''
+```
 teste
-'''
+```
