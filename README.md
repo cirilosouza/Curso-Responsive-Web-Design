@@ -165,9 +165,9 @@ Então a estrutura final do nosso arquivo será assim:
 
 Para criar um arquivo HTML, no editor de texto que você escolheu para criar a sua página, basta clicar em **File / Save as…**, no nosso caso, estamos utilizando o VSCode como editor de texto.
 
-![VSCode Save As](/imagens/vscode_saveAs.png)
+![VSCode Save As](/imagens/vscode_saveAs.png =100x)
 
-![VSCode Save](/imagens/vscode_nomeArquivo.png)
+![VSCode Save](/imagens/vscode_nomeArquivo.png =100x)
 
 
 
@@ -193,7 +193,7 @@ O cabeçalho possui seis níveis, iniciando pelo <h1> e finalizando no <h6> send
 ```
 
 Veja como isso é mostrado no navegador:
-![Cabeçalho](/imagens/cabeçalho.png)
+![Cabeçalho](/imagens/cabeçalho.png =300x)
 
 
 #### Parágrafo:
@@ -210,7 +210,7 @@ Para criar um parágrafo, utilizamos o elemento <p>, tudo que for escrito entre 
 </body>
 ```
 
-![Parágrafo](/imagens/paragrafo.png)
+![Parágrafo](/imagens/paragrafo.png =300x)
 
 
 #### Bold e Itálico:
@@ -227,7 +227,7 @@ Para destacar uma parte do texto, podemos mostrá-los com a fonte em negrito ou 
 </body>
 ```
 
-![Negrito e Itálico](/imagens/negrito_italico.png)
+![Negrito e Itálico](/imagens/negrito_italico.png =300x)
 
 
 #### Quebra de linha:
@@ -239,7 +239,7 @@ Utilizamos o elemento <br> para quebrar parte do texto em uma nova linha.
 </p>
 ```
 
-![Quebra de Linha](/imagens/qubre_de_linha.png)
+![Quebra de Linha](/imagens/qubre_de_linha.png =300x)
 
 
 #### Quebra de sessão:
@@ -257,7 +257,7 @@ Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o e
 </body>
 ```
 
-![Quebra de sessão](/imagens/quebra_de_sessão.png)
+![Quebra de sessão](/imagens/quebra_de_sessão.png =300x)
 
 
 #### Texto pré-formatado:
