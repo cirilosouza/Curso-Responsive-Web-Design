@@ -238,7 +238,7 @@ Utilizamos o elemento <br> para quebrar parte do texto em uma nova linha.
 </p>
 ```
 
-![Quebra de Linha](/imagens/quebra_de_linha.png =300x)
+![Quebra de Linha](/imagens/quebra_de_linha.png)
 
 
 #### Quebra de sessão:
