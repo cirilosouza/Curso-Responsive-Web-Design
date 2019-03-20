@@ -165,11 +165,9 @@ Então a estrutura final do nosso arquivo será assim:
 
 Para criar um arquivo HTML, no editor de texto que você escolheu para criar a sua página, basta clicar em **File / Save as…**, no nosso caso, estamos utilizando o VSCode como editor de texto.
 
-![VSCode Save As](/imagens/vscode_saveAs.png)
-<img src="Assets//imagens/vscode_saveAs.png" width="200">
+![VSCode Save As](/imagens/vscode_saveAs.png | width=100)
 
-![VSCode Save](/imagens/vscode_nomeArquivo.png)
-<img src="Assets//imagens/vscode_nomeArquivog" width="200">
+![VSCode Save](/imagens/vscode_nomeArquivo.png | width=100)
 
 
 
