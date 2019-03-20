@@ -1,8 +1,8 @@
-* Curso - Web Designer</h1>
+# Curso - Web Designer</h1>
     <p>Escrito por: Cirilo Souza</p>
     <p>Data da ultima atualização: 19/03/2019</p>
 
-** Convenções</h2>
+## Convenções
 
 Bom, antes de começarmos efetivamente, vamos a algumas convenções que usaremos aqui!
 
@@ -28,7 +28,7 @@ Para fazer o download, basta entrar no site do [Visual Studio](https://code.visu
 
 
 
-** HTML Básico
+## HTML Básico
 
 
 O HTML é uma sigla que significa **H**yperText **M**arkup **L**anguage (Linguagem de Marcação de HiperTexto), ela serve para definir o conteúdo, estrutura e como as páginas serão mostradas nos browsers (Google Chrome, Opera, Firefox, Internet Explorer, entre outros) mas afinal o que significa **HTML**?
@@ -47,7 +47,7 @@ Um exemplo de algumas tags que utilizamos <html>, <head>, <body>, <p>.
 *Fácil né? ;-)*
 
 
-*** O que realmente é o HTML?
+### O que realmente é o HTML?
 
 Muita gente pensa que o HTML é uma linguagem de programação, mas este é um pensamento equivocado. O HTML é na verdade uma linguagem de marcação, ele é baseado nas marcações que eram utilizadas para diagramar livros, durante o processo de edição essas marcações são colocadas para indicar como o conteúdo seria impresso.
 Existem ainda muitos softwares que fazem isso, como por exemplo o Latex e o TextMaker. Repare nas tags escritas em vermelho e azul.
