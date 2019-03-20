@@ -9,7 +9,7 @@
         <li>
             <p>Todos os exemplos de código serão mostrados desta forma</p>
         <li>
-    </ul>
+    <ul>
 '''
                     <!DOCTYPE html>
                     <html lang="en">
