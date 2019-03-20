@@ -178,7 +178,7 @@ Quando criamos páginas Web nós adicionamos tags que são chamadas de elementos
 Nesta sessão, vamos ver em detalhes os elementos que são usados para inserir texto em páginas HTML. Estes elementos são divididos em duas partes, os **estruturais** e os **semânticos**, os estruturais servem para criar textos, como cabeçalhos e parágrafos já os semânticos provêm informações extras como dar ênfase ao texto. 
 
 #### Cabeçalho:
-O cabeçalho possui seis níveis, iniciando pelo \<h1\> e finalizando no <h6> sendo o <h1> utilizado para o título principal, por isso deve ser único e os demais podem se repetir ao longo da página. Os navegadores mostram o conteúdo dos cabeçalhos em tamanhos diferentes, de acordo com a sua ordem, ou seja, o <\h1\> será o maior e o <h6> o menor.
+O cabeçalho possui seis níveis, iniciando pelo \<h1\> e finalizando no <\h6\> sendo o \<h1\> utilizado para o título principal, por isso deve ser único e os demais podem se repetir ao longo da página. Os navegadores mostram o conteúdo dos cabeçalhos em tamanhos diferentes, de acordo com a sua ordem, ou seja, o <\h1\> será o maior e o <\h6\> o menor.
 
 ```
 <body>
@@ -213,7 +213,7 @@ Para criar um parágrafo, utilizamos o elemento <p>, tudo que for escrito entre 
 
 
 #### Bold e Itálico:
-Para destacar uma parte do texto, podemos mostrá-los com a fonte em negrito ou itálico para fazer isso basta colocar o trecho do texto que queremos destacar entre os elementos <b> (negrito) e <i>  (itálico).
+Para destacar uma parte do texto, podemos mostrá-los com a fonte em negrito ou itálico para fazer isso basta colocar o trecho do texto que queremos destacar entre os elementos \<b\> (negrito) e \<i\>  (itálico).
 
 ```
 <body>
@@ -242,7 +242,7 @@ Utilizamos o elemento <br> para quebrar parte do texto em uma nova linha.
 
 
 #### Quebra de sessão:
-Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o elemento <hr>. Ele cria uma linha que serve para separar um conteúdo de outro.
+Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o elemento \<hr\>. Ele cria uma linha que serve para separar um conteúdo de outro.
 
 ```
 <body>
@@ -260,7 +260,7 @@ Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o e
 
 
 #### Texto pré-formatado:
-Geralmente quando queremos apresentar poemas, ou linhas de código de alguma linguagem de programação em uma página utilizamos o elemento <pre>.
+Geralmente quando queremos apresentar poemas, ou linhas de código de alguma linguagem de programação em uma página utilizamos o elemento \<pre\>.
 
 ```
 <pre>
