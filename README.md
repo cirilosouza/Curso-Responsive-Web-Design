@@ -8,17 +8,17 @@
    <ul>
         <li>
             <p>Todos os exemplos de código serão mostrados desta forma</p>
-                '''
-                    <!DOCTYPE html>
-                    <html lang="en">
-                    <head>
-                        <meta charset="UTF-8">
-                        <title>Uma página muito bacana!</title>
-                    </head>
-                    <body>
-                    </body>
-                    </html>
-                '''
-            <img src="" alt="">
         <li>
+        '''
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>Uma página muito bacana!</title>
+                </head>
+                <body>
+                </body>
+            </html>
+        '''
+            <img src="" alt="">
     </ul>
