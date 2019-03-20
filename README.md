@@ -192,7 +192,7 @@ O cabeçalho possui seis níveis, iniciando pelo \<h1\> e finalizando no <\h6\> 
 ```
 
 Veja como isso é mostrado no navegador:
-![Cabeçalho](/imagens/cabeçalho.png)
+![Cabeçalho](/imagens/cabecalho.png)
 
 
 #### Parágrafo:
@@ -256,7 +256,7 @@ Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o e
 </body>
 ```
 
-![Quebra de sessão](/imagens/quebra_de_sessão.png)
+![Quebra de sessão](/imagens/quebra_de_sessao.png)
 
 
 #### Texto pré-formatado:
