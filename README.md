@@ -69,8 +69,8 @@ O HTML segue o mesmo princípio, as tags servem para mostrar ao navegador como s
 
 ### Estrutura das TAGS
 
-As tags são elementos escritos entre sinais de menor que (\<) e maior que (\>), se quisermos escrever um parágrafo por exemplo, utilizamos a tag <\p\>.
-Para indicar o início do parágrafo utilizamos o <\p\> e para indicar o final utilizamos o \<\/p\>, todo o conteúdo do parágrafo deve ser escrito entre essas duas tags. Essa estrutura serve para a maioria das tags HTML.
+As tags são elementos escritos entre sinais de menor que (\<) e maior que (\>), se quisermos escrever um parágrafo por exemplo, utilizamos a tag \<p\>.
+Para indicar o início do parágrafo utilizamos o \<p\> e para indicar o final utilizamos o \<\/p\>, todo o conteúdo do parágrafo deve ser escrito entre essas duas tags. Essa estrutura serve para a maioria das tags HTML.
 
 ```
 <p>Este é um exemplo de parágrafo, todo o conteúdo deve ser escrito aqui</p>
@@ -89,7 +89,7 @@ Repare que o valor é escrito entre “aspas” e eles são separados pelo sinal
 
 ### Tags vazias
 
-Algumas tags não têm conteúdo, como no caso da tag <img>, ela serve para exibir imagens na página Web, contém apenas atributos e não precisa da tag de fechamento.
+Algumas tags não têm conteúdo, como no caso da tag \<img\>, ela serve para exibir imagens na página Web, contém apenas atributos e não precisa da tag de fechamento.
 
 ```
 <img src="img/minhaImagem.jpg" alt="Esta é uma imagem de exmplo">
@@ -99,7 +99,7 @@ Algumas tags não têm conteúdo, como no caso da tag <img>, ela serve para exib
 
 ### Estrutura da página HTML
 
-Toda página HTML deve começar com a tag <!DOCTYPE>, ela mostra a versão da linguagem que será utilizada para criar a página Web, isso mesmo, existem versões diferentes da linguagem HTML, pois, novos recursos foram inseridos com o passar do tempo.
+Toda página HTML deve começar com a tag \<!DOCTYPE\>, ela mostra a versão da linguagem que será utilizada para criar a página Web, isso mesmo, existem versões diferentes da linguagem HTML, pois, novos recursos foram inseridos com o passar do tempo.
 
 | Versão    | Ano  |
 | ------    | ---  |
@@ -110,7 +110,7 @@ Toda página HTML deve começar com a tag <!DOCTYPE>, ela mostra a versão da li
 | XHTML     | 2000 |
 | HTML 5    | 2014 |
 
-O <!DOCTYPE> deve ser declarado apenas uma vez e deve ser a primeira tag da página. Neste caso, para indicarmos que a página será escrita em HTML 5 utilizamos:
+O \<!DOCTYPE\> deve ser declarado apenas uma vez e deve ser a primeira tag da página. Neste caso, para indicarmos que a página será escrita em HTML 5 utilizamos:
 
 ```
 <!DOCTYPE html>
@@ -126,7 +126,7 @@ A tag <html> é conhecida como elemento raiz, e indica que tudo que está dentro
 
 Veja mais códigos de linguagem: [W3Schools](https://www.w3schools.com/tags/ref_language_codes.asp)
 
-A tag <head> contém informações adicionais sobre a página, como por exemplo, scripts que devem ser executados antes do carregamento da página, links para arquivos de estilo, formato de caracteres, título e muito mais. O seu conteúdo não é mostrado no navegador.
+A tag \<head\> contém informações adicionais sobre a página, como por exemplo, scripts que devem ser executados antes do carregamento da página, links para arquivos de estilo, formato de caracteres, título e muito mais. O seu conteúdo não é mostrado no navegador.
 
 ```
 <head>
@@ -136,7 +136,7 @@ A tag <head> contém informações adicionais sobre a página, como por exemplo,
 </head
 ```
 
-A tag <body> contém todo o conteúdo que você quer mostrar no navegador como textos, imagens, vídeos, etc.
+A tag \<body\> contém todo o conteúdo que você quer mostrar no navegador como textos, imagens, vídeos, etc.
     
 ```
 <body>
@@ -174,7 +174,7 @@ Para criar um arquivo HTML, no editor de texto que você escolheu para criar a s
 
 ## Trabalhando com texto
 
-Quando criamos páginas Web nós adicionamos tags que são chamadas de elementos, esses **elemento**s informam ao navegador o que deve ser exibido e como será exibido na tela. 
+Quando criamos páginas Web nós adicionamos tags que são chamadas de elementos, esses **elementos** informam ao navegador o que deve ser exibido e como será exibido na tela. 
 Nesta sessão, vamos ver em detalhes os elementos que são usados para inserir texto em páginas HTML. Estes elementos são divididos em duas partes, os **estruturais** e os **semânticos**, os estruturais servem para criar textos, como cabeçalhos e parágrafos já os semânticos provêm informações extras como dar ênfase ao texto. 
 
 #### Cabeçalho:
@@ -196,7 +196,7 @@ Veja como isso é mostrado no navegador:
 
 
 #### Parágrafo:
-Para criar um parágrafo, utilizamos o elemento <p>, tudo que for escrito entre este elemento será mostrado em uma ou várias linhas dependendo o tamanho do texto. Por padrão o navegador mostra cada novo parágrafo em uma linha diferente.
+Para criar um parágrafo, utilizamos o elemento \<p\>, tudo que for escrito entre este elemento será mostrado em uma ou várias linhas dependendo o tamanho do texto. Por padrão o navegador mostra cada novo parágrafo em uma linha diferente.
     
 ```
 <body>
@@ -270,4 +270,16 @@ Geralmente quando queremos apresentar poemas, ou linhas de código de alguma lin
     Põe a mão no coração
 </pre>
 ```
+
+
+#### Sub escrito e sobre escrito:
+O elemento \<sub\> (sub escrito) geralmente é usado para formulas químicas, como H2O.
+
+```
+<body>
+    <p>A fórmula da água é H<sub>2</sub>O</p>
+    <p>Qual o resultado de 2<sup>2</sup>?</p>
+</body>
+```
+
 
