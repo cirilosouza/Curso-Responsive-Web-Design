@@ -238,7 +238,7 @@ Utilizamos o elemento <br> para quebrar parte do texto em uma nova linha.
 </p>
 ```
 
-![Quebra de Linha](/imagens/qubre_de_linha.png =300x)
+![Quebra de Linha](/imagens/quebra_de_linha.png =300x)
 
 
 #### Quebra de sessão:
@@ -256,7 +256,7 @@ Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o e
 </body>
 ```
 
-![Quebra de sessão](/imagens/quebra_de_sessão.png =300x)
+![Quebra de sessão](/imagens/quebra_de_sessão.png)
 
 
 #### Texto pré-formatado:
