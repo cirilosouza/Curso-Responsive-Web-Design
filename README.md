@@ -38,7 +38,7 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
   
   
 &nbsp;
-[HTML Básico](/doc/html-basico.md)
+[HTML Básico](Curso-Responsive-Web-Design/doc/HTML Basico.md)
  
 
 
