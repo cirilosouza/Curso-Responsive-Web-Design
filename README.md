@@ -9,7 +9,7 @@ Crie páginas Web incríveis, acessíveis e responsivas.
   
 
 Autor: Cirilo Souza  
-Data da última atualização: 20/03/2019
+Data da última atualização: 21/03/2019
   
   
 &nbsp;
@@ -30,7 +30,7 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
   
 &nbsp;
 *É isso!*  
-Antes de mais nada, parabéns pela iniciativa em participar deste curso... porque somente com a educação vamos mudar o mundo! =D*
+*Antes de mais nada, parabéns pela iniciativa em participar deste curso... porque somente com a educação vamos mudar o mundo! =D*
   
   
 &nbsp;
