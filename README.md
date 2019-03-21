@@ -4,7 +4,7 @@ Autor: Cirilo Souza
 Data da última atualização: 20/03/2019
 
 
-## E aí aluno, blz?!
+### E aí aluno, blz?!
 
 Seja bem vindo a página de material didático do curso Responsive Web Design, este material tem como objetivo ajudar você a compreender melhor o conteúdo do curso e sanar as possíveis dúvidas com relação ao HTML, CSS e JavaScript.
 
@@ -22,4 +22,6 @@ Antes de mais nada, parabéns pela iniciativa em participar deste curso... porqu
   
   
 ## ÍNDICE
+
+
 
