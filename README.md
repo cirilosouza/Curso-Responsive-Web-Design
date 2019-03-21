@@ -35,11 +35,9 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
   
 &nbsp;
 ## ÍNDICE
+
   
-  
-&nbsp;
-  
-[HTML Básico](/doc/HTML Basico.md)
+[HTML Básico](/doc/HTML-Basico.md)
  
 
 
