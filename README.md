@@ -37,8 +37,8 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 ## ÍNDICE
   
   
-&nbsp
-[HTML Básico](/doc/html-basico)
+&nbsp;
+[HTML Básico](/doc/html-basico.md)
  
 
 
