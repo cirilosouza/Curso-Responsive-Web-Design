@@ -29,4 +29,9 @@ Para fazer o download, basta entrar no site do [Visual Studio](https://code.visu
 &nbsp;
   
 *Acho que é isso! Vamos começar?*
+  
+  
+&nbsp;
+  
+[< Retornar à página principal](../README.md)
 
