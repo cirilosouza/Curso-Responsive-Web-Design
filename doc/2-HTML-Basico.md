@@ -6,7 +6,7 @@
   
 O HTML é uma sigla que significa **H**yperText **M**arkup **L**anguage (Linguagem de Marcação de HiperTexto), ela serve para definir o conteúdo, estrutura e como as páginas serão mostradas nos browsers (Google Chrome, Opera, Firefox, Internet Explorer, entre outros) mas afinal o que significa **HTML**?
 
-* OK, vamos por partes! *
+*OK, vamos por partes!*
 
 **Hypertext** são os links entre páginas Web que conectam uma página na outra, mesmo quando criamos links para navegação entre páginas do mesmo site ou entre sites diferentes. Afinal o principal objetivo da Web é conectar pessoas, quando criamos links entre páginas nos tornamos ativos na Internet e colaboramos para que ela cresça cada vez mais. 
 
