@@ -43,7 +43,7 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 4. [O que são links](/doc/4-O-que-são-links.md)  
 5. [Criando listas](/doc/5-Criando-listas.md)  
 6. [Uma imagem vale mais que mil palavras](/doc/6-Uma-imagem-vale-mais-que-mil-palavras.md)  
-7. [Caixas e mais caixas](/doc/7-Caixas-emais-caixas.md)  
+7. [Caixas e mais caixas](/doc/7-Caixas-e-mais-caixas.md)  
 8. [O que é CSS](/doc/8-O-que-é-CSS.md)  
 9. [Aplicando estilo com CSS](/doc/9-Aplicando-estilo-com-CSS.md)  
 10. [Float](/doc/10-Float.md)  
