@@ -36,7 +36,7 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 &nbsp;
 ## ÍNDICE
 
-  
+### HTML e CSS Básico
 1. [Convenções](/doc/1-Convencoes.md)  
 2. [HTML Básico](/doc/2-HTML-Basico.md)  
 3. [Trabalhando com textos](/doc/3-Trabalhando-com-texto.md)  
@@ -56,6 +56,7 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
   
 &nbsp;
   
+### HTML e CSS Intermediário
 17. [HTML Intermediário - Páginas Responsivas](/doc/17-HTML-Intermediário-Páginas-Responsivas.md)  
   
  
