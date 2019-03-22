@@ -54,7 +54,7 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 &nbsp;
   
 ### HTML e CSS Intermediário
-17. [HTML Intermediário - Páginas Responsivas](/doc/17-HTML-Intermediário-Páginas-Responsivas.md)  
+17. [Páginas Responsivas](/doc/17-Páginas-Responsivas.md)  
   
  
 
