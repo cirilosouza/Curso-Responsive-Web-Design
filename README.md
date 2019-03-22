@@ -37,7 +37,7 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 ## ÍNDICE
 
   
-[Convenções](/doc/Convenções.md)  
+[Convenções](/doc/Convencoes.md)  
 1. [HTML Básico](/doc/1-HTML-Basico.md)  
 2. [Trabalhando com textos](/doc/2-Trabalhando-com-textos.md)  
 3. [O que são links](/doc/3-O-que-são-links.md)  
