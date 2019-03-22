@@ -38,25 +38,25 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 
   
 [Convenções](/doc/Convenções.md)  
-1. [HTML Básico](/doc/HTML-Basico.md)  
-2. [Trabalhando com textos](/doc/Trabalhando-com-textos.md)  
-3. [O que são links](/doc/O-que-são-links.md)  
-4. [Criando listas](/doc/Criando-listas.md)  
-5. [Uma imagem vale mais que mil palavras](/doc/Uma-imagem-vale-mais-que-mil-palavras.md)  
-6. [Caixas e mais caixas](/doc/Caixas-emais-caixas.md)  
-7. [O que é CSS](/doc/O-que-é-CSS.md)  
-8. [Aplicando estilo com CSS](/doc/Aplicando-estilo-com-CSS.md)  
-9. [Float](/doc/Float.md)  
-10. [Position](/doc/Position.md)  
-11. [Tabelas](/doc/Tabelas.md)  
-12. [Estilizando tabelas com CSS](/doc/Estilizando-tabelas-com-CSS.md)  
-13. [Formulários](/doc/Formulários.md)  
-14. [Elementos semânticos](/doc/Elementos-semânticos.md)  
-15. [Um pouco mais de HTML](/doc/Um-pouco-mais-de-HTML.md)  
+1. [HTML Básico](/doc/1-HTML-Basico.md)  
+2. [Trabalhando com textos](/doc/2-Trabalhando-com-textos.md)  
+3. [O que são links](/doc/3-O-que-são-links.md)  
+4. [Criando listas](/doc/4-Criando-listas.md)  
+5. [Uma imagem vale mais que mil palavras](/doc/5-Uma-imagem-vale-mais-que-mil-palavras.md)  
+6. [Caixas e mais caixas](/doc/6-Caixas-emais-caixas.md)  
+7. [O que é CSS](/doc/7-O-que-é-CSS.md)  
+8. [Aplicando estilo com CSS](/doc/8-Aplicando-estilo-com-CSS.md)  
+9. [Float](/doc/9-Float.md)  
+10. [Position](/doc/10-Position.md)  
+11. [Tabelas](/doc/11-Tabelas.md)  
+12. [Estilizando tabelas com CSS](/doc/12-Estilizando-tabelas-com-CSS.md)  
+13. [Formulários](/doc/13-Formulários.md)  
+14. [Elementos semânticos](/doc/14-Elementos-semânticos.md)  
+15. [Um pouco mais de HTML](/doc/15-Um-pouco-mais-de-HTML.md)  
   
 &nbsp;
   
-16. [HTML Intermediário - Páginas Responsivas](/doc/HTML-Intermediário-Páginas-Responsivas.md)  
+16. [HTML Intermediário - Páginas Responsivas](/doc/16-HTML-Intermediário-Páginas-Responsivas.md)  
   
  
 
