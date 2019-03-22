@@ -39,7 +39,7 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
   
 1. [Convenções](/doc/1-Convencoes.md)  
 2. [HTML Básico](/doc/2-HTML-Basico.md)  
-3. [Trabalhando com textos](/doc/3-Trabalhando-com-textos.md)  
+3. [Trabalhando com textos](/doc/3-Trabalhando-com-texto.md)  
 4. [O que são links](/doc/4-O-que-são-links.md)  
 5. [Criando listas](/doc/5-Criando-listas.md)  
 6. [Uma imagem vale mais que mil palavras](/doc/6-Uma-imagem-vale-mais-que-mil-palavras.md)  
