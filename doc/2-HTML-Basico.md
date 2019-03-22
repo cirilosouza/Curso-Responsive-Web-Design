@@ -136,3 +136,8 @@ Para criar um arquivo HTML, no editor de texto que você escolheu para criar a s
 
 ![VSCode Save As](/imagens/vscode_saveAs.png)
 ![VSCode Save](/imagens/vscode_nomeArquivo.png)
+  
+  
+&nbsp;
+[< Retornar à página principal](../README.md)
+
