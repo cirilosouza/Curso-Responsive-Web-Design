@@ -18,10 +18,11 @@ Um exemplo de algumas tags que utilizamos \<html\>, \<head\>, \<body\> e \<p\>.
 **Language** nada mais é do que linguagem em inglês, ou seja, HTML é uma linguagem que utiliza etiquetas para criar a estrutura das páginas e links entre elas. 
 
 *Fácil né? ;-)*
-
-
-
-### O que realmente é o HTML?
+  
+  
+&nbsp;
+  
+## O que realmente é o HTML?
 
 Muita gente pensa que o HTML é uma linguagem de programação, mas este é um pensamento equivocado. O HTML é na verdade uma linguagem de marcação, ele é baseado nas marcações que eram utilizadas para diagramar livros, durante o processo de edição essas marcações são colocadas para indicar como o conteúdo seria impresso.
 Existem ainda muitos softwares que fazem isso, como por exemplo o Latex e o TextMaker. Repare nas tags escritas em vermelho e azul.
@@ -29,11 +30,11 @@ Existem ainda muitos softwares que fazem isso, como por exemplo o Latex e o Text
 ![Latex](/imagens/latex.png)
 
 O HTML segue o mesmo princípio, as tags servem para mostrar ao navegador como será apresentado o conteúdo do site.
-
-
-
-
-### Estrutura das TAGS
+  
+  
+&nbsp;
+  
+## Estrutura das TAGS
 
 As tags são elementos escritos entre sinais de menor que (\<) e maior que (\>), se quisermos escrever um parágrafo por exemplo, utilizamos a tag \<p\>.
 Para indicar o início do parágrafo utilizamos o \<p\> e para indicar o final utilizamos o \<\/p\>, todo o conteúdo do parágrafo deve ser escrito entre essas duas tags. Essa estrutura serve para a maioria das tags HTML.
@@ -49,21 +50,22 @@ As tags podem conter atributos que proveem informações adicionais sobre o cont
 ```
 
 Repare que o valor é escrito entre “aspas” e eles são separados pelo sinal de igual ( = ). O nome do atributo indica que tipo de informação extra você está passando na tag, no exemplo acima estamos indicando que a linguagem da página será em Inglês. 
-
-
-
-
-### Tags vazias
+  
+  
+&nbsp;
+  
+## Tags vazias
 
 Algumas tags não têm conteúdo, como no caso da tag \<img\>, ela serve para exibir imagens na página Web, contém apenas atributos e não precisa da tag de fechamento.
 
 ```
 <img src="img/minhaImagem.jpg" alt="Esta é uma imagem de exmplo">
 ```
-
-
-
-### Estrutura da página HTML
+  
+  
+&nbsp;
+  
+## Estrutura da página HTML
 
 Toda página HTML deve começar com a tag \<!DOCTYPE\>, ela mostra a versão da linguagem que será utilizada para criar a página Web, isso mesmo, existem versões diferentes da linguagem HTML, pois, novos recursos foram inseridos com o passar do tempo.
 
@@ -124,13 +126,13 @@ Então a estrutura final do nosso arquivo será assim:
 </body>
 </html>
 ```
-
-
-
-### Criando arquivos .HTML
+  
+  
+&nbsp;
+  
+## Criando arquivos .HTML
 
 Para criar um arquivo HTML, no editor de texto que você escolheu para criar a sua página, basta clicar em **File / Save as…**, no nosso caso, estamos utilizando o VSCode como editor de texto.
 
 ![VSCode Save As](/imagens/vscode_saveAs.png)
-
 ![VSCode Save](/imagens/vscode_nomeArquivo.png)
