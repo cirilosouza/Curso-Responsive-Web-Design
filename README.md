@@ -54,7 +54,7 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 14. [Elementos semânticos](/doc/Elementos-semânticos.md)  
 15. [Um pouco mais de HTML](/doc/Um-pouco-mais-de-HTML.md)  
   
-
+&nbsp;
 16. [HTML Intermediário - Páginas Responsivas](/doc/HTML-Intermediário-Páginas-Responsivas.md)  
   
  
