@@ -37,26 +37,26 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 ## ÍNDICE
 
   
-[Convenções](/doc/Convencoes.md)  
-1. [HTML Básico](/doc/1-HTML-Basico.md)  
-2. [Trabalhando com textos](/doc/2-Trabalhando-com-textos.md)  
-3. [O que são links](/doc/3-O-que-são-links.md)  
-4. [Criando listas](/doc/4-Criando-listas.md)  
-5. [Uma imagem vale mais que mil palavras](/doc/5-Uma-imagem-vale-mais-que-mil-palavras.md)  
-6. [Caixas e mais caixas](/doc/6-Caixas-emais-caixas.md)  
-7. [O que é CSS](/doc/7-O-que-é-CSS.md)  
-8. [Aplicando estilo com CSS](/doc/8-Aplicando-estilo-com-CSS.md)  
-9. [Float](/doc/9-Float.md)  
-10. [Position](/doc/10-Position.md)  
-11. [Tabelas](/doc/11-Tabelas.md)  
-12. [Estilizando tabelas com CSS](/doc/12-Estilizando-tabelas-com-CSS.md)  
-13. [Formulários](/doc/13-Formulários.md)  
-14. [Elementos semânticos](/doc/14-Elementos-semânticos.md)  
-15. [Um pouco mais de HTML](/doc/15-Um-pouco-mais-de-HTML.md)  
+1. [Convenções](/doc/1-Convencoes.md)  
+2. [HTML Básico](/doc/2-HTML-Basico.md)  
+3. [Trabalhando com textos](/doc/3-Trabalhando-com-textos.md)  
+4. [O que são links](/doc/4-O-que-são-links.md)  
+5. [Criando listas](/doc/5-Criando-listas.md)  
+6. [Uma imagem vale mais que mil palavras](/doc/6-Uma-imagem-vale-mais-que-mil-palavras.md)  
+7. [Caixas e mais caixas](/doc/7-Caixas-emais-caixas.md)  
+8. [O que é CSS](/doc/8-O-que-é-CSS.md)  
+9. [Aplicando estilo com CSS](/doc/9-Aplicando-estilo-com-CSS.md)  
+10. [Float](/doc/10-Float.md)  
+11. [Position](/doc/11-Position.md)  
+12. [Tabelas](/doc/12-Tabelas.md)  
+13. [Estilizando tabelas com CSS](/doc/13-Estilizando-tabelas-com-CSS.md)  
+14. [Formulários](/doc/14-Formulários.md)  
+15. [Elementos semânticos](/doc/15-Elementos-semânticos.md)  
+16. [Um pouco mais de HTML](/doc/16-Um-pouco-mais-de-HTML.md)  
   
 &nbsp;
   
-16. [HTML Intermediário - Páginas Responsivas](/doc/16-HTML-Intermediário-Páginas-Responsivas.md)  
+17. [HTML Intermediário - Páginas Responsivas](/doc/17-HTML-Intermediário-Páginas-Responsivas.md)  
   
  
 
