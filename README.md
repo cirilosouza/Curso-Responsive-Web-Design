@@ -21,7 +21,7 @@ Seja bem vindo a página de material didático do curso Responsive Web Design, e
   
 &nbsp;
 ### O que você vai encontrar neste material?
-Aqui você vai entrar uma breve explicação sobre o conteúdo do curso, com exemplos de códigos, screenshot de telas de exemplo. O objetivo é que este seja um material de consulta rápido e direto ao ponto! (*sem mimimi!*)
+Aqui você vai encontrar uma breve explicação sobre o conteúdo do curso, com exemplos de códigos, screenshot de telas de exemplo. O objetivo é que este seja um material de consulta rápido e direto ao ponto! (*sem mimimi!*)
   
 &nbsp;
 ### O que você não vai encontrar neste material?
