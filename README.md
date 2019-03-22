@@ -1,7 +1,5 @@
-# Curso Responsive Web Design - <small>Crie páginas Web incríveis, acessíveis e responsivas.</small>
-  
-  
-***
+# Curso Responsive Web Design
+Crie páginas Web incríveis, acessíveis e responsivas.
   
   
 &nbsp;
