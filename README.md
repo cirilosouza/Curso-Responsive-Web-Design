@@ -22,7 +22,7 @@ Aqui você vai encontrar uma breve explicação sobre o conteúdo do curso, com 
   
 &nbsp;
 ### O que você não vai encontrar neste material?
-Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque como eu disse este é um material de consulta para que você possa lembrar aquela tag HTML que acabou esquecendo... ou o que fgaz aquele seletor CSS.
+Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque como eu disse este é um material de consulta para que você possa lembrar aquela tag HTML que acabou esquecendo... ou o que faz aquele seletor CSS.
   
   
 &nbsp;
