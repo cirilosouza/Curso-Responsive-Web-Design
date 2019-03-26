@@ -214,7 +214,7 @@ Utilizamos quando queremos citar uma frase dita por outra pessoa ou retirada de 
 ```
   
   
-![Citação](imagens/citação.png)
+![Citação](imagens/citacao.png)
   
   
 &nbsp;
