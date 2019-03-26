@@ -54,7 +54,7 @@ Para criar uma lista não ordenada utilizamos o elemento \<ul\>, e também o \<l
 ```
   
   
-![Lista_não_ordenada](imagens/lista_não_ordenada.png)
+![Lista_não_ordenada](imagens/lista_nao_ordenada.png)
   
   
 Repare que o navegador coloca bullets (bolinhas) na frente dos itens da lista
