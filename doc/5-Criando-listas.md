@@ -58,7 +58,7 @@ Para criar uma lista não ordenada utilizamos o elemento \<ul\>, e também o \<l
   
   
 Repare que o navegador coloca bullets (bolinhas) na frente dos itens da lista
-  
+   
   
 &nbsp;
   
