@@ -194,7 +194,7 @@ Utilizamos alguns elementos que não alteram a estrutura do texto, mas alteram a
 ```
   
   
-![Ênfase e importância](imagens/espaços_em_branco.png)
+![Ênfase e importância](imagens/enfase_importancia.png)
   
   
 &nbsp;
