@@ -19,7 +19,7 @@ Para apontar para um site externo, no valor do atributo href coloque o link para
   <body>
       <a href="https://www.spotify.com/br/">Acesse o Spotfy</a>
   </body>
-<hmtl>
+</hmtl>
 ```
   
   
@@ -34,7 +34,7 @@ Basta colocar o valor do atributo href com caminho da página para o qual deseja
   <body>
       <a href="http://www.sp.senai.br/" target="_blank">Acesse o Spotfy</a>
   </body>
-<hmtl>
+</hmtl>
 ```
   
   
@@ -49,7 +49,7 @@ No valor do atributo href basta inserir o id da sessão para qual o link deve se
   <body>
       <a href="#fale-conosco">Fale conosco</a>
   </body>
-<hmtl>
+</hmtl>
 ```
 
 Repare que o texto muda para a cor azul e fica sublinhado, esta é indicação do navegador que esse texto se trata de um link.
@@ -68,7 +68,7 @@ Sinceramente não recomendo utilizar! Porque quando clicamos nele ele abre o Out
   <body>
       <a href="mailto:fulano@email.com">E-mail do Fulano</a>
   </body>
-<hmtl>
+</hmtl>
 ```
   
   
@@ -84,7 +84,7 @@ Ao clicar sobre o link, o navegador abrirá uma nova guia com o site de destino.
   <body>
       <a href="www.sp.senai.br" target="_blank">Abrindo link em uma nova guia</a>
   </body>
-<hmtl>
+</hmtl>
 ```
   
   
