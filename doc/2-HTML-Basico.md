@@ -27,7 +27,7 @@ Um exemplo de algumas tags que utilizamos \<html\>, \<head\>, \<body\> e \<p\>.
 Muita gente pensa que o HTML é uma linguagem de programação, mas este é um pensamento equivocado. O HTML é na verdade uma linguagem de marcação, ele é baseado nas marcações que eram utilizadas para diagramar livros, durante o processo de edição essas marcações são colocadas para indicar como o conteúdo será impresso.
 Existem ainda muitos softwares que fazem isso, como por exemplo o Latex e o TextMaker. Repare nas tags escritas em vermelho e azul.
 
-![Latex](/imagens/latex.png)
+![Latex](Curso-Responsive-Web-Design/imagens/latex.png)
 
 O HTML segue o mesmo princípio, as tags servem para mostrar ao navegador como será apresentado o conteúdo do site.
   
