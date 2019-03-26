@@ -226,13 +226,13 @@ Existem outros elementos que trabalham com textos, sinta-se a vontade para pesqu
 | Elemento        | Descrição                                                                 |
 | ------------    | ------------------------                                                  |
 | \<smal\>        | Define um texto como pequeno                                              |
-| <\ins\>         | Mostra que um texto foi inserido.                                         |
-| <\del\>         | Mostra que um texto foi removido.                                         |
-| <\mark\>        | Mostra que um texto foi marcado.                                          |
-| <\abbr\>        | Mostra que uma parte do texto é abreviação.                               |
-| <\address\>     | Usado para informações de contato do criado da página.                    |
-| <\bdo\>         | Define a direção na qual o texto será mostrado (da direita pra esquesda). |
-| <\time\>        | Mostra a data no formato do computador.                                   |
+| \<ins\>         | Mostra que um texto foi inserido.                                         |
+| \<del\>         | Mostra que um texto foi removido.                                         |
+| \<mark\>        | Mostra que um texto foi marcado.                                          |
+| \<abbr\>        | Mostra que uma parte do texto é abreviação.                               |
+| \<address\>     | Usado para informações de contato do criado da página.                    |
+| \<bdo\>         | Define a direção na qual o texto será mostrado (da direita pra esquesda). |
+| \<time\>        | Mostra a data no formato do computador.                                   |
   
   
 &nbsp;
