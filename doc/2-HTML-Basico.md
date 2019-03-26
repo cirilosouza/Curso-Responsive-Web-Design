@@ -40,7 +40,11 @@ As tags são elementos escritos entre sinais de menor que (\<) e maior que (\>),
 Para indicar o início do parágrafo utilizamos o \<p\> e para indicar o final utilizamos o \<\/p\>, todo o conteúdo do parágrafo deve ser escrito entre essas duas tags. Essa estrutura serve para a maioria das tags HTML.
 
 ```
-<p>Este é um exemplo de parágrafo, todo o conteúdo deve ser escrito aqui</p>
+<html>
+  <body>
+    <p>Este é um exemplo de parágrafo, todo o conteúdo deve ser escrito aqui</p>
+  </body>
+</html>
 ```
 
 As tags podem conter atributos que proveem informações adicionais sobre o conteúdo dos elementos. Eles aparecem dentro da tag de abertura e são compostos por duas partes **nome** e **valor**. 
@@ -59,7 +63,11 @@ Repare que o valor é escrito entre “aspas” e eles são separados pelo sinal
 Algumas tags não têm conteúdo, como no caso da tag \<img\>, ela serve para exibir imagens na página Web, contém apenas atributos e não precisa da tag de fechamento.
 
 ```
-<img src="img/minhaImagem.jpg" alt="Esta é uma imagem de exmplo">
+<html>
+  <body>
+    <img src="img/minhaImagem.jpg" alt="Esta é uma imagem de exmplo">
+  </body>
+</html>
 ```
   
   
@@ -97,21 +105,25 @@ Veja mais códigos de linguagem: [W3Schools](https://www.w3schools.com/tags/ref_
 A tag \<head\> contém informações adicionais sobre a página, como por exemplo, scripts que devem ser executados antes do carregamento da página, links para arquivos de estilo, formato de caracteres, título e muito mais. O seu conteúdo não é mostrado no navegador.
 
 ```
-<head>
-    <!-- Logo mais falaremos sobre as meta tags -->
-    <meta charset="UTF-8">
-    <title>Uma página muito bacana!</title>
-</head
+<html>
+  <head>
+      <!-- Logo mais falaremos sobre as meta tags -->
+      <meta charset="UTF-8">
+      <title>Uma página muito bacana!</title>
+  </head
+</html>
 ```
 
 A tag \<body\> contém todo o conteúdo que você quer mostrar no navegador como textos, imagens, vídeos, etc.
     
 ```
-<body>
-    <h1>Hello World!</h1>
-    <h2>Essa é a nossa primeira página</h2>
-    <img src="img/minhaImagem.jpg" alt="Esta é uma imagem de exmplo">
-</body>
+<html>
+  <body>
+      <h1>Hello World!</h1>
+      <h2>Essa é a nossa primeira página</h2>
+      <img src="img/minhaImagem.jpg" alt="Esta é uma imagem de exmplo">
+  </body>
+</html>
 ```
 
 Então a estrutura final do nosso arquivo será assim:
@@ -134,8 +146,8 @@ Então a estrutura final do nosso arquivo será assim:
 
 Para criar um arquivo HTML, no editor de texto que você escolheu para criar a sua página, basta clicar em **File / Save as…**, no nosso caso, estamos utilizando o VSCode como editor de texto.
 
-![VSCode Save As](/imagens/vscode_saveAs.png)
-![VSCode Save](/imagens/vscode_nomeArquivo.png)
+![VSCode Save As](/doc/imagens/vscode_saveAs.png)
+![VSCode Save](/doc/imagens/vscode_nomeArquivo.png)
   
   
 &nbsp;
