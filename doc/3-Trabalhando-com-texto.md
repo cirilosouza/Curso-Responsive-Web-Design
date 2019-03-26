@@ -169,7 +169,7 @@ Caso você coloque vários espaços em branco em um parágrafo para melhorar o l
 ```
   
   
-![Espaço em branco](imagens/espaços_em_branco.png)
+![Espaço em branco](imagens/espaços_em_branco.png)
   
   
 &nbsp;
