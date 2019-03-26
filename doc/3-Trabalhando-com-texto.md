@@ -225,7 +225,7 @@ Existem outros elementos que trabalham com textos, sinta-se a vontade para pesqu
   
 | Elemento        | Descrição                                                                 |
 | ------------    | ------------------------                                                  |
-| [\<smal\>](https://www.w3schools.com/tags/tag_small.asp){:target="_blank"}        | Define um texto como pequeno                                              |
+| [\<smal\>](https://www.w3schools.com/tags/tag_small.asp)        | Define um texto como pequeno                                              |
 | [\<ins\>](https://www.w3schools.com/tags/tag_ins.asp){:target="_blank"}         | Mostra que um texto foi inserido.                                         |
 | \<del\>         | Mostra que um texto foi removido.                                         |
 | \<mark\>        | Mostra que um texto foi marcado.                                          |
