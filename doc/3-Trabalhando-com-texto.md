@@ -26,7 +26,7 @@ O cabeçalho possui seis níveis, iniciando pelo \<h1\> e finalizando no <\h6\> 
 ```
 
 Veja como isso é mostrado no navegador:
-![Cabeçalho](/doc/imagens/cabecalho.png)
+![Cabeçalho](imagens/cabecalho.png)
   
   
 &nbsp;
@@ -47,7 +47,7 @@ Para criar um parágrafo, utilizamos o elemento \<p\>, tudo que for escrito entr
 <html>
 ```
 
-![Parágrafo](/doc/imagens/paragrafo.png)
+![Parágrafo](imagens/paragrafo.png)
   
   
 &nbsp;
@@ -68,7 +68,7 @@ Para destacar uma parte do texto, podemos mostrá-los com a fonte em negrito ou 
 </html>
 ```
 
-![Negrito e Itálico](/doc/imagens/negrito_italico.png)
+![Negrito e Itálico](imagens/negrito_italico.png)
   
   
 &nbsp;
@@ -86,7 +86,7 @@ Utilizamos o elemento <br> para quebrar parte do texto em uma nova linha.
 </html>
 ```
 
-![Quebra de Linha](/doc/imagens/quebra_de_linha.png)
+![Quebra de Linha](imagens/quebra_de_linha.png)
   
   
 &nbsp;
@@ -108,7 +108,7 @@ Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o e
 </html>
 ```
 
-![Quebra de sessão](/doc/imagens/quebra_de_sessao.png)
+![Quebra de sessão](imagens/quebra_de_sessao.png)
   
   
 &nbsp;
@@ -130,6 +130,9 @@ Geralmente quando queremos apresentar poemas, ou linhas de código de alguma lin
 ```
   
   
+![Texto pré formatado](imagens/texto_pre_formatado.png)
+  
+  
 &nbsp;
   
 ## Sub escrito e sobre escrito:
@@ -143,9 +146,82 @@ O elemento \<sub\> (sub escrito) geralmente é usado para formulas químicas, co
   </body>
 <html>
 ```
-
+  
+  
+![Sub escrito e Sobre escrito](imagens/subescrito_sobreescrito.png)
   
   
 &nbsp;
   
+  
+## Espaços em branco:
+Caso você coloque vários espaços em branco em um parágrafo para melhorar o layout do seu texto na página Web saiba que eles serão ignorados pelo navegador que considerará somente o primeiro espaço em branco. O mesmo vale para as quebras de linhas inseridas através de “Enter” o navegador vai ignorar as quebras de linha e mostrar todo o conteúdo em uma mesma linha.
+
+```
+<html>
+  <body>
+      <p>Isso aqui é um texto mal formatado, com vários espaços              em branco
+          e também com vários "Enters"
+          para melhorar a legibilidade        do texto.
+      </p>
+  </body>
+</html>
+```
+  
+  
+![Espaço em branco](imagens/espaços_em_branco.png)
+  
+  
+&nbsp;
+  
+  
+*Legal né?! =D*
+  
+  
+&nbsp;
+  
+  
+## Ênfase e importância:
+Utilizamos alguns elementos que não alteram a estrutura do texto, mas alteram a sua semântica, dando mais ênfase para uma parte específica do texto. Como o elemento \<strong\> que deixa o texto mais forte como se estivesse em negrito. E o \<em\> deixa o texto em itálico.
+
+```
+<html>
+  <body>
+      <p><strong>Esse é um exemplo de texto com &lt;strong&gt;</strong></p>
+      <p><em>Esse é um exemplo de texto com &lt;em&gt;</em></p>
+  </body>
+</html>
+```
+  
+  
+![Ênfase e importância](imagens/espaços_em_branco.png)
+  
+  
+&nbsp;
+  
+  
+## Citação:
+Utilizamos quando queremos citar uma frase dita por outra pessoa ou retirada de outro site podemos utilizar os elementos \<blockquote\> e o \<q\>. Repare que o \<blockquote\> identa o texto no navegador, porém não deve ser usado para este fim.
+
+```
+<html>
+  <body>
+      <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
+          <p>Esta é uma citação retirada do wikipedia.</p> 
+      </blockquote>
+  </body>
+</html>
+```
+  
+  
+![Citação](imagens/citação.png)
+  
+  
+&nbsp;
+  
+  
+Existem outros elementos que trabalham com textos, sinta-se a vontade para pesquisar mais sobre cada um deles no site do W3C.
+
+
+
 [< Retornar à página principal](../README.md)
