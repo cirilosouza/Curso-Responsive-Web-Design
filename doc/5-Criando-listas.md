@@ -25,14 +25,10 @@ Utilizamos o elemento <ol> para criar uma lista ordenada. Para criar as linhas d
   </body>
 </html>
 ```
- 
-
-
-
-
-
-
-
+   
+  
+Veja como isso é mostrado no navegador:
+![Lista ordenada](imagens/lista_ordenada.png)
 
 
   
