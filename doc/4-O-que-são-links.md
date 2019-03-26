@@ -12,12 +12,6 @@ Ele utiliza o atributo href para indicar para onde o link deve ir.
   
   
 ## Links de página
-  
-  
-&nbsp;
-  
-  
-### Link para outro site:
 Para apontar para um site externo, no valor do atributo href coloque o link para o site no qual deseja que ele aponte.
 
 ```
@@ -27,6 +21,9 @@ Para apontar para um site externo, no valor do atributo href coloque o link para
   </body>
 <hmtl>
 ```
+  
+  
+&nbsp;
   
   
 ### Link para páginas do mesmo site:
@@ -39,6 +36,9 @@ Basta colocar o valor do atributo href com caminho da página para o qual deseja
   </body>
 <hmtl>
 ```
+  
+  
+&nbsp;
   
   
 ### Link para uma sessão do site: 
@@ -57,6 +57,9 @@ Repare que o texto muda para a cor azul e fica sublinhado, esta é indicação d
 ![Links](imagens/links.png)
   
   
+&nbsp;
+  
+  
 ### Links de e-mail:
 Sinceramente não recomendo utilizar! Porque quando clicamos nele ele abre o Outlook do Windows ou qualquer outra aplicação de correio eletrônico padrão instalada no dispositivo no qual estamos acessando o site. 
 
@@ -67,6 +70,9 @@ Sinceramente não recomendo utilizar! Porque quando clicamos nele ele abre o Out
   </body>
 <hmtl>
 ```
+  
+  
+&nbsp;
   
   
 ### Abrindo link em página diferente:
