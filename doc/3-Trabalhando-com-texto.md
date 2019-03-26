@@ -15,12 +15,12 @@ O cabeçalho possui seis níveis, iniciando pelo \<h1\> e finalizando no <\h6\> 
 ```
 <html>
   <body>
-      <h1>Esse é um título em H1</h1>
-      <h2>Esse é um título em H2</h2>
-      <h3>Esse é um título em H3</h3>
-      <h4>Esse é um título em H4</h4>
-      <h5>Esse é um título em H5</h5>
-      <h6>Esse é um título em H6</h6>
+      <h1>Esse é um título em &lt;h1&gt;</h1>
+      <h2>Esse é um título em &lt;h2&gt;</h2>
+      <h3>Esse é um título em &lt;h3&gt;</h3>
+      <h4>Esse é um título em &lt;h4&gt;</h4>
+      <h5>Esse é um título em &lt;h5&gt;</h5>
+      <h6>Esse é um título em &lt;h6&gt;</h6>
   </body>
 </html>
 ```
