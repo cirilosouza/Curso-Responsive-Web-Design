@@ -226,13 +226,13 @@ Existem outros elementos que trabalham com textos, sinta-se a vontade para pesqu
 | Elemento        | Descrição                                                                 |
 | ------------    | ------------------------                                                  |
 | [\<smal\>](https://www.w3schools.com/tags/tag_small.asp)        | Define um texto como pequeno                                              |
-| [\<ins\>](https://www.w3schools.com/tags/tag_ins.asp){:target="_blank"}         | Mostra que um texto foi inserido.                                         |
-| \<del\>         | Mostra que um texto foi removido.                                         |
-| \<mark\>        | Mostra que um texto foi marcado.                                          |
-| \<abbr\>        | Mostra que uma parte do texto é abreviação.                               |
-| \<address\>     | Usado para informações de contato do criado da página.                    |
-| \<bdo\>         | Define a direção na qual o texto será mostrado (da direita pra esquesda). |
-| \<time\>        | Mostra a data no formato do computador.                                   |
+| [\<ins\>](https://www.w3schools.com/tags/tag_ins.asp)         | Mostra que um texto foi inserido.                                         |
+| [\<del\>](https://www.w3schools.com/tags/tag_del.asp)         | Mostra que um texto foi removido.                                         |
+| [\<mark\>](https://www.w3schools.com/tags/tag_mark.asp)        | Mostra que um texto foi marcado.                                          |
+| [\<abbr\>](https://www.w3schools.com/tags/tag_abbr.asp)        | Mostra que uma parte do texto é abreviação.                               |
+| [\<address\>](https://www.w3schools.com/tags/tag_address.asp)     | Usado para informações de contato do criado da página.                    |
+| [\<bdo\>](https://www.w3schools.com/tags/tag_bdo.asp)         | Define a direção na qual o texto será mostrado (da direita pra esquesda). |
+| [\<time\>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/time)        | Mostra a data no formato do computador.                                   |
   
   
 &nbsp;
