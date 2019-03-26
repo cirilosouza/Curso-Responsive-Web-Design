@@ -110,7 +110,7 @@ A tag \<head\> contém informações adicionais sobre a página, como por exempl
       <!-- Logo mais falaremos sobre as meta tags -->
       <meta charset="UTF-8">
       <title>Uma página muito bacana!</title>
-  </head
+  </head>
 </html>
 ```
 
