@@ -54,6 +54,8 @@ No valor do atributo href basta inserir o id da sessão para qual o link deve se
 
 Repare que o texto muda para a cor azul e fica sublinhado, esta é indicação do navegador que esse texto se trata de um link.
 
+
+Veja como isso é mostrado no navegador:
 ![Links](imagens/links.png)
   
   
