@@ -91,5 +91,21 @@ Os seletores servem para selecionar os elementos HTML que queremos aplicar um es
 | Seletor de elemento  | Seleciona todos os elementos HTML da página | 
 | Seletor de ID        | Seleciona um elemento específico através do seu atributo id. O ID é aplicado através do uso da hashtag # no arquivo CSS |
 | Seletor de classe    | Aplica o estilo a todos os elementos que utilizem a classe. A classe é aplicada com o uso do ponto . no arquivo CSS |
+  
+  
+Um seletor pode conter várias propriedades, cada uma deve ser separada por um ponto e vírgula “;” o navegador não faz distinção se as propriedades forem escritas na mesma linha ou em linhas diferentes desde que cada uma seja separada por um ponto e vírgula. O que delimita o início e o final do seletor são as chaves “{ }”.
+
+```
+#paragrafo{
+    color: red;
+    font-size: 1em;
+}
+```
+
+É o mesmo que:
+
+```
+#paragrafo{color: red;font-size: 1em;}
+```
 
 [< Retornar à página principal](../README.md)
