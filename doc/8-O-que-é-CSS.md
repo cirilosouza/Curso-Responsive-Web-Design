@@ -89,8 +89,14 @@ Os seletores servem para selecionar os elementos HTML que queremos aplicar um es
 | Nome do Seletor      | O que ele seleciona                         | Exemplo           |
 | ----                 | ------                                      | -----             |
 | Seletor de elemento  | Seleciona todos os elementos HTML da página | p{ color: red; }  | 
-| Seletor de ID        | Seleciona um elemento específico através do 
-                          seu atributo id. O ID é aplicado através 
-                          do uso da hashtag # no arquivo CSS         | 
+| Seletor de ID        | Seleciona um elemento específico através do seu atributo id. O ID é aplicado através do uso da hashtag # no arquivo CSS | <!—- Arquivo HTML -->
+<body>
+    <p id="paragrafo">Isso é um parágrafo</p>
+</body>
+
+<!—- Arquivo CSS -->
+#paragrafo{
+    color: red;
+} | 
 
 [< Retornar à página principal](../README.md)
