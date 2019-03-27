@@ -51,23 +51,23 @@ Os elementos de bloco possuem uma margem, uma borda e um pading.
 &nbsp;
   
   
-Padding: É o espaço entre o conteúdo e a borda do elemento;
+**Padding:** É o espaço entre o conteúdo e a borda do elemento;
 ![Padding](imagens/padding.png)
   
   
   
-Margin: É o espaço externo a partir da borda de uma caixa;
+**Margin:** É o espaço externo a partir da borda de uma caixa;
 ![Margin](imagens/margin.png)
   
   
-Border: É a linha sólida do lado de fora ao redor da caixa;
+**Border:** É a linha sólida do lado de fora ao redor da caixa;
   
   
 &nbsp;
   
   
 ### Elementos inline (na linha):
-São aqueles que estão contidos dentro de elementos em bloco, envolvem apenas pequenas partes do conteúdo do documento e não parágrafos inteiros ou agrupamentos de conteúdo. Um elemento inline não fará com que uma nova linha apareça no documento: os elementos inline geralmente aparecem dentro de um parágrafo de texto, por exemplo: um elemento <a>  (hyperlink) ou elementos de ênfase como <em> ou <strong>.
+São aqueles que estão contidos dentro de elementos em bloco, envolvem apenas pequenas partes do conteúdo do documento e não parágrafos inteiros ou agrupamentos de conteúdo. Um elemento inline não fará com que uma nova linha apareça no documento: os elementos inline geralmente aparecem dentro de um parágrafo de texto, por exemplo: um elemento \<a\>  (hyperlink) ou elementos de ênfase como \<em\> ou \<strong\>.
   
 ```
 <html>
@@ -84,7 +84,7 @@ São aqueles que estão contidos dentro de elementos em bloco, envolvem apenas p
   
   
 ### Transformando elemento de linha em bloco:
-Podemos empacotar os elementos de linha dentro de um elemento especial chamado <span>, o <span> nos permite agrupar os elementos de linha e aplicar um estilo ao elemento dentro dele como de fosse um elemento de bloco.
+Podemos empacotar os elementos de linha dentro de um elemento especial chamado \<span\>, o \<span\> nos permite agrupar os elementos de linha e aplicar um estilo ao elemento dentro dele como de fosse um elemento de bloco.
   
 ```
 <html>
