@@ -107,5 +107,40 @@ Um seletor pode conter várias propriedades, cada uma deve ser separada por um p
 ```
 #paragrafo{color: red;font-size: 1em;}
 ```
+  
+  
+&nbsp;
+  
+  
+### Propriedade (Property):
+Especifica qual propriedade do elemento HTML selecionado queremos aplicar um estilo, no exemplo acima a propriedade que está sendo alterada é a cor da fonte color e o tamanho dela font-size. 
+  
+  
+&nbsp;
+  
+  
+### Valor (Property Value):
+É o valor que queremos aplicar a propriedade, neste caso queremos que a cor da fonte seja vermelha, por tanto, o valor deve der red (vermelho em inglês).
+  
+  
+A propriedade e o valor são separados por dois pontos “:”  
+
+```
+color: red;
+```
+  
+  
+É possível selecionar vários elementos HTML de uma só vez, para isso basta separar os seletores com uma vírgula
+
+```
+#sessao1,#sessao2{
+    color: red;
+}
+```
+  
+  
+&nbsp;
+  
+  
 
 [< Retornar à página principal](../README.md)
