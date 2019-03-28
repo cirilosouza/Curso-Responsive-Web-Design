@@ -130,20 +130,20 @@ Especifica qual propriedade do elemento HTML selecionado queremos aplicar um est
 A propriedade e o valor são separados por dois pontos “:”  
 
 ```
-<style>
 color: red;
-</style>
 ```
   
   
 É possível selecionar vários elementos HTML de uma só vez, para isso basta separar os seletores com uma vírgula
 
 ```
-<style>
-  #sessao1,#sessao2{
-      color: red;
-  }
-</style>
+<head>
+  <style>
+    #sessao1, #sessao2{
+        color: red;
+    }
+  </style>
+</head>
 ```
   
   
