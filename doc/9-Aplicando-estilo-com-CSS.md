@@ -186,6 +186,9 @@ Podemos também bloquear a repetição das imagens com o valor de propriedade no
 Como já falamos os elementos de bloco possuem bordas, que o delimitam. Também podemos aplicar estilo a elas com a propriedade border.
   
   
+&nbsp;
+  
+  
 ### Estilo da borda:
 Uma borda pode ser solida, tracejada, pontilhada, ou uma mescla de estilos. Podemos inserir até 4 estilos de borda, sendo que cada um será aplicado a uma borda iniciando pela superior.
 
@@ -200,7 +203,145 @@ Uma borda pode ser solida, tracejada, pontilhada, ou uma mescla de estilos. Pode
 ```
   
   
-![BEstilo da borda](imagens/border.png)
+![Estilo da borda](imagens/border.png)
+  
+  
+| Valor  | O que faz                                                  |
+|--------|------------------------------------------------------------|
+| Double | Cria uma borda dupla                                       |
+| Groove | Cria um efeito 3d na borda, como se fosse um vinco externo |
+| Ridge  | Cria um efeito 3d na borda                                 |
+| Inset  | Cria um efeito 3d na borda                                 |
+| Outset | Cria um efeito 3d na borda                                 |
+| Hidden | Borda oculta                                               |
+  
+  
+&nbsp;
+  
+  
+### Cor da borda:
+
+```
+<style>
+  div{ border-color: black; }
+</style>
+```
+  
+  
+&nbsp;
+  
+  
+### Sem borda:
+
+
+```
+<style>
+  div{ border-color: none; }
+</style>
+```
+  
+  
+&nbsp;
+  
+  
+### Largura da borda:
+
+```
+<style>
+  div{ border-width: 2px; }
+</style>
+```
+  
+  
+&nbsp;
+  
+  
+### Bordas arredondadas:
+
+```
+<style>
+  div{ border-radius: 10px; }
+</style>
+```
+  
+  
+![Bordas arredondadas](imagens/border_radius.png)
+  
+  
+Podemos também uma borda para apenas um dos lados do nosso elemento, como as propriedades border-top, border-botom, border-left e border-right
+
+```
+<style>
+  #bloco1{ border-top: 2px solid black; }
+
+  #bloco2{ border-bottom: 2px solid black; }
+
+  #bloco3{ border-left: 2px solid black; }
+
+  #bloco4{ border-right: 2px solid black; }
+</style>
+```
+  
+  
+![Bordas](imagens/border_top_right_bottom_left.png)
+  
+  
+Perceba que aplicamos vários valores a propriedade border, o CSS nos permite fazer isso para economizarmos linhas de cógido.
+  
+  
+&nbsp;
+  
+  
+## Margens
+
+A margem é o espaçamento externo de um elemento de bloco para outro. Assim como o border, podemos informar até quatro valores para a propriedade margin. Os valores serão aplicados da seguinte forma: margem superior, direita, inferior e esquerda.
+
+```
+<style>
+  div{ margin: 10px 20px 10px 20px; }
+</style>
+```
+  
+  
+Se quisermos aplicar os mesmos valores nas margens superior e inferior, mas valores diferentes nas margens da esquerda e direita, basta aplicarmos dois valores à propriedade.
+
+```
+<style>
+  div{ margin: 10px 20px; }
+</style>
+```
+  
+  
+Ou podemos utilizar os seletores
+
+```
+<style>
+  div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px
+  }
+</style>
+```
+  
+  
+![Margem](imagens/margins.png)
+  
+  
+&nbsp;
+  
+  
+## Paddins
+
+Diferente do margin, o padding é a distância entre os elementos filhos para a borda interna do elemento pai.
+  
+  
+![Padding](imagens/padding_CSS.png)
+  
+  
+O elemento pai possui 300px de altura e largura, já o elemento filho possui 200px de altura e largura. Aplicamos um padding no elemento pai de 50px isso dá a impressão de que o elemento filho está centralizado dentro do pai.
+
   
   
 &nbsp;
