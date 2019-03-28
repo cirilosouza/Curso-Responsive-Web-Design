@@ -239,3 +239,6 @@ Existem outros elementos que trabalham com textos, sinta-se a vontade para pesqu
   
   
 [< Retornar à página principal](../README.md)
+  
+  
+[Ir para a próxima página >](4-O-que-são-links.md)
