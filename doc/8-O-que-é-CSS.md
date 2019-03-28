@@ -96,16 +96,20 @@ Os seletores servem para selecionar os elementos HTML que queremos aplicar um es
 Um seletor pode conter várias propriedades, cada uma deve ser separada por um ponto e vírgula “;” o navegador não faz distinção se as propriedades forem escritas na mesma linha ou em linhas diferentes desde que cada uma seja separada por um ponto e vírgula. O que delimita o início e o final do seletor são as chaves “{ }”.
 
 ```
-#paragrafo{
-    color: red;
-    font-size: 1em;
-}
+<style>
+  #paragrafo{
+      color: red;
+      font-size: 1em;
+  }
+</style>
 ```
 
 É o mesmo que:
 
 ```
-#paragrafo{color: red;font-size: 1em;}
+<style>
+  #paragrafo{color: red;font-size: 1em;}
+</style>
 ```
   
   
@@ -126,20 +130,31 @@ Especifica qual propriedade do elemento HTML selecionado queremos aplicar um est
 A propriedade e o valor são separados por dois pontos “:”  
 
 ```
+<style>
 color: red;
+</style>
 ```
   
   
 É possível selecionar vários elementos HTML de uma só vez, para isso basta separar os seletores com uma vírgula
 
 ```
-#sessao1,#sessao2{
-    color: red;
-}
+<style>
+  #sessao1,#sessao2{
+      color: red;
+  }
+</style>
 ```
   
   
 &nbsp;
+  
+  
+
+## Criando arquivo CSS
+  
+  
+Para criarmos um arquivo CSS basta clicar em File/Save as… e salvar o arquivo com uma extensão .CSS
   
   
 
