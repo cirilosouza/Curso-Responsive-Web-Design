@@ -160,7 +160,7 @@ As imagens de background podem se repetir nos eixos X (horizontal) e Y (vertical
 ```
   
   
-![Background Repeat Y](imagens/backgound_repeat_y.png)
+![Background Repeat Y](imagens/background_repeat_y.png)
   
   
 Podemos também bloquear a repetição das imagens com o valor de propriedade no-repeat.
@@ -175,7 +175,7 @@ Podemos também bloquear a repetição das imagens com o valor de propriedade no
 ```
   
   
-![Background no-repeat](imagens/backgound_no_repeat.png)
+![Background no-repeat](imagens/background_no_repeat.png)
   
   
 &nbsp;
