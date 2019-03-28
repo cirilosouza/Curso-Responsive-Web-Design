@@ -102,3 +102,6 @@ Podemos empacotar os elementos de linha dentro de um elemento especial chamado \
   
 
 [< Retornar à página principal](../README.md)
+  
+  
+[Ir para a próxima página >](7-Uma-imagem-vale-mais-que-mil-palavras.md)
