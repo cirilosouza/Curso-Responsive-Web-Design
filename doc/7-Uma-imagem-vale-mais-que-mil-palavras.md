@@ -67,3 +67,6 @@ Com o surgimento do HTML 5 foi introduzido o elemento semântico <figure>. Nós 
 
 
 [< Retornar à página principal](../README.md)
+  
+  
+[Ir para a próxima página >](8-O-que-é-CSS.md)
