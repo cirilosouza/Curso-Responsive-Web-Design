@@ -157,6 +157,12 @@ color: red;
 Para criarmos um arquivo CSS basta clicar em File/Save as… e salvar o arquivo com uma extensão .CSS
   
   
+!(Salvando arquivo CSS)[imagens/vscode_saveAs.png]
+  
+  
+!(Salvando arquivo CSS)[imagens/VsCode_Save_CSS.png]
+  
+  
 
 [< Retornar à página principal](../README.md)
   
