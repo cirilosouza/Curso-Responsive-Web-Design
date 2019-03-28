@@ -33,6 +33,5 @@ Para fazer o download, basta entrar no site do [Visual Studio](https://code.visu
   
 &nbsp;
   
-[< Retornar à página principal](../README.md)
-[Ir para o próximo capitulo >](2-HTML-Basico.md)
+[< Retornar à página principal](../README.md)                                 [Ir para o próximo capitulo >](2-HTML-Basico.md)
 
