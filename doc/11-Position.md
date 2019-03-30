@@ -46,7 +46,7 @@ O elemento com posição absoluta, leva em consideração a posição do element
   </body>
 </html>
 ```
-
+  
 **CSS**
 
 ```
@@ -84,7 +84,7 @@ Se o elemento não tivesse um pai, ele seria posicionado com relação a página
   </body>
 </html>
 ```
-
+  
 **CSS**
 
 ```
@@ -128,7 +128,7 @@ O elemento é posicionado de acordo com a tela na qual o website é mostrado. El
   </body>
 </html>
 ```
-
+  
 **CSS**
 
 
@@ -149,10 +149,104 @@ O elemento é posicionado de acordo com a tela na qual o website é mostrado. El
   
 ![Position fixed](imagens/position_fixed.gif)
 
+  
+  
+&nbsp;
+  
+   
+## Position Sticky
+
+O elemento com posicionamento sticky possui na verdade duas propriedades de posicionamentos o relative e o fixed. Podemos posicioná-lo por exemplo no topo da página, desta forma, a posição inicial seria relative. Ao rolarmos a página para baixo quando o elemento atingisse o topo da página sua posição mudará para fixed.
+
 ```
 <style>
+  #el1, #el3{
+      position: relative;
+  }
+
+  #el2{
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+  }
 </style>
 ```
+  
+  
+![Position Sticky](imagens/position_sticky.gif)
+  
+Repare que utilizamos duas propriedades position, uma com o valor sticky e outra com -webkit-sticky. Isso porque o Safari depende desta propriedade especial para que o elemento tenha o comportamento que desejamos. 
+Este tipo de configuração é comum pois muitos navegadores não suportam as determinadas propriedades CSS de forma nativa.
+
+  
+  
+&nbsp;
+  
+   
+## Z-index
+
+Quando aplicamos um posicionamento ao elemento HTML, um elemento pode sobrepôs o outro. No caso do sticky que utilizamos acima, o elemento ficará posicionado na parte superior da página e todo o resto ao rolarmos a página passará por trás dele, dando a impressão de há duas camadas.
+Nós podemos mudar este comportamento através da propriedade z-index.
+
+
+```
+<style>
+  #el3{
+      position: relative;
+      z-index: 1;
+  }
+</style>
+```
+  
+![Z-index](imagens/z_index.png)
+  
+O elemento com a propriedade z-index: 1 aparecerá na tela na frente, ou seja, aquele que tiver a propriedade mais alta será posicionado acima na pilha. 
+
+  
+  
+&nbsp;
+  
+   
+## Background Position
+
+A propriedade position, também pode ser usada para posicionar uma imagem de background. Esta propriedade aceita até dois valores referentes aos eixos X (horizontal) e Y (vertical).
+
+```
+<style>
+  #el3{
+      background-position-x: 50px; 
+      background-position-y: 50px;
+  }
+</style>
+```
+  
+![Background Position](imagens/background_position_x_y.png)
+  
+  
+Ou podemos declarar os valores dos eixos X e Y juntos com a propriedade background-position.
+
+```
+<style>
+#el3{ background-position: 50px 50px; }
+</style>
+```
+  
+Outros valores que podemos utilizar na propriedade background-position.
+  
+  
+| Valor        | Descrição                              |
+|--------------|----------------------------------------|
+| left         | Posiciona a esquerda                   |
+| Right        | Posiciona a direita                    |
+| Top          | Posiciona na parte superior            |
+| Bottom       | Posiciona na parte inferior            |
+| Center       | Posiciona no centro                    |
+| Left top     | Posiciona da parte superior a esquerda |
+| Left center  | Posiciona no centro a esquerda         |
+| Left bottom  | Posiciona na parte inferior a esquerda |
+| Right top    | Posiciona na parte superior a direita  |
+| Right center | Posiciona no centro a direita          |
+| Right bottom | Posiciona na parte inferior a direita  |
 
   
   
