@@ -55,7 +55,6 @@ Com o surgimento do HTML 5 foi introduzido o elemento semântico \<figure\>. Nó
   <body>
     <figure>
        <img src="mulher.jpg" alt="Retrato de uma mulher jovem segurando buquê de flores e sorrindo" title="Mulher sorrindo">
-       <br />
        <figcaption>O texto relativo a imagem vai aqui!</figcaption>
     </figure>
   </body>
