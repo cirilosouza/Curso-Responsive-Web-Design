@@ -35,15 +35,119 @@ O elemento com posição absoluta, leva em consideração a posição do element
 **HTML**
 
 ```
-<body>
+<html>
+  <body>
+      <div id="el1">
+          Position relative
+          <div id="el2">
+              Position absolute
+          </div>
+      </div>
+  </body>
+</html>
+```
+
+**CSS**
+
+```
+<style>
+  #el1{
+      position: relative;
+  }
+
+  #el2{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+  }
+</style>
+```
+  
+  
+![Position absolute](imagens/position_absolute.png)
+  
+Se o elemento não tivesse um pai, ele seria posicionado com relação a página web.
+  
+**HTML**
+
+```
+<html>
+  <body>
     <div id="el1">
         Position relative
-        <div id="el2">
-            Position absolute
-        </div>
     </div>
-</body>
+
+    <div id="el2">
+        Position absolute
+    </div>
+
+  </body>
+</html>
 ```
+
+**CSS**
+
+```
+<style>
+  #el1{
+      position: relative;
+  }
+
+  #el2{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+  }
+</style>
+```
+  
+  
+![Position absolute](imagens/position_absolute_sem_pai.png)
+
+  
+  
+&nbsp;
+  
+   
+## Position Fixed
+
+O elemento é posicionado de acordo com a tela na qual o website é mostrado. Ele permanece na mesma posição mesmo durante a rolagem da página.
+  
+**HMTL**
+
+```
+<html>
+  <body>
+      <div id="el1">
+          Position relative
+      </div>
+
+      <div id="el2">
+          Position fixed
+      </div>
+  </body>
+</html>
+```
+
+**CSS**
+
+
+```
+<style>
+  #el1{
+      position: relative;
+      top: 500px;
+  }
+
+  #el2{
+      position: fixed;
+      right: 0;
+      top: 0;
+  }
+</style>
+```
+  
+![Position fixed](imagens/position_fixed.gif)
 
 ```
 <style>
