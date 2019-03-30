@@ -6,6 +6,10 @@ Para posicionar o elemento na página informamos a distância com relação a pa
 Por padrão todos os elementos HTML têm o posicionamento estático (position: static), não precisamos declarar explicitamente porque o navegador interpreta de forma automática.
   
   
+&nbsp;
+  
+   
+
 ## Posição relativa
 Um elemento com posicionamento relativo é posicionado na tela com relação a sua posição original, ou seja, a posição estática. Quando alteramos a sua posição normal, o elemento deixa um buraco que não é preenchido por outros elementos próximos a ele.
 
