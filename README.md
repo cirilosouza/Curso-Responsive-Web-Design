@@ -54,7 +54,11 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 &nbsp;
   
 ### HTML e CSS Intermediário
-17. [Páginas Responsivas](/doc/17-Páginas-Responsivas.md)  
+17. [Páginas Responsivas](/doc/17-Páginas-Responsivas.md)
+18. [O que é um View Port?]()
+19. [Construindo um sistema de grid]()
+20. [Media Queries]()
+21. [Flexbox]()
   
  
 
