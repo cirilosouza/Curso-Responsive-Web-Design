@@ -231,7 +231,7 @@ Ou podemos declarar os valores dos eixos X e Y juntos com a propriedade backgrou
 
 ```
 <style>
-#el3{ background-position: 50px 50px; }
+  #el3{ background-position: 50px 50px; }
 </style>
 ```
   
