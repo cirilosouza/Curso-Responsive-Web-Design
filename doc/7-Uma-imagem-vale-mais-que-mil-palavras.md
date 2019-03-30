@@ -48,7 +48,7 @@ Veja como isso é mostrado no navegador:
 &nbsp;
   
   
-Com o surgimento do HTML 5 foi introduzido o elemento semântico <figure>. Nós o utilizamos quando uma imagem tem um texto embaixo, ele pode conter diversas imagens. O texto é inserido dentro do elemento <figcaption>.
+Com o surgimento do HTML 5 foi introduzido o elemento semântico \<figure\>. Nós o utilizamos quando uma imagem tem um texto embaixo, ele pode conter diversas imagens. O texto é inserido dentro do elemento \<figcaption\>.
 
 ```
 <html>
