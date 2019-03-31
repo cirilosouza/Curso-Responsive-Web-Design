@@ -37,7 +37,7 @@ O HTML segue o mesmo princípio, as tags servem para mostrar ao navegador como s
 ## Estrutura das TAGS
 
 As tags são elementos escritos entre sinais de menor que (\<) e maior que (\>), se quisermos escrever um parágrafo por exemplo, utilizamos a tag \<p\>.
-Para indicar o início do parágrafo utilizamos o \<p\> e para indicar o final utilizamos o \<\/p\>, todo o conteúdo do parágrafo deve ser escrito entre essas duas tags. Essa estrutura serve para a maioria das tags HTML.
+Para indicar o início do parágrafo utilizamos o \<p\> e para indicar o final utilizamos o \</p\>, todo o conteúdo do parágrafo deve ser escrito entre essas duas tags. Essa estrutura serve para a maioria das tags HTML.
 
 ```
 <html>
