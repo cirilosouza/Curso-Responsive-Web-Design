@@ -49,11 +49,12 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 13. [Estilizando tabelas com CSS](/doc/13-Estilizando-tabelas-com-CSS.md)  
 14. [Formulários](/doc/14-Formulários.md)  
 15. [Elementos semânticos](/doc/15-Elementos-semânticos.md)  
-16. [Um pouco mais de HTML](/doc/16-Um-pouco-mais-de-HTML.md)  
+ 
   
 &nbsp;
   
 ### HTML e CSS Intermediário
+16. [Um pouco mais de HTML](/doc/16-Um-pouco-mais-de-HTML.md) 
 17. [Páginas Responsivas](/doc/17-Páginas-Responsivas.md)
 18. [O que é um View Port?]()
 19. [Construindo um sistema de grid]()
