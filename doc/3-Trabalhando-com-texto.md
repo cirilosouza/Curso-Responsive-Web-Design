@@ -12,7 +12,7 @@ Nesta sessão, vamos ver em detalhes os elementos que são usados para inserir t
 ## Cabeçalho:
 O cabeçalho possui seis níveis, iniciando pelo \<h1\> e finalizando no <\h6\> sendo o \<h1\> utilizado para o título principal, por isso deve ser único e os demais podem se repetir ao longo da página. Os navegadores mostram o conteúdo dos cabeçalhos em tamanhos diferentes, de acordo com a sua ordem, ou seja, o <\h1\> será o maior e o <\h6\> o menor.
 
-```
+```html
 <html>
   <body>
       <h1>Esse é um título em &lt;h1&gt;</h1>
@@ -34,7 +34,7 @@ Veja como isso é mostrado no navegador:
 ## Parágrafo:
 Para criar um parágrafo, utilizamos o elemento \<p\>, tudo que for escrito entre este elemento será mostrado em uma ou várias linhas dependendo o tamanho do texto. Por padrão o navegador mostra cada novo parágrafo em uma linha diferente.
     
-```
+```html
 <html>
   <body>
       <p>
@@ -55,7 +55,7 @@ Para criar um parágrafo, utilizamos o elemento \<p\>, tudo que for escrito entr
 ## Bold e Itálico:
 Para destacar uma parte do texto, podemos mostrá-los com a fonte em negrito ou itálico para fazer isso basta colocar o trecho do texto que queremos destacar entre os elementos \<b\> (negrito) e \<i\>  (itálico).
 
-```
+```html
 <html>
   <body>
       <p>
@@ -76,7 +76,7 @@ Para destacar uma parte do texto, podemos mostrá-los com a fonte em negrito ou 
 ## Quebra de linha:
 Utilizamos o elemento <br> para quebrar parte do texto em uma nova linha.
 
-```
+```html
 <html>
   <body>
     <p>
@@ -94,7 +94,7 @@ Utilizamos o elemento <br> para quebrar parte do texto em uma nova linha.
 ## Quebra de sessão:
 Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o elemento \<hr\>. Ele cria uma linha que serve para separar um conteúdo de outro.
 
-```
+```html
 <html>
   <body>
       <p>
@@ -116,7 +116,7 @@ Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o e
 ## Texto pré-formatado:
 Geralmente quando queremos apresentar poemas, ou linhas de código de alguma linguagem de programação em uma página utilizamos o elemento \<pre\>.
 
-```
+```html
 <html>
   <body>
     <pre>
@@ -138,7 +138,7 @@ Geralmente quando queremos apresentar poemas, ou linhas de código de alguma lin
 ## Sub escrito e sobre escrito:
 O elemento \<sub\> (sub escrito) geralmente é usado para formulas químicas, como H2O.
 
-```
+```html
 <html>
   <body>
       <p>A fórmula da água é H<sub>2</sub>O</p>
@@ -157,7 +157,7 @@ O elemento \<sub\> (sub escrito) geralmente é usado para formulas químicas, co
 ## Espaços em branco:
 Caso você coloque vários espaços em branco em um parágrafo para melhorar o layout do seu texto na página Web saiba que eles serão ignorados pelo navegador que considerará somente o primeiro espaço em branco. O mesmo vale para as quebras de linhas inseridas através de “Enter” o navegador vai ignorar as quebras de linha e mostrar todo o conteúdo em uma mesma linha.
 
-```
+```html
 <html>
   <body>
       <p>Isso aqui é um texto mal formatado, com vários espaços              em branco
@@ -184,7 +184,7 @@ Caso você coloque vários espaços em branco em um parágrafo para melhorar o l
 ## Ênfase e importância:
 Utilizamos alguns elementos que não alteram a estrutura do texto, mas alteram a sua semântica, dando mais ênfase para uma parte específica do texto. Como o elemento \<strong\> que deixa o texto mais forte como se estivesse em negrito. E o \<em\> deixa o texto em itálico.
 
-```
+```html
 <html>
   <body>
       <p><strong>Esse é um exemplo de texto com &lt;strong&gt;</strong></p>
@@ -203,7 +203,7 @@ Utilizamos alguns elementos que não alteram a estrutura do texto, mas alteram a
 ## Citação:
 Utilizamos quando queremos citar uma frase dita por outra pessoa ou retirada de outro site podemos utilizar os elementos \<blockquote\> e o \<q\>. Repare que o \<blockquote\> identa o texto no navegador, porém não deve ser usado para este fim.
 
-```
+```html
 <html>
   <body>
       <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
