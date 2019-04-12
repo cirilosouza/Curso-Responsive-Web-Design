@@ -37,12 +37,8 @@ A mesma propriedade vale para os elementos de lista, links, parágrafos e cabeç
   
 ### Cor de fundo:
 
-```
-<html>
-  <style>
-    div{ background-color: black; }
-  </style>
-</html>
+```css
+  div{ background-color: black; }
 ```
   
   
@@ -52,12 +48,8 @@ A mesma propriedade vale para os elementos de lista, links, parágrafos e cabeç
 ### Cor de borda:
 Como vimos anteriormente, os elementos de bloco possuem bordas, e podemos estiliza-las utilizando a propriedade border-color do CSS.
 
-```
-<html>
-  <style>
-    div{ border-color: aqua; }
-  </style>
-</html>
+```css
+  div{ border-color: aqua; }
 ```
   
   
@@ -67,21 +59,15 @@ Como vimos anteriormente, os elementos de bloco possuem bordas, e podemos estili
 ### Cor em RBG:
 As cores RBG são o resultado da junção de três cores primárias o vermelho (Red), o verde (Green) e o Azul (Blue). Seus valores vão de 0 a 255 para cada canal de cor, ou seja, podemos ter diversas combinações de cores manipulando os canais.
 
-```
-<html>
-  <style>
-    div{ background-color: RGB (255, 130, 71); }
-  </style>
-</html>
+```css
+  div{ background-color: RGB (255, 130, 71); }
 ```
   
   
 Cada número separado por vírgula representa um canal de cor, se alterarmos os valores teremos uma cor diferente. O RGB também nos permite aplicar transparência a cor, é o que chamamos de RGBA, o A representa o canal Alfa que define a opacidade da cor seu valor vai de 0 a 1 sendo 0 totalmente transparente e 1 totalmente opaco.
 
-```
-<html>
-  <style>
-    #bloco1{
+```css
+  #bloco1{
       background-color: rgba(0, 255, 255, 0);
       color: black;
   }
@@ -91,8 +77,6 @@ Cada número separado por vírgula representa um canal de cor, se alterarmos os 
   #bloco3{background-color: rgba(0, 255, 255, 0.5);}
 
   #bloco4{background-color: rgba(0, 255, 255, 1);}
-  </style>
-</html>
 ```
   
   
@@ -108,12 +92,8 @@ Os backgrounds ficam atrás dos elementos como se estivessem em segundo plano, p
   
 ### Cor de fundo:
 
-```
-<html>
-  <style>
-    div{ background-color: black; }
-  </style>
-</html>
+```css
+  div{ background-color: black; }
 ```
   
   
@@ -122,12 +102,8 @@ Os backgrounds ficam atrás dos elementos como se estivessem em segundo plano, p
   
 ### Imagens como fundo:
 
-```
-<html>
-  <style>
-    div{ background-image: url('mulher.jpg'); }
-  </style>
-</html>
+```css
+  div{ background-image: url('mulher.jpg'); }
 ```
   
   
@@ -141,30 +117,22 @@ Os backgrounds ficam atrás dos elementos como se estivessem em segundo plano, p
 As imagens de background podem se repetir nos eixos X (horizontal) e Y (vertical), se uma imagem é pequena para um elemento, ela será repetida por padrão em ambos os eixos. Porém podemos mudar esse comportamento com as propriedades background-repeat: repeat-x e background-repeat: repeat-y. 
   
   
-```
-<html>
-  <style>
-    div{ 
-      background-image: url('mulher.jpg');
-      background-repeat: repeat-x;
-   }
-  </style>
-</html>
+```css
+  div{ 
+    background-image: url('mulher.jpg');
+    background-repeat: repeat-x;
+ }
 ```
   
   
 ![Background Repeat X](imagens/backgound_repeat_x.png)
   
   
-```
-<html>
-  <style>
-    div{ 
-      background-image: url('mulher.jpg');
-      background-repeat: repeat-y;
-   }
-  </style>
-</html>
+```css
+  div{ 
+    background-image: url('mulher.jpg');
+    background-repeat: repeat-y;
+ }
 ```
   
   
@@ -173,15 +141,11 @@ As imagens de background podem se repetir nos eixos X (horizontal) e Y (vertical
   
 Podemos também bloquear a repetição das imagens com o valor de propriedade no-repeat.
 
-```
-<html>
-  <style>
-    div{ 
-      background-image: url('mulher.jpg');
-      background-repeat: no-repeat;
-   }
-  </style>
-</html>
+```css
+  div{ 
+    background-image: url('mulher.jpg');
+    background-repeat: no-repeat;
+ }
 ```
   
   
@@ -202,16 +166,12 @@ Como já falamos os elementos de bloco possuem bordas, que o delimitam. Também 
 ### Estilo da borda:
 Uma borda pode ser solida, tracejada, pontilhada, ou uma mescla de estilos. Podemos inserir até 4 estilos de borda, sendo que cada um será aplicado a uma borda iniciando pela superior.
 
-```
-<html>
-  <style>
-    div{ 
-      border-width: 2px;
-      border-color: red;
-      border-style: solid dotted dashed solid;
-   }
-  </style>
-</html>
+```css
+  div{ 
+    border-width: 2px;
+    border-color: red;
+    border-style: solid dotted dashed solid;
+ }
 ```
   
   
@@ -233,12 +193,8 @@ Uma borda pode ser solida, tracejada, pontilhada, ou uma mescla de estilos. Pode
   
 ### Cor da borda:
 
-```
-<html>
-<style>
+```css
   div{ border-color: black; }
-</style>
-</html>
 ```
   
   
@@ -248,12 +204,8 @@ Uma borda pode ser solida, tracejada, pontilhada, ou uma mescla de estilos. Pode
 ### Sem borda:
 
 
-```
-<html>
-  <style>
-    div{ border-color: none; }
-  </style>
-</html>
+```css
+  div{ border-color: none; }
 ```
   
   
@@ -262,12 +214,8 @@ Uma borda pode ser solida, tracejada, pontilhada, ou uma mescla de estilos. Pode
   
 ### Largura da borda:
 
-```
-<html>
-  <style>
-    div{ border-width: 2px; }
-  </style>
-</html>
+```css
+  div{ border-width: 2px; }
 ```
   
   
@@ -276,12 +224,8 @@ Uma borda pode ser solida, tracejada, pontilhada, ou uma mescla de estilos. Pode
   
 ### Bordas arredondadas:
 
-```
-<html>
-  <style>
-    div{ border-radius: 10px; }
-  </style>
-</html>
+```css
+  div{ border-radius: 10px; }
 ```
   
   
@@ -290,18 +234,14 @@ Uma borda pode ser solida, tracejada, pontilhada, ou uma mescla de estilos. Pode
   
 Podemos também uma borda para apenas um dos lados do nosso elemento, como as propriedades border-top, border-botom, border-left e border-right
 
-```
-<html>
-  <style>
-    #bloco1{ border-top: 2px solid black; }
+```css
+  #bloco1{ border-top: 2px solid black; }
 
-    #bloco2{ border-bottom: 2px solid black; }
+  #bloco2{ border-bottom: 2px solid black; }
 
-    #bloco3{ border-left: 2px solid black; }
+  #bloco3{ border-left: 2px solid black; }
 
-    #bloco4{ border-right: 2px solid black; }
-  </style>
-</html>
+  #bloco4{ border-right: 2px solid black; }
 ```
   
   
@@ -318,39 +258,27 @@ Perceba que aplicamos vários valores a propriedade border, o CSS nos permite fa
 
 A margem é o espaçamento externo de um elemento de bloco para outro. Assim como o border, podemos informar até quatro valores para a propriedade margin. Os valores serão aplicados da seguinte forma: margem superior, direita, inferior e esquerda.
 
-```
-<html>
-  <style>
-    div{ margin: 10px 20px 10px 20px; }
-  </style>
-</html>
+```css
+  div{ margin: 10px 20px 10px 20px; }
 ```
   
   
 Se quisermos aplicar os mesmos valores nas margens superior e inferior, mas valores diferentes nas margens da esquerda e direita, basta aplicarmos dois valores à propriedade.
 
-```
-<html>
-  <style>
-    div{ margin: 10px 20px; }
-  </style>
-</html>
+```css
+  div{ margin: 10px 20px; }
 ```
   
   
 Ou podemos utilizar os seletores
 
-```
-<html>
-  <style>
-    div{
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-left: 20px;
-      margin-right: 20px
-    }
-  </style>
-</html>
+```css
+  div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px
+  }
 ```
   
   
@@ -371,19 +299,15 @@ Diferente do margin, o padding é a distância entre os elementos filhos para a 
 O elemento pai possui 300px de altura e largura, já o elemento filho possui 200px de altura e largura. Aplicamos um padding no elemento pai de 50px isso dá a impressão de que o elemento filho está centralizado dentro do pai. 
   
   
-```
-<html>
-  <style>
-    #pai{
-        padding: 50px;
-        box-sizing: border-box;
-    }
+```css
+  #pai{
+      padding: 50px;
+      box-sizing: border-box;
+  }
 
-    #filho{
-        background-color: blue;
-    }
-  </style>
-</html>
+  #filho{
+      background-color: blue;
+  }
 ```
   
   
@@ -391,30 +315,22 @@ Repare que utilizamos um seletor chamado box-sizing, isso porque ao aplicarmos o
 
 Podemos também usar os seletores:
 
-```
-<html>
-  <style>
-    #pai{
-        padding-top: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        padding-left: 50px;
-    }
-  </style>
-</html>
+```css
+  #pai{
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-bottom: 50px;
+      padding-left: 50px;
+  }
 ```
   
   
 Ou informar os valores de uma só vez através do seletor padding. Lembrando que os valores são aplicados da seguinte forma: padding superior, direita, inferior e esquerda
 
-```
-<html>
-  <style>
-    #pai{ 
-        padding: 50px 30px 50px 30px; 
-    }
-  </style>
-</html>
+```css
+  #pai{ 
+      padding: 50px 30px 50px 30px; 
+  }
 ```
   
   
@@ -426,20 +342,16 @@ Ou informar os valores de uma só vez através do seletor padding. Lembrando que
 Os elementos de bloco possuem também uma largura (width) e uma altura (height). Ambas podem ser alteradas via CSS através das propriedades width e height.
   
 
-```
-<html>
-  <style>
-      #pai{
-          width: 300px;
-          height: 300px;
-      }
+```css
+  #pai{
+      width: 300px;
+      height: 300px;
+  }
 
-      #filho{
-          width: 200px;
-          height: 200px;
-      }
-  </style>
-</html>
+  #filho{
+      width: 200px;
+      height: 200px;
+  }
 ```
   
   
@@ -458,14 +370,10 @@ Faz a mesma coisa que as propriedades acima, porém trabalha com a altura do ele
 ### Cor de elementos de texto:
 A mesma propriedade vale para os elementos de lista, links, parágrafos e cabeçalhos basta alterarmos o seletor para o elemento que deseja alterar.
 
-```
-<html>
-  <style>
-      p{ color: white; }
-      a{ color: pink; }
-      h1{ color: darkblue; }
-  </style>
-</html>
+```css
+    p{ color: white; }
+    a{ color: pink; }
+    h1{ color: darkblue; }
 ```
   
   
@@ -475,26 +383,22 @@ A mesma propriedade vale para os elementos de lista, links, parágrafos e cabeç
 ### Alinhamento:
 O alinhamento do texto pode ser à esquerda (padrão), no centro, a direita ou justificado. 
   
-```
-<html>
-  <style>
-    #txt1{
-        text-align: left; /* Alinha o texto a esquerda (padrão)*/
-    }
+```css
+  #txt1{
+      text-align: left; /* Alinha o texto a esquerda (padrão)*/
+  }
 
-    #txt2{
-        text-align: center; /* Alinha o texto no centro */
-    }
+  #txt2{
+      text-align: center; /* Alinha o texto no centro */
+  }
 
-    #txt3{
-        text-align: right; /* Alinha o texto a direita */
-    }
+  #txt3{
+      text-align: right; /* Alinha o texto a direita */
+  }
 
-    #txt4{
-        text-align: justify; /* Alinha de forma que o espaçamanto das margens sejam iguais em todas a linhas*/
-    }
-  </style>
-</html>
+  #txt4{
+      text-align: justify; /* Alinha de forma que o espaçamanto das margens sejam iguais em todas a linhas*/
+  }
 ```
   
   
@@ -508,18 +412,14 @@ O alinhamento do texto pode ser à esquerda (padrão), no centro, a direita ou j
 ### Decoração de texto:
 A propriedade cria uma linha que pode ser colocada sobre o texto, abaixo dele, ou no meio. Geralmente usamos o valor none para alterarmos as características padrão dos elementos de link.
 
-```
-<html>
-  <style>
-      #txt1{ text-decoration: none; }
+```css
+    #txt1{ text-decoration: none; }
 
-      #txt2{ text-decoration: underline; }
+    #txt2{ text-decoration: underline; }
 
-      #txt3{ text-decoration: overline; }
+    #txt3{ text-decoration: overline; }
 
-      #txt4{ text-decoration: line-through; }
-  </style>
-</html>
+    #txt4{ text-decoration: line-through; }
 ```
   
   
@@ -532,16 +432,12 @@ A propriedade cria uma linha que pode ser colocada sobre o texto, abaixo dele, o
 ### Transformação de texto:
 Muitas vezes precisamos que certos textos sejam exibidos pelo navegador em maiúsculo ou minúsculo, para a nossa sorte não é necessário ficar mudando a forma com a qual digitamos o texto durante o desenvolvimento da página web porque podemos utilizar a propriedade text-transform. Esta propriedade possui três valores, UPPERCASE, lowecase e Captalize.
 
-```
-<html>
-  <style>
-      #txt1{ text-transform: uppercase; }
+```css
+    #txt1{ text-transform: uppercase; }
 
-      #txt2{ text-transform: lowercase; }
+    #txt2{ text-transform: lowercase; }
 
-      #txt3{ text-transform: capitalize; }
-  </style>
-</html>
+    #txt3{ text-transform: capitalize; }
 ```
   
   
@@ -555,12 +451,8 @@ Muitas vezes precisamos que certos textos sejam exibidos pelo navegador em maiú
 ### Identação:
 Adiciona um espaço a esquerda na primeira linha de um parágrafo.
 
-```
-<html>
-  <style>
-      #txt1{ text-indent: 20px; }
-  </style>
-</html>
+```css
+    #txt1{ text-indent: 20px; }
 ```
   
 ![Identação de texto](imagens/identacao_de_texto.png)
@@ -572,34 +464,22 @@ Adiciona um espaço a esquerda na primeira linha de um parágrafo.
 ### Espaçamento entre letras e palavras:
 Os navegadores possuem um espaçamento padrão entre cada caractere de texto, mas podemos mudar esse comportamento para melhorar a legibilidade em determinadas fontes com a propriedade letter-spacing.
 
-```
-<html>
-  <style>
-      #txt1{ letter-spacing: 5px; }
-  </style>
-</html>
+```css
+    #txt1{ letter-spacing: 5px; }
 ```
   
   
 Da mesma forma que o letter-spacing é possível aumentar o espaçamento padrão entre as palavras com a propriedade word-spacing.
 
-```
-</html>
-  <style>
-      #txt1{ word-spacing: 5px; }
-  </style>
-</html>
+```css
+    #txt1{ word-spacing: 5px; }
 ```
   
   
 Ambas as propriedades aceitam valores negativos, isso fará com que as letras ou palavras fiquem mais próximas umas das outras.
 
-```
-<html>
-  <style>
-      #txt1{ word-spacing: -5px; }
-  </style>
-</html>
+```css
+    #txt1{ word-spacing: -5px; }
 ```
   
   
@@ -609,12 +489,8 @@ Ambas as propriedades aceitam valores negativos, isso fará com que as letras ou
 ### Tamanho da linha:
 Por padrão os navegadores mostram parágrafos com uma fonte de 16px. Para melhorar a leitura podemos aumentar o tamanho das linhas, isso com que o espaçamento entre elas seja maior ou menor.
 
-```
-<html>
-  <style>
-      #txt1{ line-height: 50px; }
-  </style>
-</html>
+```css
+    #txt1{ line-height: 50px; }
 ```
   
   
@@ -637,12 +513,8 @@ Já as fontes sem serifa não têm essa bordinha. Perceberam a diferença?
   
 A propriedade font-family permite aplicarmos diversas fontes para um texto, isso porque se um navegador não suportar a primeira fonte, ele usará a próxima e assim por diante. Recomendo utilizar a fonte que você queira aplicar no texto em primeiro lugar, logo após a propriedade e posteriormente as demais fontes mais genéricas separadas por vírgula.
 
-```
-<html>
-  <style>
-      #txt1{ font-family: 'Montserrat', Verdana, Tahoma, sans-serif; }
-  </style>
-</html>
+```css
+    #txt1{ font-family: 'Montserrat', Verdana, Tahoma, sans-serif; }
 ```
   
   
@@ -659,14 +531,10 @@ A propriedade font-family permite aplicarmos diversas fontes para um texto, isso
 ### Importando fontes:
 O parâmetro @import pode ser usado para importar qualquer estilo aplicado em outro arquivo CSS. Ele também pode ser usado para importar fontes, isso nos permite utilizar sites como o Google Fonts.
 
-```
-<html>
-<style>
+```css
    @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
   #bloco1{ font-family: 'Montserrat', Verdana, Tahoma, sans-serif; }
-</style>
-</html>
 ```
   
   
@@ -691,12 +559,8 @@ Clique em Import e selecione toda a linha começando por @import
   
 Cole no topo de seu arquivo CSS.
 
-```
-<html>
-  <style>
+```css
     @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-  </style>
-</html>
 ```
   
   
@@ -706,15 +570,11 @@ Cole no topo de seu arquivo CSS.
 ### Peso e estilo e tamanho da fonte:
 Para deixar a fonte em itálico podemos usar a propriedade font-style.
 
-```
-</html>
-  <style>
+```css
     #bloco1{
       font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
       font-style: italic;
     }
-  </style>
-</html>
 ```
 
 O mesmo pode ser feito usando o valor bold ou semi-bold, porém a fonte deve suportar esses valores.
@@ -726,17 +586,13 @@ O mesmo pode ser feito usando o valor bold ou semi-bold, porém a fonte deve sup
 ### Tamanho da fonte:
 Como falamos anteriormente, as fontes têm um tamanho padrão nos navegadores de 16px, mas podemos deixa-las maiores ou menores de acordo com a nossa necessidade com a propriedade font-size.
 
-```
-<html>
-  <style>
+```css
     #bloco1{
         font-family: 'Montserrat', Verdana, Tahoma, sans-serif;
         font-style: italic;
         font-weight: 700;
         font-size: 20px
     }
-  </style>
-</html>
 ```
   
 ![Fontes](imagens/tamanho_de_fonte.png)
@@ -752,22 +608,14 @@ Se quisermos que uma fonte tenha o tamanho de 32px, basta dividirmos o valor por
   
 Com o surgimento dos sites responsivos onde podem ser acessados através de smartphones, tvs, watches, etc. Temos a necessidade de que as fontes sejam redimensionadas para cada um destes dispositivos.
 
-```
-<html>
-  <style>
+```css
     #bloco1{ font-size: 2em; }
-  </style>
-</html>
 ```
   
 ou
 
-```
-<html>
-  <style>
+```css
     #bloco1{ font-size: 2vw; }
-  </style>
-</html>
 ```
   
    
