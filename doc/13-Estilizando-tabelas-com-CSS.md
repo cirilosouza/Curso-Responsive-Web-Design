@@ -41,7 +41,7 @@ A pseudo classe hover atribui um estilo ao elemento quando o usuário passa o mo
 ```
   
   
-![Pseudo Classe](images/pseudo-classe.png)
+![Pseudo Classe](imagens/pseudo-classe.png)
 
   
   
