@@ -8,11 +8,11 @@ Primeiro vamos mudar a fonte da nossa planilha para Montserrat. Vamos baixa-la d
 Através do seletor table, altere a propriedade font-family.
 
 ```
-<head>
+<html>
   <style>
     table{ font-family: 'Lato', sans-serif; }
   </style>
-</head>
+</html>
 ```
   
   
