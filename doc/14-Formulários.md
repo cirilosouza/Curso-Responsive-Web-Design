@@ -58,11 +58,98 @@ Aqui o planejamento se torna essencial, desenhe antes o formulário e questione-
    
  ### Atributo method:
  
- O atributo method pode conter os valores GET, POST, PUT, DELETE ou PATCH. O GET é responsável coletar os dados, sua solicitação e os parâmetros são passados no cabeçalho da requisição ficando visível na barra de endereço do navegador. 
+ O atributo method pode conter os valores ```GET```, ```POST```, ```PUT```, ```DELETE``` ou ```PATCH```. O ```GET``` é responsável coletar os dados, sua solicitação e os parâmetros são passados no cabeçalho da requisição ficando visível na barra de endereço do navegador. 
  
 ![Method GET](imagens/method.png)
+  
+  
+&nbsp;
+  
    
+ Já o método ```POST```, é responsável por enviar os dados para o servidor, como os campos de usuário e senha por exemplo. Os dados não ficam visíveis na barra de endereço do navegador. 
+Se quisermos atualizar os dados, podemos utilizar o ```PUT```, que substitui todas as informações de um determinado recurso, por exemplo um produto. Para deletar recursos utilizamos o ```DELETE``` e para atualizar as informações utilizamos o ```PATCH```.
+  
+  
+O nosso código ficaria desta forma:
+
+```html
+    <form action="/cadastro.html" method="POST">
+    	  Conteúdo do formulário aqui
+    </form>
+```
+  
+  
+&nbsp;
+  
    
+ ## Criando um formulário
+  
+  
+&nbsp;
+  
+   
+ ### Elemento Label:
+ 
+ O elemento \<label\> cria um pequeno texto, geralmente é utilizado antes dos elementos de \<input\> como descrição do campo, o atributo for indica a qual \<input\> aquele \<label\> pertence de acordo com o seu atributo id.
+ 
+ ```html
+    <form action="/cadastro.html" method="POST">
+        <label for="rdf">Feminino</label>
+        <input type="radio" name="genero" value="F" id="rdf">
+
+        <label for="rdm">Masculino</label>
+        <input type="radio" name="genero" value="M" id="rdm">
+    </form>
+```
+  
+  
+&nbsp;
+  
+   
+### Elemento Input:
+
+O \<input\> é o elemento mais importante do formulário, serve para entrada de dados e também pode conter atributos que estendem suas funcionalidades.
+  
+  
+  * Atributo type: Aqui temos alguns valores que podemos colocar no atributo type
+  | ﻿Valor          | Descrição                                                                                                                    |
+|----------------|------------------------------------------------------------------------------------------------------------------------------|
+| button         | Cria um botão clicável.                                                                                                      |
+| checkbox       | Cria um capo de checkbox onde múltiplas opções podem ser selecionadas.                                                       |
+| color          | Cria um color picker (selecionador de cores).                                                                                |
+| date           | Cria um controle de data (dia – mês – ano).                                                                                  |
+| datetime-local | Cria um controle de horas (dia – mês – ano – horas).                                                                         |
+| email          | Cria um campo de email onde é obrigatório inserir o @.                                                                       |
+| file           | Cria um campo de seleção de arquivo.                                                                                         |
+| hidden         | Define o campo como oculto.                                                                                                  |
+| image          | Define uma imagem como botão de submit (enviar).                                                                             |
+| month          | Cria um campo de mês.                                                                                                        |
+| number         | Cria um campo onde os únicos valores permitidos são números.                                                                 |
+| password       | Cria um campo de senha. A senha fica oculta e é substituída por asteriscos.                                                  |
+| radio          | Cria um campo de seleção radio onde somente uma opção pode ser selecionada.                                                  |
+| range          | Cria um campo parecido com um slider.                                                                                        |
+| reset          | Cria um botão de reset (limpa todas as informações preenchidas no formulário).                                               |
+| search         | Cria um campo de busca.                                                                                                      |
+| submit         | Define um botão de submit (enviar).                                                                                          |
+| tel            | Cria um campo onde é possível inserir números de telefones.                                                                  |
+| text           | É o atributo padrão do type, se nenhum outro atributo for informado o formulário assumirá que se trata de um campo de texto. |
+| time           | Cria um campo de controle de horas.                                                                                          |
+| url            | Cria um campo de URL.                                                                                                        |
+| week           | Cria um campo de controle de semanas.                                                                       
+  
+  
+
+```html
+    <form action="/cadastro.html" method="POST">
+        <label for="Formulário de exemplo">Formulário de exemplo</label>
+ <!-- Cria um campo de texto -->
+        <input placeholder="Digite seu texto aqui">
+
+<!-- Cria um botão com o texto "Clique aqui" -->
+        <input type="button" value="Clique aqui" id="btn">
+    </form>
+```
+
 
 
   
