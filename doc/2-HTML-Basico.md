@@ -39,7 +39,7 @@ O HTML segue o mesmo princípio, as tags servem para mostrar ao navegador como s
 As tags são elementos escritos entre sinais de menor que (\<) e maior que (\>), se quisermos escrever um parágrafo por exemplo, utilizamos a tag \<p\>.
 Para indicar o início do parágrafo utilizamos o \<p\> e para indicar o final utilizamos o \</p\>, todo o conteúdo do parágrafo deve ser escrito entre essas duas tags. Essa estrutura serve para a maioria das tags HTML.
 
-```
+```html
 <html>
   <body>
     <p>Este é um exemplo de parágrafo, todo o conteúdo deve ser escrito aqui</p>
@@ -49,7 +49,7 @@ Para indicar o início do parágrafo utilizamos o \<p\> e para indicar o final u
 
 As tags podem conter atributos que proveem informações adicionais sobre o conteúdo dos elementos. Eles aparecem dentro da tag de abertura e são compostos por duas partes **nome** e **valor**. 
 
-```
+```html
 <html lang="en">
 ```
 
@@ -62,7 +62,7 @@ Repare que o valor é escrito entre “aspas” e eles são separados pelo sinal
 
 Algumas tags não têm conteúdo, como no caso da tag \<img\>, ela serve para exibir imagens na página Web, contém apenas atributos e não precisa da tag de fechamento.
 
-```
+```html
 <html>
   <body>
     <img src="img/minhaImagem.jpg" alt="Esta é uma imagem de exmplo">
@@ -88,13 +88,13 @@ Toda página HTML deve começar com a tag \<!DOCTYPE\>, ela mostra a versão da 
 
 O \<!DOCTYPE\> deve ser declarado apenas uma vez e deve ser a primeira tag da página. Neste caso, para indicarmos que a página será escrita em HTML 5 utilizamos:
 
-```
+```html
 <!DOCTYPE html>
 ```
 
 A tag <html> é conhecida como elemento raiz, e indica que tudo que está dentro dela é um conteúdo HTML. Lembram dos atributos que falamos agora a pouco na parte de Estrutura das TAGS? Então podemos ver sua utilização aqui! O atributo lang=”en” indica para o navegador que a página será escrita em Inglês.
 
-```
+```html
 <html lang="en">
     Conteúdo HTML aqui
 </html>
@@ -104,7 +104,7 @@ Veja mais códigos de linguagem: [W3Schools](https://www.w3schools.com/tags/ref_
 
 A tag \<head\> contém informações adicionais sobre a página, como por exemplo, scripts que devem ser executados antes do carregamento da página, links para arquivos de estilo, formato de caracteres, título e muito mais. O seu conteúdo não é mostrado no navegador.
 
-```
+```html
 <html>
   <head>
       <!-- Logo mais falaremos sobre as meta tags -->
@@ -116,7 +116,7 @@ A tag \<head\> contém informações adicionais sobre a página, como por exempl
 
 A tag \<body\> contém todo o conteúdo que você quer mostrar no navegador como textos, imagens, vídeos, etc.
     
-```
+```html
 <html>
   <body>
       <h1>Hello World!</h1>
@@ -128,7 +128,7 @@ A tag \<body\> contém todo o conteúdo que você quer mostrar no navegador como
 
 Então a estrutura final do nosso arquivo será assim:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
