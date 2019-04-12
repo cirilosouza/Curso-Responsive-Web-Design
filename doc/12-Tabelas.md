@@ -35,7 +35,7 @@ Caso haja alguma célula vazia, como no exemplo acima, devemos representa-la com
 
 **HTML**
 
-```
+```html
 <html>
   <body>
        <table>
@@ -78,7 +78,7 @@ No nosso arquivo HTML, não se esqueça de informar o caminho do arquivo de esti
   
 **HMTL**
 
-```
+```html
 <html>
   <head>
       <meta charset="UTF-8">
@@ -117,7 +117,7 @@ As vezes é preciso que o título de uma coluna se estenda por duas ou mais colu
   
 **HTML**
 
-```
+```html
 <html>
   <body>
     <table>
@@ -151,7 +151,7 @@ Apliquei um estilo no CSS para \<th\> para ficar com esse background em cinza.
   
 Da mesma forma que utilizamos o colspan para mesclar duas colunas, também podemos mesclar duas linhas com o atributo rowspan.
 
-```
+```html
 <html>
   <body>
     <table>
@@ -186,7 +186,7 @@ Neste caso, existem três elementos que nos ajudam a distinguir o conteúdo prin
   
 **HTML**
 
-```
+```html
 <html>
   <body>
     <table>
@@ -275,7 +275,7 @@ Neste caso, existem três elementos que nos ajudam a distinguir o conteúdo prin
 É possível aplicar o estilo inline (direto no HTML), mas não recomendo fazer isso porque a manutenção da página Web se tornará uma dor de cabeça futuramente. Vamos supor que você queria aplicar um cor de fundo em uma coluna específica, ou em linhas alternadas, se você fosse fazer isso direto no código HTML teria que aplicar o estilo em cada um dos \<td\>s que você gostaria que tenham a cor de fundo, já deu pra sentir quanto trabalho você terá né?
 Para isso, o HTML 5 introduziu uma forma de aplicar esse estilo em um só lugar sem ter que utilizar recursos mais avançados do CSS, são os elementos \<col\> e \<colgroup\>. 
 
-```
+```html
 <html>
   <body>
     <table>
@@ -304,7 +304,7 @@ No arquivo CSS, criamos um único estilo aplicado aos dois ids “col2” e “c
   
 Veja como ficou o código final da nossa tabela:
 
-```
+```html
 <html>
   <body>
     <table>
