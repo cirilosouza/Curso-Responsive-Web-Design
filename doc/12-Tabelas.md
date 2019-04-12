@@ -59,13 +59,11 @@ Caso haja alguma célula vazia, como no exemplo acima, devemos representa-la com
 
 **CSS**
 
-```
-<style>
+```css
   table, th, td, td{
       border: 1px solid #5d5d5d;
       border-collapse: collapse;
   }
-</style>
 ```
   
   
@@ -92,8 +90,7 @@ No nosso arquivo HTML, não se esqueça de informar o caminho do arquivo de esti
 
 **CSS**
 
-```
-<style>
+```css
   table, th, td{
       border: 1px solid #f2f2f2; /*Cria uma borda de 1px na cor cinza*/
       border-collapse: collapse; /*Reduz o espaçamento entre as bordas*/
@@ -103,7 +100,6 @@ No nosso arquivo HTML, não se esqueça de informar o caminho do arquivo de esti
       padding: 10px; /*Cria um espaçamento de 10px entre a borda e o texto*/
       text-align: center; /*Alinha o texto no centro das céluas*/ 
   }
-</style>
 ```
   
   
@@ -148,10 +144,8 @@ As vezes é preciso que o título de uma coluna se estenda por duas ou mais colu
 Apliquei um estilo no CSS para \<th\> para ficar com esse background em cinza.
 
 
-```
-<style>
+```css
   th{ background: #f2f2f2; }
-</style>
 ```
   
   
@@ -249,8 +243,7 @@ Neste caso, existem três elementos que nos ajudam a distinguir o conteúdo prin
 **CSS**
 
 
-```
-<style>
+```css
   table{
       font-family: 'Lato', sans-serif;
       font-weight: 300;
@@ -268,7 +261,6 @@ Neste caso, existem três elementos que nos ajudam a distinguir o conteúdo prin
       font-size: 16px;
       text-align: center
   }
-</style>
 ```
   
   
@@ -302,10 +294,8 @@ Para isso, o HTML 5 introduziu uma forma de aplicar esse estilo em um só lugar 
   
 No arquivo CSS, criamos um único estilo aplicado aos dois ids “col2” e “col4”.
 
-```
-<style>
+```css
   .col{ background-color:#f2f2f2; }
-</style>
 ```
   
   
