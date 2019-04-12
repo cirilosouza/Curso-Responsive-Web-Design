@@ -36,7 +36,7 @@ O elemento com posição absoluta, leva em consideração a posição do element
   
 **HTML**
 
-```
+```html
 <html>
   <body>
       <div id="el1">
@@ -70,7 +70,7 @@ Se o elemento não tivesse um pai, ele seria posicionado com relação a página
   
 **HTML**
 
-```
+```html
 <html>
   <body>
     <div id="el1">
@@ -113,7 +113,7 @@ O elemento é posicionado de acordo com a tela na qual o website é mostrado. El
   
 **HMTL**
 
-```
+```html
 <html>
   <body>
       <div id="el1">
