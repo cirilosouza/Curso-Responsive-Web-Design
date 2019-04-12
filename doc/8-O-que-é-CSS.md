@@ -14,17 +14,13 @@ O estilo pode ser adicionado de três formas, in-line (no próprio elemento HTML
 ### Estilo in-line:
 O estilo é aplicado no próprio elemento HTML e serve apenas para aquele elemento. 
 
-```
-<html>
-  <body>
-      <p style="color: red;">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur veniam praesentium nostrum facere vel. Esse ipsum maiores officia fuga. Perspiciatis saepe ab culpa quisquam aspernatur reprehenderit dolorem rem consequatur quibusdam.
-      </p>
-      <p style="color: blue;">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia sequi culpa libero quo exercitationem soluta fugiat sint, perspiciatis quae eos atque odit ut hic. Corrupti cupiditate animi iusto minus!
-      </p>
-  </body>
-</html>
+```html
+    <p style="color: red;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur veniam praesentium nostrum facere vel. Esse ipsum maiores officia fuga. Perspiciatis saepe ab culpa quisquam aspernatur reprehenderit dolorem rem consequatur quibusdam.
+    </p>
+    <p style="color: blue;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia sequi culpa libero quo exercitationem soluta fugiat sint, perspiciatis quae eos atque odit ut hic. Corrupti cupiditate animi iusto minus!
+    </p>
 ```
   
   
@@ -37,7 +33,7 @@ O estilo é aplicado no próprio elemento HTML e serve apenas para aquele elemen
 ### Estilo interno:
 É aplicado através do elemento <style> dentro da página HTML.
   
-```
+```html
 <html>
   <head>
       <style>
@@ -66,7 +62,7 @@ Particularmente não recomendo aplicar estilos in-line e interno, porque conform
 Para utilizarmos um arquivo CSS externo basta inserir elemento \<link\> dentro de \<head\> e no atributo rel informamos o valor “stylesheet” ou seja, uma folha de estilos. Não confunda o elemento \<link\> com as âncoras \<a\> que falamos agora a pouco.
 Para finalizar, basta atribuir ao atributo href a localização do arquivo CSS.
 
-```
+```html
 <html>
   <head>
       <link rel="stylesheet" href="style.css">
@@ -97,25 +93,17 @@ Os seletores servem para selecionar os elementos HTML que queremos aplicar um es
   
 Um seletor pode conter várias propriedades, cada uma deve ser separada por um ponto e vírgula “;” o navegador não faz distinção se as propriedades forem escritas na mesma linha ou em linhas diferentes desde que cada uma seja separada por um ponto e vírgula. O que delimita o início e o final do seletor são as chaves “{ }”.
 
-```
-<html>
-  <style>
+```css
     #paragrafo{
         color: red;
         font-size: 1em;
     }
-  </style>
-</html>
 ```
 
 É o mesmo que:
 
-```
-<html>
-  <style>
+```css
     #paragrafo{color: red;font-size: 1em;}
-  </style>
-</html>
 ```
   
   
@@ -135,21 +123,17 @@ Especifica qual propriedade do elemento HTML selecionado queremos aplicar um est
   
 A propriedade e o valor são separados por dois pontos “:”  
 
-```
+```css
 color: red;
 ```
   
   
 É possível selecionar vários elementos HTML de uma só vez, para isso basta separar os seletores com uma vírgula
 
-```
-<html>
-  <style>
+```css
     #sessao1, #sessao2{
         color: red;
     }
-  </style>
-</html>
 ```
   
   
