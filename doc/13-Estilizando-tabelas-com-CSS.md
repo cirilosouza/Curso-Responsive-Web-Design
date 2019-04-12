@@ -95,7 +95,7 @@ Nós veremos mais adiante mais algumas pseudo classes, mas seu você quiser sabe
 Retiramos do site a planilha abaixo. Para acessá-la basta clicar no link ou sobre os nomes das pseudo classes na primeira coluna.
   
   
-| ﻿Pseudo classe        | Exemplo de uso        | O que faz                                                                                          |
+| Pseudo classe        | Exemplo de uso        | O que faz                                                                                          |
 |----------------------|-----------------------|----------------------------------------------------------------------------------------------------|
 | :active              | a:active              | Seleciona um link ativo                                                                            |
 | :checked             | input:checked         | Seleciona todo elemento de <input> checado                                                         |
@@ -128,6 +128,8 @@ Retiramos do site a planilha abaixo. Para acessá-la basta clicar no link ou sob
 | :target              | #news:target          | Seleciona o elemento com o id #news (ao ser clicado)                                               |
 | :valid               | input:valid           | Seleciona todos os elementos <input> com valores válidos                                           |
 | :visited             | a:visited             | Seleciona todos os links visíveis                                                                  |
+  
+  
 [Link W3Schools](Link: https://www.w3schools.com/css/css_pseudo_classes.asp)
   
   
