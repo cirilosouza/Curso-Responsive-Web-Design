@@ -31,16 +31,12 @@ Veja como isso é mostrado no navegador:
 Para criar um parágrafo, utilizamos o elemento \<p\>, tudo que for escrito entre este elemento será mostrado em uma ou várias linhas dependendo o tamanho do texto. Por padrão o navegador mostra cada novo parágrafo em uma linha diferente.
     
 ```html
-<html>
-  <body>
-      <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil suscipit nam accusamus laudantium minus quia veniam itaque eos nemo aperiam quo sit voluptate hic, obcaecati, doloribus odio recusandae excepturi. Nesciunt?
-      </p>
-      <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere error, dolore ad quae iusto numquam ratione tempora similique iure quisquam placeat consequatur labore molestias! Labore assumenda sequi itaque deleniti.
-      </p>
-  </body>
-<html>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil suscipit nam accusamus laudantium minus quia veniam itaque eos nemo aperiam quo sit voluptate hic, obcaecati, doloribus odio recusandae excepturi. Nesciunt?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere error, dolore ad quae iusto numquam ratione tempora similique iure quisquam placeat consequatur labore molestias! Labore assumenda sequi itaque deleniti.
+    </p>
 ```
 
 ![Parágrafo](imagens/paragrafo.png)
@@ -52,16 +48,12 @@ Para criar um parágrafo, utilizamos o elemento \<p\>, tudo que for escrito entr
 Para destacar uma parte do texto, podemos mostrá-los com a fonte em negrito ou itálico para fazer isso basta colocar o trecho do texto que queremos destacar entre os elementos \<b\> (negrito) e \<i\>  (itálico).
 
 ```html
-<html>
-  <body>
-      <p>
-          <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Nihil suscipit nam accusamus laudantium minus quia veniam itaque eos nemo aperiam quo sit voluptate hic, obcaecati, doloribus odio recusandae excepturi. Nesciunt?
-      </p>
-      <p>
-          <i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</i> Voluptas facere error, dolore ad quae iusto numquam ratione tempora similique iure quisquam placeat consequatur labore molestias! Labore assumenda sequi itaque deleniti.
-      </p>
-  </body>
-</html>
+    <p>
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Nihil suscipit nam accusamus laudantium minus quia veniam itaque eos nemo aperiam quo sit voluptate hic, obcaecati, doloribus odio recusandae excepturi. Nesciunt?
+    </p>
+    <p>
+        <i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</i> Voluptas facere error, dolore ad quae iusto numquam ratione tempora similique iure quisquam placeat consequatur labore molestias! Labore assumenda sequi itaque deleniti.
+    </p>
 ```
 
 ![Negrito e Itálico](imagens/negrito_italico.png)
@@ -73,13 +65,9 @@ Para destacar uma parte do texto, podemos mostrá-los com a fonte em negrito ou 
 Utilizamos o elemento <br> para quebrar parte do texto em uma nova linha.
 
 ```html
-<html>
-  <body>
     <p>
         <b>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</b> Nihil suscipit nam accusamus laudantium minus quia veniam itaque eos nemo aperiam quo sit voluptate hic, obcaecati, doloribus odio recusandae excepturi. Nesciunt?
     </p>
-  </body>
-</html>
 ```
 
 ![Quebra de Linha](imagens/quebra_de_linha.png)
@@ -91,17 +79,13 @@ Utilizamos o elemento <br> para quebrar parte do texto em uma nova linha.
 Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o elemento \<hr\>. Ele cria uma linha que serve para separar um conteúdo de outro.
 
 ```html
-<html>
-  <body>
-      <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid inventore odit ducimus doloribus fugit eius quis deserunt ipsa obcaecati animi nisi recusandae id minima, asperiores quia, tenetur ex tempore corrupti?
-      </p>
-      <hr>
-      <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae quia nulla quibusdam sunt corporis earum. Veniam eos tenetur, asperiores earum eaque officia. Perspiciatis earum praesentium veritatis, sit enim blanditiis exercitationem?
-      </p>
-  </body>
-</html>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid inventore odit ducimus doloribus fugit eius quis deserunt ipsa obcaecati animi nisi recusandae id minima, asperiores quia, tenetur ex tempore corrupti?
+    </p>
+    <hr>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae quia nulla quibusdam sunt corporis earum. Veniam eos tenetur, asperiores earum eaque officia. Perspiciatis earum praesentium veritatis, sit enim blanditiis exercitationem?
+    </p>
 ```
 
 ![Quebra de sessão](imagens/quebra_de_sessao.png)
@@ -113,16 +97,12 @@ Para separar sessões diferentes, ou parágrafos diferentes podemos utilizar o e
 Geralmente quando queremos apresentar poemas, ou linhas de código de alguma linguagem de programação em uma página utilizamos o elemento \<pre\>.
 
 ```html
-<html>
-  <body>
     <pre>
         Batatinha quando nasce
         Espalha a rama pelo chão
         Menininha quando dorme 
         Põe a mão no coração
     </pre>
-  </body>
-</html>
 ```
   
   
@@ -135,12 +115,8 @@ Geralmente quando queremos apresentar poemas, ou linhas de código de alguma lin
 O elemento \<sub\> (sub escrito) geralmente é usado para formulas químicas, como H2O.
 
 ```html
-<html>
-  <body>
-      <p>A fórmula da água é H<sub>2</sub>O</p>
-      <p>Qual o resultado de 2<sup>2</sup>?</p>
-  </body>
-<html>
+    <p>A fórmula da água é H<sub>2</sub>O</p>
+    <p>Qual o resultado de 2<sup>2</sup>?</p>
 ```
   
   
@@ -154,14 +130,10 @@ O elemento \<sub\> (sub escrito) geralmente é usado para formulas químicas, co
 Caso você coloque vários espaços em branco em um parágrafo para melhorar o layout do seu texto na página Web saiba que eles serão ignorados pelo navegador que considerará somente o primeiro espaço em branco. O mesmo vale para as quebras de linhas inseridas através de “Enter” o navegador vai ignorar as quebras de linha e mostrar todo o conteúdo em uma mesma linha.
 
 ```html
-<html>
-  <body>
-      <p>Isso aqui é um texto mal formatado, com vários espaços              em branco
-          e também com vários "Enters"
-          para melhorar a legibilidade        do texto.
-      </p>
-  </body>
-</html>
+    <p>Isso aqui é um texto mal formatado, com vários espaços              em branco
+        e também com vários "Enters"
+        para melhorar a legibilidade        do texto.
+    </p>
 ```
   
   
@@ -181,12 +153,8 @@ Caso você coloque vários espaços em branco em um parágrafo para melhorar o l
 Utilizamos alguns elementos que não alteram a estrutura do texto, mas alteram a sua semântica, dando mais ênfase para uma parte específica do texto. Como o elemento \<strong\> que deixa o texto mais forte como se estivesse em negrito. E o \<em\> deixa o texto em itálico.
 
 ```html
-<html>
-  <body>
-      <p><strong>Esse é um exemplo de texto com &lt;strong&gt;</strong></p>
-      <p><em>Esse é um exemplo de texto com &lt;em&gt;</em></p>
-  </body>
-</html>
+    <p><strong>Esse é um exemplo de texto com &lt;strong&gt;</strong></p>
+    <p><em>Esse é um exemplo de texto com &lt;em&gt;</em></p>
 ```
   
   
@@ -200,13 +168,9 @@ Utilizamos alguns elementos que não alteram a estrutura do texto, mas alteram a
 Utilizamos quando queremos citar uma frase dita por outra pessoa ou retirada de outro site podemos utilizar os elementos \<blockquote\> e o \<q\>. Repare que o \<blockquote\> identa o texto no navegador, porém não deve ser usado para este fim.
 
 ```html
-<html>
-  <body>
-      <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
-          <p>Esta é uma citação retirada do wikipedia.</p> 
-      </blockquote>
-  </body>
-</html>
+    <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
+        <p>Esta é uma citação retirada do wikipedia.</p> 
+    </blockquote>
 ```
   
   
