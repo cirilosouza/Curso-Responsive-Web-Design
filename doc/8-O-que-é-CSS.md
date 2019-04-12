@@ -105,6 +105,7 @@ Um seletor pode conter várias propriedades, cada uma deve ser separada por um p
         font-size: 1em;
     }
   </style>
+</html>
 ```
 
 É o mesmo que:
@@ -114,6 +115,7 @@ Um seletor pode conter várias propriedades, cada uma deve ser separada por um p
   <style>
     #paragrafo{color: red;font-size: 1em;}
   </style>
+</html>
 ```
   
   
@@ -141,13 +143,13 @@ color: red;
 É possível selecionar vários elementos HTML de uma só vez, para isso basta separar os seletores com uma vírgula
 
 ```
-<head>
+<html>
   <style>
     #sessao1, #sessao2{
         color: red;
     }
   </style>
-</head>
+</html>
 ```
   
   
