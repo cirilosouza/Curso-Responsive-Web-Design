@@ -16,12 +16,8 @@ Para adicionar uma imagem utilizamos o elemento \<img\>, ele é um elemento vazi
 ## Atributo src:
 Este é um atributo src é utilizado por outros elementos também, ele indica ao navegador o local de origem da imagem.
 
-```
-<html>
-  <body>
-      <img src="imagens/logo_senai.png”>
-  </body>
-</html>
+```html
+    <img src="imagens/logo_senai.png”>
 ```
 
   
@@ -32,12 +28,8 @@ Este é um atributo src é utilizado por outros elementos também, ele indica ao
 O atributo alt fornece um texto alternativo caso a imagem não carregue, ele é muito importante, pois, aplicativos de leitura de sites para deficientes visuais utilizam este atributo para informar aos deficientes do que se trata a imagem que está na tela. 
 Não só isso, o Google também usa o atributo alt para fazer o rancking das páginas que serão exibidas para os uruários. Por tanto, é recomendado colocarmos um texto que faça sentido.
 
-```
-<html>
-  <body>
-      <img src="mulher.jpg" alt="Retrato de uma mulher jovem segurando buquê de flores e sorrindo">
-  </body>
-</html>
+```html
+    <img src="mulher.jpg" alt="Retrato de uma mulher jovem segurando buquê de flores e sorrindo">
 ```
   
   
@@ -50,15 +42,11 @@ Veja como isso é mostrado no navegador:
   
 Com o surgimento do HTML 5 foi introduzido o elemento semântico \<figure\>. Nós o utilizamos quando uma imagem tem um texto embaixo, ele pode conter diversas imagens. O texto é inserido dentro do elemento \<figcaption\>.
 
-```
-<html>
-  <body>
+```html
     <figure>
        <img src="mulher.jpg" alt="Retrato de uma mulher jovem segurando buquê de flores e sorrindo" title="Mulher sorrindo">
        <figcaption>O texto relativo a imagem vai aqui!</figcaption>
     </figure>
-  </body>
-</html>
 ```
   
   
