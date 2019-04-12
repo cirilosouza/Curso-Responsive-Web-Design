@@ -11,7 +11,7 @@ As tabelas representam informações formatadas como planilhas com linhas e colu
 
 Para criarmos uma tabela utilizamos o elemento \<table\>, cada linha da tabela é definida pelo elemento \<tr\> e cada célula é definida pelo elemento \<td\>.
 
-```
+```html
 <html>
   <body>
       <table>
