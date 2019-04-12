@@ -102,32 +102,32 @@ Retiramos do site a planilha abaixo. Para acessá-la basta clicar no link ou sob
 | :disabled            | input:disabled        | Seleciona todo elemento de <input> desabilitado                                                    |
 | :empty               | p:empty               | Seleciona todo elemento <p> que não tenha filhos                                                   |
 | :enabled             | input:enabled         | Seleciona todo elemento de <input> habilitado                                                      |
-| :first-child         | p:first-child         | Seleciona o primeiro filho do elemento <p>                                                         |
-| :first-of-type       | p:first-of-type       | Seleciona todos os elementos <p> que tenham um outro elemento <p> como pai                         |
-| :focus               | input:focus           | Seleciona o elemento <input> que está focado                                                       |
-| :hover               | a:hover               | Seleciona um elemento <a> ao passar o mouse sobre ele                                              |
-| :in-range            | input:in-range        | Seleciona um elemento <input> cujo o valor esteja dentro de um range específico                    |
-| :invalid             | input:invalid         | Seleciona todos os elementos <input> que tenham valores inválidos                                  |
-| :lang(language)      | p:lang(it)            | Seleciona todos os elementos <p> que tenham um valor do atributo de linguagem iniciando com "it""" |
-| :last-child          | p:last-child          | Seleciona todos elementos <p> que seja os últimos filhos de um elemento pai específico             |
-| :last-of-type        | p:last-of-type        | Seleciona todos elementos <p> que sejam os ultimos filhos de um elemento pia específico            |
+| :first-child         | p:first-child         | Seleciona o primeiro filho do elemento \<p\>                                                         |
+| :first-of-type       | p:first-of-type       | Seleciona todos os elementos \<p\> que tenham um outro elemento <p> como pai                         |
+| :focus               | input:focus           | Seleciona o elemento \<input\> que está focado                                                       |
+| :hover               | a:hover               | Seleciona um elemento \<a\> ao passar o mouse sobre ele                                              |
+| :in-range            | input:in-range        | Seleciona um elemento \<input\> cujo o valor esteja dentro de um range específico                    |
+| :invalid             | input:invalid         | Seleciona todos os elementos \<input\> que tenham valores inválidos                                  |
+| :lang(language)      | p:lang(it)            | Seleciona todos os elementos \<p\> que tenham um valor do atributo de linguagem iniciando com "it""" |
+| :last-child          | p:last-child          | Seleciona todos elementos \<p\> que seja os últimos filhos de um elemento pai específico             |
+| :last-of-type        | p:last-of-type        | Seleciona todos elementos \<p\> que sejam os ultimos filhos de um elemento pia específico            |
 | :link                | a:link                | Seleciona todos os links não visitados                                                             |
-| :not(selector)       | :not(p)               | Seleciona todos os elementos diferente de <p>                                                      |
-| :nth-child(n)        | p:nth-child(2)        | Seleciona todos os elementos <p> que são o segundo filho de um elemento pai específico             |
-| :nth-last-child(n)   | p:nth-last-child(2)   | Seleciona todos os elementos <p> que seja os penúltimos filhos de um elemento pai específico       |
-| :nth-last-of-type(n) | p:nth-last-of-type(2) | Seleciona todos os penúltimos elementos <p> contando a partir do ultimo filho                      |
-| :nth-of-type(n)      | p:nth-of-type(2)      | Seleciona o elemento <p> que seja o segundo elemento <p> do seu pai                                |
-| :only-of-type        | p:only-of-type        | Seleciona todos os elementos <p. que sejam os únicos elementos <p> do seu pai                      |
-| :only-child          | p:only-child          | Seleciona todos os elementos <p> que sejam os unicos filhos do seu pai                             |
-| :optional            | input:optional        | Seleciona o elemento <input> sem o atribbuto "required"""                                          |
-| :out-of-range        | input:out-of-range    | Seleciona o elemento <input. Com o valor fora do range especificado                                |
-| :read-only           | input:read-only       | Seleciona o elemento <input> com o atributo "readonly"""                                           |
-| :read-write          | input:read-write      | Seleciona o elemento <input> sem o atributo "readonly"""                                           |
-| :required            | input:required        | Seleciona o elemento <input> com o atribbuto "required"""                                          |
+| :not(selector)       | :not(p)               | Seleciona todos os elementos diferente de \<p\>                                                      |
+| :nth-child(n)        | p:nth-child(2)        | Seleciona todos os elementos \<p\> que são o segundo filho de um elemento pai específico             |
+| :nth-last-child(n)   | p:nth-last-child(2)   | Seleciona todos os elementos \<p\> que seja os penúltimos filhos de um elemento pai específico       |
+| :nth-last-of-type(n) | p:nth-last-of-type(2) | Seleciona todos os penúltimos elementos \<p\> contando a partir do ultimo filho                      |
+| :nth-of-type(n)      | p:nth-of-type(2)      | Seleciona o elemento \<p\> que seja o segundo elemento <p> do seu pai                                |
+| :only-of-type        | p:only-of-type        | Seleciona todos os elementos \<p\> que sejam os únicos elementos <p> do seu pai                      |
+| :only-child          | p:only-child          | Seleciona todos os elementos \<p\> que sejam os unicos filhos do seu pai                             |
+| :optional            | input:optional        | Seleciona o elemento \<input\> sem o atribbuto "required"                                          |
+| :out-of-range        | input:out-of-range    | Seleciona o elemento \<input\> Com o valor fora do range especificado                                |
+| :read-only           | input:read-only       | Seleciona o elemento \<input\> com o atributo "readonly"                                           |
+| :read-write          | input:read-write      | Seleciona o elemento \<input\> sem o atributo "readonly"                                           |
+| :required            | input:required        | Seleciona o elemento \<input\> com o atribbuto "required"                                          |
 | :root                | root                  | Seleciona o elemento raiz do documento                                                             |
 | :target              | #news:target          | Seleciona o elemento com o id #news (ao ser clicado)                                               |
-| :valid               | input:valid           | Seleciona todos os elementos <input> com valores válidos                                           |
-| :visited             | a:visited             | Seleciona todos os links visíveis                                                                  |
+| :valid               | input:valid           | Seleciona todos os elementos \<input\> com valores válidos                                           |
+| :visited             | a:visited             | Seleciona todos os links visíveis                                             
   
   
 [Link W3Schools](Link: https://www.w3schools.com/css/css_pseudo_classes.asp)
