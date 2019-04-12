@@ -13,8 +13,7 @@ Por padrão todos os elementos HTML têm o posicionamento estático (position: s
 ## Posição relativa
 Um elemento com posicionamento relativo é posicionado na tela com relação a sua posição original, ou seja, a posição estática. Quando alteramos a sua posição normal, o elemento deixa um buraco que não é preenchido por outros elementos próximos a ele.
 
-```
-<style>
+```css
   #el1{
       position: relative;
       left: 200px;
@@ -23,7 +22,6 @@ Um elemento com posicionamento relativo é posicionado na tela com relação a s
   #el2{
       position: static;
   }
-</style>
 ```
   
   
@@ -53,8 +51,7 @@ O elemento com posição absoluta, leva em consideração a posição do element
   
 **CSS**
 
-```
-<style>
+```css
   #el1{
       position: relative;
   }
@@ -64,7 +61,6 @@ O elemento com posição absoluta, leva em consideração a posição do element
       right: 0;
       bottom: 0;
   }
-</style>
 ```
   
   
@@ -91,8 +87,7 @@ Se o elemento não tivesse um pai, ele seria posicionado com relação a página
   
 **CSS**
 
-```
-<style>
+```css
   #el1{
       position: relative;
   }
@@ -102,7 +97,6 @@ Se o elemento não tivesse um pai, ele seria posicionado com relação a página
       right: 0;
       bottom: 0;
   }
-</style>
 ```
   
   
@@ -135,9 +129,7 @@ O elemento é posicionado de acordo com a tela na qual o website é mostrado. El
   
 **CSS**
 
-
-```
-<style>
+```css
   #el1{
       position: relative;
       top: 500px;
@@ -148,7 +140,6 @@ O elemento é posicionado de acordo com a tela na qual o website é mostrado. El
       right: 0;
       top: 0;
   }
-</style>
 ```
   
 ![Position fixed](imagens/position_fixed.gif)
@@ -162,8 +153,7 @@ O elemento é posicionado de acordo com a tela na qual o website é mostrado. El
 
 O elemento com posicionamento sticky possui na verdade duas propriedades de posicionamentos o relative e o fixed. Podemos posicioná-lo por exemplo no topo da página, desta forma, a posição inicial seria relative. Ao rolarmos a página para baixo quando o elemento atingisse o topo da página sua posição mudará para fixed.
 
-```
-<style>
+```css
   #el1, #el3{
       position: relative;
   }
@@ -173,7 +163,6 @@ O elemento com posicionamento sticky possui na verdade duas propriedades de posi
       position: sticky;
       top: 0;
   }
-</style>
 ```
   
   
@@ -193,13 +182,11 @@ Quando aplicamos um posicionamento ao elemento HTML, um elemento pode sobrepôs 
 Nós podemos mudar este comportamento através da propriedade z-index.
 
 
-```
-<style>
+```css
   #el3{
       position: relative;
       z-index: 1;
   }
-</style>
 ```
   
 ![Z-index](imagens/z_index.png)
@@ -215,13 +202,11 @@ O elemento com a propriedade z-index: 1 aparecerá na tela na frente, ou seja, a
 
 A propriedade position, também pode ser usada para posicionar uma imagem de background. Esta propriedade aceita até dois valores referentes aos eixos X (horizontal) e Y (vertical).
 
-```
-<style>
+```css
   #el3{
       background-position-x: 50px; 
       background-position-y: 50px;
   }
-</style>
 ```
   
 ![Background Position](imagens/background_position_x_y.png)
@@ -229,10 +214,8 @@ A propriedade position, também pode ser usada para posicionar uma imagem de bac
   
 Ou podemos declarar os valores dos eixos X e Y juntos com a propriedade background-position.
 
-```
-<style>
+```css
   #el3{ background-position: 50px 50px; }
-</style>
 ```
   
 Outros valores que podemos utilizar na propriedade background-position.
