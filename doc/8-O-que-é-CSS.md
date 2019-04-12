@@ -98,20 +98,22 @@ Os seletores servem para selecionar os elementos HTML que queremos aplicar um es
 Um seletor pode conter várias propriedades, cada uma deve ser separada por um ponto e vírgula “;” o navegador não faz distinção se as propriedades forem escritas na mesma linha ou em linhas diferentes desde que cada uma seja separada por um ponto e vírgula. O que delimita o início e o final do seletor são as chaves “{ }”.
 
 ```
-<style>
-  #paragrafo{
-      color: red;
-      font-size: 1em;
-  }
-</style>
+<html>
+  <style>
+    #paragrafo{
+        color: red;
+        font-size: 1em;
+    }
+  </style>
 ```
 
 É o mesmo que:
 
 ```
-<style>
-  #paragrafo{color: red;font-size: 1em;}
-</style>
+<html>
+  <style>
+    #paragrafo{color: red;font-size: 1em;}
+  </style>
 ```
   
   
