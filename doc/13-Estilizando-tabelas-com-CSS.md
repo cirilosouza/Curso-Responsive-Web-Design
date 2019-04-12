@@ -98,10 +98,10 @@ Retiramos do site a planilha abaixo. Para acessá-la basta clicar no link ou sob
 | Pseudo classe        | Exemplo de uso        | O que faz                                                                                          |
 |----------------------|-----------------------|----------------------------------------------------------------------------------------------------|
 | :active              | a:active              | Seleciona um link ativo                                                                            |
-| :checked             | input:checked         | Seleciona todo elemento de <input> checado                                                         |
-| :disabled            | input:disabled        | Seleciona todo elemento de <input> desabilitado                                                    |
-| :empty               | p:empty               | Seleciona todo elemento <p> que não tenha filhos                                                   |
-| :enabled             | input:enabled         | Seleciona todo elemento de <input> habilitado                                                      |
+| :checked             | input:checked         | Seleciona todo elemento de \<input\> checado                                                         |
+| :disabled            | input:disabled        | Seleciona todo elemento de \<input\> desabilitado                                                    |
+| :empty               | p:empty               | Seleciona todo elemento \<p\> que não tenha filhos                                                   |
+| :enabled             | input:enabled         | Seleciona todo elemento de \<input\> habilitado                                                      |
 | :first-child         | p:first-child         | Seleciona o primeiro filho do elemento \<p\>                                                         |
 | :first-of-type       | p:first-of-type       | Seleciona todos os elementos \<p\> que tenham um outro elemento <p> como pai                         |
 | :focus               | input:focus           | Seleciona o elemento \<input\> que está focado                                                       |
