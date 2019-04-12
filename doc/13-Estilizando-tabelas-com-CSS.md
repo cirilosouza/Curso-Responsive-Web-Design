@@ -8,11 +8,11 @@ Primeiro vamos mudar a fonte da nossa planilha para Montserrat. Vamos baixa-la d
 Através do seletor table, altere a propriedade font-family.
 
 ```
-<style>
-table{
-    font-family: 'Lato', sans-serif;
-}
-</style>
+<head>
+  <style>
+    table{ font-family: 'Lato', sans-serif; }
+  </style>
+</head>
 ```
   
   
@@ -41,7 +41,7 @@ A pseudo classe hover atribui um estilo ao elemento quando o usuário passa o mo
 ```
   
   
-![Pseudo Classe](./images/pseudo-classe.png)
+![Pseudo Classe](images/pseudo-classe.png)
 
   
   
@@ -59,7 +59,7 @@ Vamos supor que nós queremos que a nossa tabela tenha um estilo zebrado, onde a
 ```
   
   
-[!]()
+![]()
   
 
 
