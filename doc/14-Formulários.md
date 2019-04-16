@@ -150,7 +150,12 @@ O \<input\> é o elemento mais importante do formulário, serve para entrada de 
         <input type="button" value="Clique aqui" id="btn">
     </form>
 ```
-
+  
+  
+&nbsp;
+  
+   
+ ![Input text](imagens/input-text.png)
 
 
   
