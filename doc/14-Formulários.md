@@ -73,9 +73,9 @@ Se quisermos atualizar os dados, podemos utilizar o ```PUT```, que substitui tod
 O nosso código ficaria desta forma:
 
 ```html
-    <form action="/cadastro.html" method="POST">
-    	  Conteúdo do formulário aqui
-    </form>
+<form action="/cadastro.html" method="POST">
+  Conteúdo do formulário aqui
+</form>
 ```
   
   
@@ -93,13 +93,13 @@ O nosso código ficaria desta forma:
  O elemento \<label\> cria um pequeno texto, geralmente é utilizado antes dos elementos de \<input\> como descrição do campo, o atributo for indica a qual \<input\> aquele \<label\> pertence de acordo com o seu atributo id.
  
  ```html
-    <form action="/cadastro.html" method="POST">
-        <label for="rdf">Feminino</label>
-        <input type="radio" name="genero" value="F" id="rdf">
+<form action="/cadastro.html" method="POST">
+<label for="rdf">Feminino</label>
+<input type="radio" name="genero" value="F" id="rdf">
 
-        <label for="rdm">Masculino</label>
-        <input type="radio" name="genero" value="M" id="rdm">
-    </form>
+<label for="rdm">Masculino</label>
+<input type="radio" name="genero" value="M" id="rdm">
+</form>
 ```
   
   
@@ -141,14 +141,11 @@ O \<input\> é o elemento mais importante do formulário, serve para entrada de 
   
 
 ```html
-    <form action="/cadastro.html" method="POST">
-        <label for="Formulário de exemplo">Formulário de exemplo</label>
- <!-- Cria um campo de texto -->
-        <input placeholder="Digite seu texto aqui">
-
-<!-- Cria um botão com o texto "Clique aqui" -->
-        <input type="button" value="Clique aqui" id="btn">
-    </form>
+<form action="/cadastro.html" method="POST">
+	<label for="Formulário de exemplo">Formulário de exemplo</label>
+	<input placeholder="Digite seu texto aqui">
+	<input type="button" value="Clique aqui" id="btn">
+</form>
 ```
   
   
@@ -174,37 +171,37 @@ O atributo placeholder cria um valor padrão de preenchimento do input, muitos d
 Você pode agrupar elementos que façam parte do mesmo contexto utilizando o \<fildset\>, como por exemplo agrupar campos de endereço em um formulário.
 
 ```html
-    <h2>Formulario com fieldset</h2>
-    <form action="/cadastro.html" method="POST">
-      <label>Formulário de Cadastro</label>
-      <fieldset>
-        <p>
-          <label for="street">Endereço</label>
-          <input type="text" name="street" id="street">
-        </p>
-        <p>
-          <label for="number">N.</label>
-          <input type="number" name="numebr" id="number">
-        </p>        
-        <p>
-          <label for="neighborhood">Bairro</label>
-          <input type="text" name="neighborhood" id="neighborhood">
-        </p>        
-        <p>
-          <label for="zipcode">CEP</label>
-          <input type="number" name="zipcode" id="zipcode">
-        </p>  
-        <p>
-          <label for="city">Cidade</label>
-          <input type="text" name="city" id="city">
-        </p>   
-        <p>
-          <label for="state">Estado</label>
-          <input type="text" name="state" id="state">
-        </p>
-      </fieldset>
-      <input type="submit" name="send" value="Enviar" id="send">
-    </form>	
+<h2>Formulario com fieldset</h2>
+<form action="/cadastro.html" method="POST">
+	<label>Formulário de Cadastro</label>
+	<fieldset>
+		<p>
+		  <label for="street">Endereço</label>
+		  <input type="text" name="street" id="street">
+		</p>
+		<p>
+		  <label for="number">N.</label>
+		  <input type="number" name="numebr" id="number">
+		</p>        
+		<p>
+		  <label for="neighborhood">Bairro</label>
+		  <input type="text" name="neighborhood" id="neighborhood">
+		</p>        
+		<p>
+		  <label for="zipcode">CEP</label>
+		  <input type="number" name="zipcode" id="zipcode">
+		</p>  
+		<p>
+		  <label for="city">Cidade</label>
+		  <input type="text" name="city" id="city">
+		</p>   
+		<p>
+		  <label for="state">Estado</label>
+		  <input type="text" name="state" id="state">
+		</p>
+	</fieldset>
+	<input type="submit" name="send" value="Enviar" id="send">
+</form>	
 ```
   
   
@@ -217,8 +214,8 @@ Você pode agrupar elementos que façam parte do mesmo contexto utilizando o \<f
 Podemos utilizar também o elemento <legend> em conjunto com o \<fildeset\> para dar um nome para aquele conjunto de campos.
 
 ```html
-    <h2>Formulário com Legend</h2>
-    <form id="dados" method="post" action="">
+<h2>Formulário com Legend</h2>
+<form id="dados" method="post" action="">
       <fieldset> <!--traça uma borda-->
         <legend>Dados de Acesso</legend> <!--separa em blocos-->
         <p>
@@ -235,9 +232,8 @@ Podemos utilizar também o elemento <legend> em conjunto com o \<fildeset\> para
         <label for="senha"> Senha: </label>
         <input type="password" id="senha" placeholder="Sua senha" maxlength="5" required /> 
         </p>
-
       </fieldset>
-    </form>
+</form>
 ```
   
   
@@ -251,7 +247,7 @@ Podemos utilizar também o elemento <legend> em conjunto com o \<fildeset\> para
   
    
 ```html
-    <form id="dados" method="post" action="">
+<form id="dados" method="post" action="">
       <fieldset>
           <legend>Dados pessoais</legend>
           <p>
@@ -294,7 +290,7 @@ Podemos utilizar também o elemento <legend> em conjunto com o \<fildeset\> para
               <input type="file" id="arquivos"/>  
           </p>
       </fieldset>
-    </form>
+</form>
 ```
   
   
@@ -305,7 +301,7 @@ Podemos utilizar também o elemento <legend> em conjunto com o \<fildeset\> para
   
    
 ```html
-    <form action="">
+<form action="">
       <fieldset> 
         <legend>Controle HTML5</legend> 
         <p>
@@ -354,7 +350,7 @@ Podemos utilizar também o elemento <legend> em conjunto com o \<fildeset\> para
       </fieldset>
       <input type="submit" value="Enviar dados">
       <input type="reset" value="Apagar">
-     </form>
+</form>
 ```
   
   
@@ -369,14 +365,14 @@ Podemos utilizar também o elemento <legend> em conjunto com o \<fildeset\> para
 O \<select\> cria uma lista drop-down, ao clicarmos sobre ele, ele abre um pequeno menu com diversas opções. Estas opções são definidas pelo elemento \<option\>.
 
 ```html
-		<form action="/animais.html" method="GET">
-			<select name="animais">
-				<option value="gato">Gato</option>
-				<option value="cachorro">Cachorro</option>
-				<option value="papagaio">Papagaio</option>
-				<option value="periquito">Periquito</option>
-			</select>
-		</form>
+<form action="/animais.html" method="GET">
+	<select name="animais">
+		<option value="gato">Gato</option>
+		<option value="cachorro">Cachorro</option>
+		<option value="papagaio">Papagaio</option>
+		<option value="periquito">Periquito</option>
+	</select>
+</form>
 ```
   
   
@@ -396,10 +392,10 @@ Por padrão sempre a primeira opção virá selecionada, porém é possível mud
 O elemento \<textarea\> cria um campo onde é possível inserir um texto grande, a diferença entre ele e um \<input\> é que com o \<textarea\> é possível configurar a quantidade de linhas que o elemento terá, limitando desta forma a quantidade de caracteres do campo com o atributo rows. Também é possível configurar o tamanho do campo como o atributo cols.
  
 ```html
-    <form action="/cadastro.html" method="GET">
-        <textarea cols="30" rows="3"> 
-        </textarea>
-    </form>
+<form action="/cadastro.html" method="GET">
+	<textarea cols="30" rows="3"> 
+	</textarea>
+</form>
 ```
 
 Se a quantidade de texto for maior que o campo, podemos dar um scroll com o mouse dentro dele para ler todo o texto. Ou podemos redimensionar clicando na borda inferior direita.
@@ -413,16 +409,16 @@ Se a quantidade de texto for maior que o campo, podemos dar um scroll com o mous
 Com o surgimento do HTML5 novos elementos de formulário foram criados, como por exemplo o \<datalist\> e o \<output\>. O \<datalist\> cria um conjunto de opções pré-definidas para um \<input\>. Porém temos que ter um certo cuidado porque estas opções podem não ser mostradas em navegadores antigos, é preciso consultar a lista de navegadores suportados antes de utilizá-lo.
 
 ```html
-    <form action="/browsers.html">
-        <input list="browsers">
-        <datalist id="browsers">
-            <option value="Internet Explorer">
-            <option value="Firefox">
-            <option value="Chrome">
-            <option value="Opera">
-            <option value="Safari">
-        </datalist> 
-    </form>
+<form action="/browsers.html">
+	<input list="browsers">
+	<datalist id="browsers">
+	    <option value="Internet Explorer">
+	    <option value="Firefox">
+	    <option value="Chrome">
+	    <option value="Opera">
+	    <option value="Safari">
+	</datalist> 
+</form>
 ```
   
   ![Datalist](imagens/datalist.png)
@@ -451,33 +447,33 @@ O \<output\>, retorna o resultado de um cálculo matemático. Para que o cálcul
 Para fazer isso, vamos inserir no nosso formulário os elementos \<input\> e \<output\>. É importante alterarmos o type dos \<input\>s para number, caso contrário ocorrerá um erro ao fazer o cálculo. 
 
 ```html
-    <form>
-        <input type="number" id="a">
-        <input type="number" id="b">
-       <output id="x"></output>
-    </form>
+<form>
+	<input type="number" id="a">
+	<input type="number" id="b">
+	<output id="x"></output>
+</form>
 ```
   
   
 Feito isso, vamos inserir o atributo for ao nosso <output> o for será responsável por fazer o relacionamento entre os campos do formulário, ou seja, quais campos serão usados para o cálculo matemático.
 
 ```html
-    <form>
-        <input type="number" id="a">
-        <input type="number" id="b">
-        <output for="a b" id="x"></output>
-    </form>
+<form>
+	<input type="number" id="a">
+	<input type="number" id="b">
+	<output for="a b" id="x"></output>
+</form>
 ```
   
   
 Agora precisamos falar para o formulário como o cálculo deve ser feito, utilizaremos o atributo oninput, este atributo captura tudo o que é inserido nos \<input\>s.
 
 ```html
-    <form oninput="x.value=parseFloat(a.value) + parseFloat(b.value)">
-        <input type="number" id="a"> +
-        <input type="number" id="b"> =
-        <output for="a b" id="x"></output>
-    </form>
+<form oninput="x.value=parseFloat(a.value) + parseFloat(b.value)">
+	<input type="number" id="a"> +
+	<input type="number" id="b"> =
+	<output for="a b" id="x"></output>
+</form>
 ```
   
   
@@ -573,9 +569,9 @@ Ao inserirmos um e-mail inválido o formulário altera a cor da borda para verme
 Para fazer isso, usaremos os pseudos seletores :valid e :invalid no CSS.
 
 ```css
-    form input:invalid{
-        border: 1px solid red;
-    }
+form input:invalid{
+	border: 1px solid red;
+}
 ```
   
   
@@ -597,7 +593,7 @@ Para  \<input type="text"\> e \<textare\a> utilizamos os atributos minlength e m
 O minlength valida o tamanho mínimo de caracteres do campo, por exemplo: 
 
 ```html
-    <input type="text" minlength="5">
+<input type="text" minlength="5">
 ```
 
 Isso indica que o campo deve ter no mínimo 5 caracteres. 
@@ -612,7 +608,7 @@ Isso indica que o campo deve ter no mínimo 5 caracteres.
 Já o maxlegth é o oposto, ele verifica o tamanho máximo do campo. O exemplo abaixo configura que o tamanho máximo do campo será de 10 caracteres, perceba que o próprio formulário não permite inserirmos mais do que 10 caracteres.
 
 ```html
-    <input type="text" minlength="5" maxlength="10">
+<input type="text" minlength="5" maxlength="10">
 ```
   
   
