@@ -152,12 +152,213 @@ O \<input\> é o elemento mais importante do formulário, serve para entrada de 
 ```
   
   
+ ![Input text](imagens/input-text.png)
+   
+  
 &nbsp;
   
    
- ![Input text](imagens/input-text.png)
+### Atributo size: 
 
+O atributo size serve para configurarmos a quantidade de caracteres aceitas pelo \<input\>. Atualmente controlamos o size através de CSS mas em alguns casos você poderá dar manutenção em um código antigo.
 
+### Atributo name:
+
+Quando enviamos os dados do formulário para o servidor, geralmente uma linguagem de programação como o Javascript está por trás no servidor e irá capturar esses dados para trata-los antes de enviar para um banco de dados. Para trata-los ela precisará saber algo que identifica a origem daquele dado, para isso utilizamos o atributo name.  
+
+### Atributo placeholder:
+
+O atributo placeholder cria um valor padrão de preenchimento do input, muitos desenvolvedores utilizam o placeholder como uma dica de como aquele campo deve ser preenchido.
+
+### Elemento Fildset:
+Você pode agrupar elementos que façam parte do mesmo contexto utilizando o \<fildset\>, como por exemplo agrupar campos de endereço em um formulário.
+
+```html
+    <h2>Formulario com fieldset</h2>
+    <form action="/cadastro.html" method="POST">
+      <label>Formulário de Cadastro</label>
+      <fieldset>
+        <p>
+          <label for="street">Endereço</label>
+          <input type="text" name="street" id="street">
+        </p>
+        <p>
+          <label for="number">N.</label>
+          <input type="number" name="numebr" id="number">
+        </p>        
+        <p>
+          <label for="neighborhood">Bairro</label>
+          <input type="text" name="neighborhood" id="neighborhood">
+        </p>        
+        <p>
+          <label for="zipcode">CEP</label>
+          <input type="number" name="zipcode" id="zipcode">
+        </p>  
+        <p>
+          <label for="city">Cidade</label>
+          <input type="text" name="city" id="city">
+        </p>   
+        <p>
+          <label for="state">Estado</label>
+          <input type="text" name="state" id="state">
+        </p>
+      </fieldset>
+      <input type="submit" name="send" value="Enviar" id="send">
+    </form>	
+```
+  
+  
+![fieldset](imagens/fieldset.png)
+  
+  
+&nbsp;
+  
+   
+Podemos utilizar também o elemento <legend> em conjunto com o \<fildeset\> para dar um nome para aquele conjunto de campos.
+
+```html
+    <h2>Formulário com Legend</h2>
+    <form id="dados" method="post" action="">
+      <fieldset> <!--traça uma borda-->
+        <legend>Dados de Acesso</legend> <!--separa em blocos-->
+        <p>
+        <label for="nome" > Nome: </label>
+        <input type="text" id="nome" placeholder="Seu nome completo" required autofocus /> <!--Input type: tipo da entrada, placeholder: exemplo de preenchimento-->
+        </p>
+
+        <p>
+        <label for="usuario"> Usuário: </label>
+        <input type="text" id="usuario" placeholder="Seu usuário" required /> 
+        </p>
+
+        <p>
+        <label for="senha"> Senha: </label>
+        <input type="password" id="senha" placeholder="Sua senha" maxlength="5" required /> 
+        </p>
+
+      </fieldset>
+    </form>
+```
+  
+  
+&nbsp;
+  
+   
+![Legend](imagens/legend.png)
+  
+  
+&nbsp;
+  
+   
+```html
+    <form id="dados" method="post" action="">
+      <fieldset>
+          <legend>Dados pessoais</legend>
+          <p>
+              <label for="formacao">Formação:</label>
+              <select id="formacao">
+                  <option value="-1">Selecione uma opção</option>
+                  <option value="Ensino Fundamental">Ensino Fundamental</option>
+                  <option value="Ensino Médio">Ensino Médio</option>
+                  <option value="Graduação">Graduação</option>
+                  <option value="MBA">MBA</option>
+                  <option value="Mestrado">Mestrado</option>
+                  <option value="Doutorado">Doutorado</option>
+              </select>
+          </p>
+
+          <p>
+              <label for="sexo">Sexo:</label>
+              <input type="radio" name="sexo" value="masculino" id="masc" />
+              <label for="masc"> Masculino </label> 
+              <input type="radio" name="sexo" value="feminino" id="fem"/> 
+              <label for="fem"> Feminino </label>
+          </p>
+
+          <p>
+              <label for="preferencias">Preferências:</label>
+              <input type="checkbox" name="praia" value="praia" id="praia" checked/> 
+              <label for="praia">Praia</label> <!--clicar na palavra pra selecionar-->
+              <input type="checkbox" name="selva" value="selva"/> Selva
+              <input type="checkbox" name="campo" value="campo"/> Campo
+              <input type="checkbox" name="montanha" value="montanha"/> Montanha
+          </p>
+
+          <p>
+              <label for="coment">Comentários</label><br/>
+              <textarea placeholder="Fala ai rapaz"></textarea>
+          </p>
+
+          </p>
+              <label for="arquivos">Enviar arquivos</label><br/>
+              <input type="file" id="arquivos"/>  
+          </p>
+      </fieldset>
+    </form>
+```
+  
+  
+![Inputs diversos](imagens/inputs-diversos.png)
+  
+  
+&nbsp;
+  
+   
+```html
+    <form action="">
+      <fieldset> 
+        <legend>Controle HTML5</legend> 
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+        </p>
+        <p>
+          <label for="apartamento">Apartamento:</label>
+          <input type="number" id="apartamento" required />
+        </p>
+
+        <p>
+          <label for="buscar">Pesquisa:</label>
+          <input type="search" id="buscar" required />
+        </p>
+
+        <p>
+          <label for="site">Seu site:</label>
+          <input type="url" id="site" required />
+        </p>
+
+        <p>
+          <label for="nascimento">Data de nascimento:</label>
+          <input type="date" id="nascimento" required />
+        </p>
+
+        <p>
+          <label for="hora">Hora de nascimento:</label>
+          <input type="time" id="hora" required />
+        </p>
+
+        <p>
+          <label for="entrega">Data e hora de entrega:</label>
+          <input type="datetime-local" id="entrega" required />
+        </p>
+
+        <p><!-- renderiza a paleta de cores do seu sistema -->
+          <label for="fileira">Fileira cor:</label>
+          <input type="color" id="fileira" required />
+        </p>
+
+        <p><!-- cria escala de valores -->
+          <label for="escala">Selecione a luminosidade:</label>
+          <input type="range" id="escala" min="10" max="20" step="5" required />
+        </p>
+      </fieldset>
+      <input type="submit" value="Enviar dados">
+      <input type="reset" value="Apagar">
+     </form>
+```
+  
+  
+![Form HTML5](imagens/form-html5.png)
   
   
 &nbsp;
