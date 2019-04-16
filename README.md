@@ -59,7 +59,7 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 18. [O que é um View Port?]()
 19. [Construindo um sistema de grid]()
 20. [Media Queries]()
-21. [Flexbox]()
+21. [Facilitand a vida com Flexbox]()
   
  
 
