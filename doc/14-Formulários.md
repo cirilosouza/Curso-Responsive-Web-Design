@@ -94,11 +94,11 @@ O nosso código ficaria desta forma:
  
  ```html
 <form action="/cadastro.html" method="POST">
-<label for="rdf">Feminino</label>
-<input type="radio" name="genero" value="F" id="rdf">
+	<label for="rdf">Feminino</label>
+	<input type="radio" name="genero" value="F" id="rdf">
 
-<label for="rdm">Masculino</label>
-<input type="radio" name="genero" value="M" id="rdm">
+	<label for="rdm">Masculino</label>
+	<input type="radio" name="genero" value="M" id="rdm">
 </form>
 ```
   
