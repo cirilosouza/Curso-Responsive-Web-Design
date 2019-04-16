@@ -364,6 +364,266 @@ Podemos utilizar também o elemento <legend> em conjunto com o \<fildeset\> para
 &nbsp;
   
    
+### Elemento Select:
+
+O \<select\> cria uma lista drop-down, ao clicarmos sobre ele, ele abre um pequeno menu com diversas opções. Estas opções são definidas pelo elemento \<option\>.
+
+```html
+		<form action="/animais.html" method="GET">
+			<select name="animais">
+				<option value="gato">Gato</option>
+				<option value="cachorro">Cachorro</option>
+				<option value="papagaio">Papagaio</option>
+				<option value="periquito">Periquito</option>
+			</select>
+		</form>
+```
+  
+  
+![Select](imagens/select1.png)
+![Select](imagens/select2.png)
+![Select](imagens/select3.png)
+  
+  
+Por padrão sempre a primeira opção virá selecionada, porém é possível mudar este comportamento utilizando o atributo vazio selected no elemento que você deseja que apareça selecionado.
+  
+  
+&nbsp;
+  
+   
+### Elemento Textarea:
+
+O elemento \<textarea\> cria um campo onde é possível inserir um texto grande, a diferença entre ele e um \<input\> é que com o \<textarea\> é possível configurar a quantidade de linhas que o elemento terá, limitando desta forma a quantidade de caracteres do campo com o atributo rows. Também é possível configurar o tamanho do campo como o atributo cols.
+ 
+```html
+    <form action="/cadastro.html" method="GET">
+        <textarea cols="30" rows="3"> 
+        </textarea>
+    </form>
+```
+
+Se a quantidade de texto for maior que o campo, podemos dar um scroll com o mouse dentro dele para ler todo o texto. Ou podemos redimensionar clicando na borda inferior direita.
+  
+  
+&nbsp;
+  
+   
+### Elemento Datalist:
+
+Com o surgimento do HTML5 novos elementos de formulário foram criados, como por exemplo o \<datalist\> e o \<output\>. O \<datalist\> cria um conjunto de opções pré-definidas para um \<input\>. Porém temos que ter um certo cuidado porque estas opções podem não ser mostradas em navegadores antigos, é preciso consultar a lista de navegadores suportados antes de utilizá-lo.
+
+```html
+    <form action="/browsers.html">
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist> 
+    </form>
+```
+  
+  ![Datalist](imagens/datalist.png)
+  
+  
+&nbsp;
+  
+   
+| NAVEGADORES SUPORTADOS   |               |
+|--------------------------|---------------|
+| NAVEGADOR                | VERSÃO MÍNIMA |
+| Chrome                   | 20.0          |
+| Internet Explorer / Edge | 10.0          |
+| Firefox                  | 4.0           |
+| Opera                    | 9.0           |
+| Safari                   | Não suportado |
+
+  
+  
+&nbsp;
+  
+   
+### Elemento Output:
+
+O \<output\>, retorna o resultado de um cálculo matemático. Para que o cálculo seja efetuado precisamos informar ao formulário que ele deve ser feito, caso o contrário ele não irá realizar o cálculo.
+Para fazer isso, vamos inserir no nosso formulário os elementos \<input\> e \<output\>. É importante alterarmos o type dos \<input\>s para number, caso contrário ocorrerá um erro ao fazer o cálculo. 
+
+```html
+    <form>
+        <input type="number" id="a">
+        <input type="number" id="b">
+       <output id="x"></output>
+    </form>
+```
+  
+  
+Feito isso, vamos inserir o atributo for ao nosso <output> o for será responsável por fazer o relacionamento entre os campos do formulário, ou seja, quais campos serão usados para o cálculo matemático.
+
+```html
+    <form>
+        <input type="number" id="a">
+        <input type="number" id="b">
+        <output for="a b" id="x"></output>
+    </form>
+```
+  
+  
+Agora precisamos falar para o formulário como o cálculo deve ser feito, utilizaremos o atributo oninput, este atributo captura tudo o que é inserido nos \<input\>s.
+
+```html
+    <form oninput="x.value=parseFloat(a.value) + parseFloat(b.value)">
+        <input type="number" id="a"> +
+        <input type="number" id="b"> =
+        <output for="a b" id="x"></output>
+    </form>
+```
+  
+  
+Basicamente o que nós falamos ao formulário foi, “ao serem inseridos números (oninput), atribua ao elemento X (x.value) o resultado da soma entre A e B (parseFloat(a.value) + parseFloat(b.value))”. 
+  
+  
+![Output](imagens/output.png)
+  
+  
+&nbsp;
+  
+   
+Para saber mais sobre formulários, visite a página do (Mozilla)[https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Forms/The_native_form_widgets]
+  
+  
+&nbsp;
+  
+   
+## Para onde vão os dados do formulário?
+  
+  
+&nbsp;
+  
+   
+A arquitetura básica da web é baseada no modelo de cliente / servidor, ou seja, um cliente (nossos celulares, computadores, tablets, etc) enviam solicitações através de um protocolo de rede para servidores (servidores que provêm um serviço na web). É obvio que não é algo tão simples assim, a infraestrutura de rede é muito mais complexa, porém não é o nosso objetivo estudá-la em detalhes neste curso. 
+Cada dispositivo em uma rede possui um endereço IP (endereço que identifica o dispositivo dentro da rede). Este endereço é único dentro da rede no qual está inserido. 
+Cada dispositivo se comunica com os outros através de um protocolo de rede, existem diversos protocolos de rede e cada um é responsável por um tipo de comunicação eles são padrões internacionais definidos por organizações regulatórias. 
+O protocolo padrão usado para a navegação na Internet é o **HTTP**. A sigla HTTP significa **H**yperText **T**ransfer **P**rotocol (*Protocolo de Transferência de HiperTexto* ).
+
+Além do HTTP existem outros protocolos de navegação na Internet, tais como: 
+
+* **HTTPS** (Faz a mesma coisa que o HTTP, porém de forma segura criando um túnel de comunicação entre o cliente e o servidor, desta forma, ninguém fora deste túnel consegue acessar as informações que estão sendo trocadas);
+* **FTP** File Transfer Protocol (Serve para transferir arquivos de dispositivo para o outro);
+* **SFTP** Secure File Transfer Protocol (Faz a mesma coisa que o FTP, porém de forma segura utilizando um protocolo de segurança que encripta a mensagem).
+  
+  
+O protocolo HTTP faz a comunicação entre cliente e servidor através de mensagens, o cliente envia uma solicitação (*request*) e o servidor envia uma resposta (*response*).
+  
+  
+![Arquitetura cliente/servidor](imagens/cliente-servidor.png)
+  
+  
+&nbsp;
+  
+   
+```
+Exemplo de um request HTTP:
+Request URL: https://developer.mozilla.org/pt-BR/
+Request Method: GET
+Status Code: 200 
+Remote Address: 52.85.160.217:443
+Referrer Policy: no-referrer-when-downgrade
+```
+  
+  
+Perceba que o campo **Request Method** possui o valor **GET**, isso não parece familiar? Lembra do atributo method do elemento \<form\>?. Pois é, no lado do cliente um formulário **HTML** é nada mais do que uma maneira amigável para configurar uma solicitação HTTP para enviar dados para um servidor. Isso permite que o usuário forneça informações a serem entregues na solicitação.
+O que define como essas informações serão enviadas ao servidor são os atributos method e action (que já falamos anteriormente). 
+O atributo method define a forma como o protocolo HTTP irá trabalhar, dependendo do valor atribuído a ele, o protocolo HTTP trabalhará de forma diferente. Por exemplo, se utilizarmos o valor GET, o protocolo saberá que nós estamos solicitando uma informação do servidor, desta forma, ele retornará algo como resposta da nossa solicitação.
+  
+  
+Se quiser saber mais sobre o protocolo HTTP, o site da [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview) 
+  
+  
+&nbsp;
+  
+   
+
+## Validando dados do formulário:
+  
+  
+&nbsp;
+  
+   
+Existem dois motivos pelo qual devemos validar os dados do formulário antes de enviá-lo para um servidor. O primeiro e primordial é por razão de segurança, por serem campos que permitem a entrada de dados, os formulários geralmente são a porta de entrada para hackers inserirem códigos maliciosos.
+O segundo motivo são os usuários, é claro! Desta forma, evitamos que por engano insiram dados que não correspondam ao esperado pelo campo e podemos dar um retorno visual informando que aquele dado não é o esperado.
+Existem duas formas de fazermos a validação dos dados, a primeira é do lado do cliente e segunda do lado do servidor. Nós iremos tratar da validação feita do lado do cliente, ela pode ocorrer em dois momentos, o primeiro durante a inserção do dado no campo do formulário e a segunda após a inserção do dado.
+A validação feita durante a inserção é chamada de built-in validation, ou seja, é inserida por padrão quando utilizamos o atributo type. Um elemento com o atributo type="email" vai permitir que somente que endereços de e-mail sejam inseridos dentro do campo, se colocarmos qualquer outro valor que não seja um e-mail o navegador irá por padrão emitir uma notificação. 
+  
+  
+![Input email](imagens/input-email.png)
+  
+  
+&nbsp;
+  
+   
+Podemos mostrar ao usuário de forma visual que o que o dado inserido no campo está correto ou não simplesmente alterando a cor da borda do campo, como o Google faz quando vamos acessar a conta do GMAIL por exemplo.
+Ao inserirmos um e-mail inválido o formulário altera a cor da borda para vermelho, se estiver correto ele simplesmente passa para a próxima fase que pede para o usuário digitar a senha.
+  
+  
+![Gmail](imagens/form-gmail.png)
+  
+  
+Para fazer isso, usaremos os pseudos seletores :valid e :invalid no CSS.
+
+```css
+    form input:invalid{
+        border: 1px solid red;
+    }
+```
+  
+  
+![Gmail](imagens/input-email-erro.png)
+  
+  
+&nbsp;
+  
+   
+Os elementos do tipo \<input\> e \<textarea\> possuem uma validação da quantidade de caracteres que podem ser inseridos pelo usuário, porém esta validação muda de acordo com o type do elemento.
+Para  \<input type="text"\> e \<textare\a> utilizamos os atributos minlength e maxlength.
+  
+  
+&nbsp;
+  
+   
+### Atributo Minlength & Maxlength:
+
+O minlength valida o tamanho mínimo de caracteres do campo, por exemplo: 
+
+```html
+    <input type="text" minlength="5">
+```
+
+Isso indica que o campo deve ter no mínimo 5 caracteres. 
+  
+  
+![Minlength](imagens/input-minlength.png)
+  
+  
+&nbsp;
+  
+   
+Já o maxlegth é o oposto, ele verifica o tamanho máximo do campo. O exemplo abaixo configura que o tamanho máximo do campo será de 10 caracteres, perceba que o próprio formulário não permite inserirmos mais do que 10 caracteres.
+
+```html
+    <input type="text" minlength="5" maxlength="10">
+```
+  
+  
+![Maxlength](imagens/input-maxlength.png)
+  
+  
+  
+  
+&nbsp;
+  
+   
 [< Retornar à página principal](../README.md)
   
   
