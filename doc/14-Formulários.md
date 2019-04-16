@@ -615,6 +615,24 @@ Já o maxlegth é o oposto, ele verifica o tamanho máximo do campo. O exemplo a
 ![Maxlength](imagens/input-maxlength.png)
   
   
+&nbsp;
+  
+   
+### Atributo Min & Max:
+
+Para os campos numéricos existe uma validação semelhante, porém os atributos são min e max.
+
+```html
+<form>
+	<label for="name">Este é um campo numérico</label>
+	<input type="number" min="1" max="100">
+</form>
+```
+  
+  
+![Min](imagens/input-min.png)
+![Max](imagens/input-max.png)
+  
   
   
 &nbsp;
