@@ -31,9 +31,19 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
   
   
 &nbsp;
+  
+  
+  
 ## ÍNDICE
-
-### HTML e CSS Básico
+ 
+  
+&nbsp;
+  
+  
+## Básico
+  
+  
+### HTML e CSS 
 1. [Convenções](/doc/1-Convencoes.md)  
 2. [HTML Básico](/doc/2-HTML-Basico.md)  
 3. [Trabalhando com textos](/doc/3-Trabalhando-com-texto.md)  
@@ -53,13 +63,26 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
   
 &nbsp;
   
-### HTML e CSS Intermediário
+  
+## Intermediário
+  
+  
+### HTML e CSS
 16. [Um pouco mais de HTML](/doc/16-Um-pouco-mais-de-HTML.md) 
 17. [Páginas Responsivas](/doc/17-Páginas-Responsivas.md)
 18. [O que é um View Port?]()
 19. [Construindo um sistema de grid]()
 20. [Media Queries]()
 21. [Facilitand a vida com Flexbox]()
+22. [Multimídia]()
+22. [Efeitos legais com Transição e Animação]()
+ 
+  
+&nbsp;
+  
+  
+### Introdução ao Javascript
+23. [Introdução ao Javascript]()
   
  
 
