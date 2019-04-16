@@ -112,7 +112,8 @@ O \<input\> é o elemento mais importante do formulário, serve para entrada de 
   
   
   * Atributo type: Aqui temos alguns valores que podemos colocar no atributo type
-  | ﻿Valor          | Descrição                                                                                                                    |
+  
+| Valor          | Descrição                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------|
 | button         | Cria um botão clicável.                                                                                                      |
 | checkbox       | Cria um capo de checkbox onde múltiplas opções podem ser selecionadas.                                                       |
