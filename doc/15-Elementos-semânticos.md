@@ -312,14 +312,14 @@ As vezes pode ocorrer situações onde não será possível utilizarmos elemento
 Outros elementos semânticos
   
   
-| Elemento                                                             | O que faz |
-|----------------------------------------------------------------------|-----------|
-| <details>                                                            | Define detalhes adicionais que podem ser exibidos ou ocultados. |
-| <figcaption>                                                         | Define uma legenda para uma imagem, usado somente com a tag <figure> | 
-| <figure>                                                             | Define ilustrações, diagramas, fotos, etc           |
-| <mark>                                                               | Deixa um texto marcado de amarelo                   | 
-| <summary>                                                            | Define um cabeçalho visível para o elemento <details>|
-| <time>                                                               | Define data e hora |
+| Elemento     | O que faz                                                            |
+|--------------|----------------------------------------------------------------------|
+| <details>    | Define detalhes adicionais que podem ser exibidos ou ocultados.      |
+| <figcaption> | Define uma legenda para uma imagem, usado somente com a tag <figure> |
+| <figure>     | Define ilustrações, diagramas, fotos, etc                            |
+| <mark>       | Deixa um texto marcado de amarelo                                    |
+| <summary>    | Define um cabeçalho visível para o elemento <details>                |
+| <time>       | Define data e hora                                                   |
   
   
 &nbsp;
