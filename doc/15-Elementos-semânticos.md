@@ -318,7 +318,7 @@ Outros elementos semânticos
 | [\<figcaption\>](https://www.w3schools.com/tags/tag_figcaption.asp) | Define uma legenda para uma imagem, usado somente com a tag \<figure\> |
 | [\<figure\>](https://www.w3schools.com/tags/tag_figure.asp)     | Define ilustrações, diagramas, fotos, etc                            |
 | [\<mark\>](https://www.w3schools.com/tags/tag_mark.asp)       | Deixa um texto marcado de amarelo                                    |
-| [\<summary\> ](https://www.w3schools.com/tags/tag_summary.asp)   | Define um cabeçalho visível para o elemento <details>                |
+| [\<summary\> ](https://www.w3schools.com/tags/tag_summary.asp)   | Define um cabeçalho visível para o elemento \<details\>                |
 | [\<time\> ](https://www.w3schools.com/tags/tag_time.asp)       | Define data e hora                                                   |
   
   
