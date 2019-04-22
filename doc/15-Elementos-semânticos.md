@@ -314,12 +314,12 @@ Outros elementos semânticos
   
 | Elemento     | O que faz                                                            |
 |--------------|----------------------------------------------------------------------|
-| \<details\>    | Define detalhes adicionais que podem ser exibidos ou ocultados.      |
-| \<figcaption\> | Define uma legenda para uma imagem, usado somente com a tag <figure> |
-| \<figure\>     | Define ilustrações, diagramas, fotos, etc                            |
-| \<mark\>       | Deixa um texto marcado de amarelo                                    |
-| \<summary\>    | Define um cabeçalho visível para o elemento <details>                |
-| \<time\>       | Define data e hora                                                   |
+| [\<details\>](https://www.w3schools.com/tags/tag_details.asp)    | Define detalhes adicionais que podem ser exibidos ou ocultados.      |
+| [\<figcaption\>](https://www.w3schools.com/tags/tag_figcaption.asp) | Define uma legenda para uma imagem, usado somente com a tag \<figure\> |
+| [\<figure\>](https://www.w3schools.com/tags/tag_figure.asp)     | Define ilustrações, diagramas, fotos, etc                            |
+| [\<mark\>](https://www.w3schools.com/tags/tag_mark.asp)       | Deixa um texto marcado de amarelo                                    |
+| [\<summary\> ](https://www.w3schools.com/tags/tag_summary.asp)   | Define um cabeçalho visível para o elemento <details>                |
+| [\<time\> ](https://www.w3schools.com/tags/tag_time.asp)       | Define data e hora                                                   |
   
   
 &nbsp;
