@@ -1,4 +1,4 @@
-# HTML Intermediário – Páginas Responsivas
+# Páginas Responsivas
   
   
 &nbsp;
@@ -24,7 +24,7 @@ O conceito principal do Web Design responsivo é que uma página não deve perde
 ![Desktop](imagens/desktop.png)
 Desktop
 
-![Tablets](imagens/tablets.png)
+![Tablets](imagens/tablet.png)
 Tablets
 
 ![Mobile](imagens/mobile.png)
