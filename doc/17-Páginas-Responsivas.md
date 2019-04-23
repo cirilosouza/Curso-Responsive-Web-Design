@@ -39,20 +39,6 @@ No site [rockcontent.com](https://rockcontent.com/blog/web-design-responsivo/), 
 &nbsp;
   
   
-## O que é um View Port?
-  
-  
-&nbsp;
-  
-  
-O Viewport é a área visível para o usuário, ou seja, a janela do navegador onde o site será mostrado. A largura do viewport pode variar de acordo com o dispositivo, telas de smartphones são menores do que telas de desktops. Antes do surgimento dos smartphones, as páginas web eram apresentadas somente em desktops (computadores) então era muito comum desenvolver o site com tamanhos fixos (px), hoje, não sabemos como o site será acessado, se utilizarmos valores fixos o usuário de um smartphone pode ser prejudicado ao visualizar o site.
-A maioria dos navegadores hoje, aplicam o que chamamos de zoon out na página, ou seja, uma página que não é responsiva é reduzida até que o conteúdo caiba na tela. Isso está longe do ideal!
-
-  
-  
-&nbsp;
-  
-  
 [< Retornar à página principal](../README.md)
   
   
