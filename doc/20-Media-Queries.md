@@ -1,6 +1,9 @@
 # Media Queries
-
-
+  
+  
+&nbsp;
+  
+  
 O media query foi inserido no CSS3, e através dele criamos regras onde informamos ao navegador quais configurações devem ser aplicadas quando uma condição for verdadeira.
 
 ```css
