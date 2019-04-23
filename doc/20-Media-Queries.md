@@ -112,6 +112,8 @@ O media query também pode verificar a orientação na qual o dispositivo está 
   
 Sabe aqueles valores em PX que usamos para as imagens até agora? Esquece! Uma imagem pode ser exibida desde um relógio até uma TV 4k, elas ficam legais na tela de um computador, agora imagina usar um valor fixo em PX e mostrar a mesma imagem em um smartphone (provavelmente você teria que dar um scroll lateral para ver a imagem toda) ou em uma TV 4k (provavelmente ela ficaria pequena demais na tela). Então para resolver isso, nós usamos valores relativos em ( % ) porcentagem. Desta forma, independente do tamanho da janela essa imagem sempre ocupará a porcentagem definida.
 
+##### html
+
 ```html
     <section class="row">
         <section class="col-12">
@@ -119,6 +121,8 @@ Sabe aqueles valores em PX que usamos para as imagens até agora? Esquece! Uma i
         </section>
     </section>
 ```
+
+#### CSS
 
 ```css
 section{
