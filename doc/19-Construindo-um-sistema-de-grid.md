@@ -105,7 +105,7 @@ Podemos fazer isso utilizando o float (que já vimos anteriormente) ou o Flex-bo
 ```
   
   
-![Layout Grid](imagens/layot-grid.png)
+![Layout Grid](imagens/layout-grid.png)
 
   
   
@@ -126,34 +126,45 @@ Nós criamos a classe row, porque cada novo item da página será mostrado em um
     <title>Exemplo de Grid</title>
 </head>
 <body>
-    <header class=”row”>
-        <nav class=”col col-12 menu”>
-            <ul>
-                <li><a href=”#”>Item 1</a></li>
-                <li><a href=”#”>Item 2</a></li>
-                <li><a href=”#”>Item 2</a></li>
-            </ul>
-        </nav>
+    <header class=”container”>
+        <section class="row">
+            <section class="col col-12">
+                <nav class="menu">
+                    <ul>
+                        <li><a href=”#”>Item 1</a></li>
+                        <li><a href=”#”>Item 2</a></li>
+                        <li><a href=”#”>Item 2</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </section> 
     </header>
-    <main class=”row”>
-        <aside class=”col col-3 aside”>
-            <h2>Aside</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam fugiat nulla veniam nemo quod assumenda eligendi nostrum a illo incidunt
-            </p>
-        </aside>
-        <section class=”col col-9 main”>
-            <h1>Conteúdo principal</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quidem esse in ad vero, quam labore asperiores fugiat, sapiente blanditiis sequi  ommode, tempore aspernatur impedit veniam pariatur ab non eveniet.
-            </p>
+    
+    <main class=”container”>
+        <section class="row">
+            <aside class="col col-3 aside">
+                <h2>Aside</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam fugiat nulla veniam nemo quod assumenda eligendi nostrum a illo incidunt
+                </p>
+            </aside>
+            <section class="col col-9 main">
+                <h1>Conteúdo principal</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quidem esse in ad vero, quam labore asperiores fugiat, sapiente blanditiis sequi  ommode, tempore aspernatur impedit veniam pariatur ab non eveniet.
+                </p>
+            </section>
         </section>
     </main>
-    <footer class=”row”>
-        <section class=”col col-12 footer”>
-            <h2>Footer</h2>
+    
+    <footer class=”container”>
+        <section class="row">
+            <section class=”col col-12 footer”>
+                <h2>Footer</h2>
+            </section>
         </section>
     </footer>
+    
 </body>
 </html>
 ```
