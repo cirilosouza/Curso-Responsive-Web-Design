@@ -105,7 +105,7 @@ Podemos fazer isso utilizando o float (que já vimos anteriormente) ou o Flex-bo
 ```
   
   
-![Layout Grid](imagens/layout-grid.png)
+![Layout Grid](imagens/layout_grid.png)
 
   
   
@@ -173,7 +173,7 @@ Nós criamos a classe row, porque cada novo item da página será mostrado em um
 Desta forma, somente com linhas e colunas conseguimos criar um layout responsivo.
   
   
-![Layout grid](imagens/layout_grid2.png)
+![Layout grid](imagens/layout-grid2.png)
   
   
 &nbsp;
