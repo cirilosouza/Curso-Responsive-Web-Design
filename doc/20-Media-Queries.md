@@ -176,13 +176,13 @@ body{
 } 
 ```
 
-![Imagem responsiva até 599px](/imagens/criança1.png)
+![Imagem responsiva até 599px](/imagens/crianca1.png)
   
   
-![Imagem responsiva até 767px](/imagens/criança2.png)
+![Imagem responsiva até 767px](/imagens/crianca2.png)
   
   
-![Imagem responsiva a partir de 768px](/imagens/criança3.png)
+![Imagem responsiva a partir de 768px](/imagens/crianca3.png)
 
   
   
