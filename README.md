@@ -70,11 +70,11 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 ### HTML e CSS
 16. [Um pouco mais de HTML](/doc/16-Um-pouco-mais-de-HTML.md) 
 17. [Páginas Responsivas](/doc/17-Páginas-Responsivas.md)
-18. [O que é um View Port?]()
-19. [Construindo um sistema de grid]()
-20. [Media Queries]()
-21. [Facilitand a vida com Flexbox]()
-22. [Multimídia]()
+18. [O que é um View Port?](/doc/18-O-que-e-um-View-Port.md)
+19. [Construindo um sistema de grid](19-Construindo-um-sistema-de-grid.md)
+20. [Media Queries](20-Media-Queries.md)
+21. [Facilitand a vida com Flexbox](21-Facilitando-a-vida-com-flexbox.md)
+22. [Multimídia](22-Multimidia.md)
 22. [Efeitos legais com Transição e Animação]()
  
   
