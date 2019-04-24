@@ -22,7 +22,7 @@ Um layout padrão apresenta os elementos em forma de bloco ou em forma de linha,
 O flex-container possui dois eixos o horizontal ***main eixis*** e o vertical ***cross eixis***, os itens serão alinhados de acordo com estes eixos na horizontal, a partir do ***main-start*** para o ***main-end***, ou do ***cross-start*** para o ***cross-end***.
   
   
-![Flex flow](imagens/flex_flow.png)
+![Flex flow](imagens/flex-flow.png)
   
   
 &nbsp;
@@ -61,7 +61,7 @@ Os valores podem ser as seguintes:
 * column-reverse: escrito debaixo para cima;
   
   
-![Flex-direction](imagens/flex_direction.png)
+![Flex-direction](imagens/flex-direction.png)
   
   
 ![Flex-direction: column](imagens/flex-direction-column.png)
