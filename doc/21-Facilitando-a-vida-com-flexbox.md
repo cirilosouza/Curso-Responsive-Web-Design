@@ -46,8 +46,6 @@ Para que um container seja um flex-container, utilizamos no nosso arquivo CSS a 
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */	
 }
 ```
-
-
   
   
 &nbsp;
@@ -67,7 +65,8 @@ Os valores podem ser as seguintes:
   
   
 ![Flex-direction: column](imagens/flex-direction-column.png)
-
+  
+  
 #### HTML
   
 ```html
@@ -89,7 +88,8 @@ Os valores podem ser as seguintes:
     </section>
 </article>
 ```
-
+  
+  
 #### CSS
 
 ```css
@@ -100,7 +100,7 @@ Os valores podem ser as seguintes:
 }
 ```
   
-  
+   
 ![Flex-direction: row](imagens/flex_direction_row.png)
 
   
@@ -129,7 +129,7 @@ Os valores podem ser as seguintes:
 }
 ```
   
-  
+   
 ![FLex-direction: column](imagens/flex_direction_column.png)
 
   
@@ -143,8 +143,8 @@ Os valores podem ser as seguintes:
     flex-direction: column-reverse; 
 }
 ```
-
-
+  
+  
 ![Flex-direction: column-reverse](imagens/flex_direction_column_reverse.png)
   
   
@@ -162,20 +162,20 @@ Como o Flexbox é relativamente novo, alguns browsers não oferecem suporte para
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 ```
-
-
+  
+  
 ![Flex-wrap: wrap](imagens/flex_wrap.png)
-  
-  
-&nbsp;
   
   
 ```css
 .wrap{ flex-wrap: wrap; }
 ```
-
-
+  
+  
 ![Flex-wrap: wrap](imagens/flex_wrap_2.png)
+  
+  
+&nbsp;
   
   
 Para que todos os itens sejam exibidos em uma única linha, utilizamos o valor nowrap.
@@ -219,7 +219,6 @@ A propriedade justify-content: flex-start, alinha os itens a esquerda (main star
   
   
 ![Justify-content: flex-start](imagens/justify_content_flex_start.png)
-
   
   
 &nbsp;
@@ -292,7 +291,8 @@ A propriedade justify-content: space-evenly, distribui os elementos uniformement
     justify-content: space-evenly; 
 }
 ```
-
+  
+  
 ![Justify-content: space-evenly](imagens/justify_content_space_evenly.png)
   
   
@@ -305,7 +305,6 @@ Alinha os itens dentro do container de acordo com o cross axis (eixo vertical). 
   
   
 ![Align-items](imagens/align_items.png)
-
   
   
 &nbsp;
@@ -316,8 +315,8 @@ A propriedade align-items: flex-start, alinha todo o conteúdo no topo do contai
 ```css
 .align-items-start{ align-items: flex-start; }
 ```
-
-
+  
+  
 ![Align-items: flex-start](imagens/align_items_flex_start.png)
 
   
@@ -330,10 +329,9 @@ A propriedade align-items: flex-end, alinha os flex itens na parte inferior do c
 ```css
 .align-items-end{ align-items: flex-end; }
 ```
-
-
+  
+  
 ![Algin-items: flex-end](imagens/align_items_flex_end.png)
-
   
   
 &nbsp;
@@ -344,8 +342,8 @@ A propriedade align-items: center, alinha os itens no centro vertical do contain
 ```css
 .align-items-center{ align-items: center; }
 ```
-
-
+  
+  
 ![Algin-items: center](imagens/align_items_center.png)
   
   
@@ -357,8 +355,8 @@ A propriedade align-items: stretch, alonga os itens na vertical para que preench
 ```css
 .align-items-stretch{ align-items: stretch; }
 ```
-
-
+  
+  
 ![Align-items: stretch](imagens/align_items_stretch.png)
   
   
@@ -370,8 +368,8 @@ A propriedade align-items: baseline, alinha os itens de acordo com as suas bases
 ```css
 .align-items-baseline{ align-items: baseline; }
 ```
-
-
+  
+  
 ![Algin-items: baseline](imagens/align_items_baseline.png)
   
   
@@ -410,7 +408,7 @@ Por padrão, os flex-items são dispostos na ordem na qual foram escritos no HMT
     </section>
 </article>
 ```
-
+  
 Repare que utilizei o atributo style em cada um dos itens com a propriedade order.
   
   
@@ -427,9 +425,146 @@ O Flex-grow permite que um item cresça de forma a ocupar um espaço livre dentr
 ```css
 .grow{ flex-grow: 1; }
 ```
+  
+  
+![Flex-grow](imagens/flex-grow.png)
+  
+  
+![Flex-grow](imagens/flex_grow2.png)
+  
+  
+Números negativos não são aceitos por esta propriedade.
+  
+  
+&nbsp;
+  
+  
+### Flex-shrink:
 
+A propriedade flex-shrink especifica o quanto um elemento irá encolher com relação aos demais itens dentro do container conforme novos itens forem adicionados ou a janela do navegador for redimensionada. O valor 0 mantém o tamanho original do item. 
 
-![Flex-grow](imagens/)
+```css
+<h2>Flex-shrink: 0</h2>
+<article class="container">
+    <section class="row">
+        <div>
+            <h2>1</h2>
+        </div>
+        <div style="flex-shrink: 0;">
+            <h2>2</h2>
+        </div>
+        <div>
+            <h2>3</h2>
+        </div>
+        <div>
+            <h2>4</h2>
+        </div>
+        <div>
+            <h2>5</h2>
+        </div>
+        <div>
+            <h2>6</h2>
+        </div>
+        <div>
+            <h2>7</h2>
+        </div>
+    </section>
+</article>
+```
+  
+  
+![Flex-shrink](imagens/flex_shrink.png)
+  
+  
+O valor 1 é o padrão, ou seja, todos os itens terão o seu tamanho reajustado para caberem no container
+  
+  
+![Flex-shrink](imagens/flex_shrink2.png)
+  
+  
+O valor 2 reduz 50%, 3 75% e assim por diante.
+  
+  
+![Flex-shrink](imagens/flex_shrink3.png)
+  
+  
+&nbsp;
+  
+  
+### Flex-basis:
+
+A propriedade flex-bases especifica a largura inicial do item.
+
+```html
+<h2>Flex-basis</h2>
+<article class="container">
+    <section class="row">
+        <div>
+            <h2>1</h2>
+        </div>
+        <div style="flex-basis: 200px;">
+            <h2>2</h2>
+        </div>
+        <div>
+            <h2>3</h2>
+        </div>
+        <div>
+            <h2>4</h2>
+        </div>
+    </section>
+</article>
+```
+  
+  
+&nbsp;
+  
+  
+### Flex:
+
+A propriedade flex, é uma junção do flex-grow, flex-shrink e flex-basis. É uma forma mais curta de declarar estas propriedades no CSS.
+
+```css
+.flex{
+    flex: 0 0 200px;
+}
+```
+
+Neste caso, estamos falando que o nosso item não irá crescer nem encolher e a sua largura será de 200px.
+  
+  
+![Flex](imagens/flex.png)
+
+  
+  
+&nbsp;
+  
+  
+### Align-self:
+
+A propriedade align-self permite sobrescrever o alinhamento padrão configurado com align-items, esta propriedade deve ser aplicada individualmente nos itens do container.
+
+```html
+<h2>Align-self</h2>
+<article class="container">
+    <section class="row">
+        <div>
+            <h2>1</h2>
+        </div>
+        <div style="align-self: flex-end">
+            <h2>2</h2>
+        </div>
+        <div>
+            <h2>3</h2>
+        </div>
+        <div>
+            <h2>4</h2>
+        </div>
+    </section>
+</article>
+```
+  
+  
+![Align-self](imagens/align_self.png)
   
   
 &nbsp;
