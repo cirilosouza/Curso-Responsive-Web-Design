@@ -167,6 +167,9 @@ Como o Flexbox é relativamente novo, alguns browsers não oferecem suporte para
 ![Flex-wrap: wrap](imagens/flex_wrap.png)
   
   
+&nbsp;
+  
+  
 ```css
 .wrap{ flex-wrap: wrap; }
 ```
