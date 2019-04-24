@@ -446,7 +446,7 @@ Números negativos não são aceitos por esta propriedade.
 
 A propriedade flex-shrink especifica o quanto um elemento irá encolher com relação aos demais itens dentro do container conforme novos itens forem adicionados ou a janela do navegador for redimensionada. O valor 0 mantém o tamanho original do item. 
 
-```css
+```html
 <h2>Flex-shrink: 0</h2>
 <article class="container">
     <section class="row">
