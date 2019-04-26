@@ -573,6 +573,28 @@ A propriedade align-self permite sobrescrever o alinhamento padrão configurado 
 &nbsp;
   
   
+| ﻿Valores do align-self |                                                             |
+|-----------------------|-------------------------------------------------------------|
+| valor                 | O que faz                                                   |
+| auto                  | Definido pelo navegador                                     |
+| Flex-start            | Alinha no topo do container na vertical (cross axis)        |
+| Flex-end              | Alinha na parte inferior do container (corss axis)          |
+| Center                | Alinha no meio do container                                 |
+| Baseline              | Alinha com a parte inferior dos outros itens                |
+| Stretch               | Alonga o item na vertical para preencher o espaço em branco |
+  
+  
+&nbsp;
+  
+  
+*Se você quiser estudar um pouco mais sobre Flexbox, recomendo um site bem legal é o [Flexbox frog](https://flexboxfroggy.com/#pt-br), um jogo bem legal pra você testar os seus conhecimentos.*
+
+
+  
+  
+&nbsp;
+  
+  
 [< Retornar à página principal](../README.md)
   
   
