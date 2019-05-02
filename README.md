@@ -74,8 +74,8 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 19. [Construindo um sistema de grid](/doc/19-Construindo-um-sistema-de-grid.md)
 20. [Media Queries](/doc/20-Media-Queries.md)
 21. [Facilitando a vida com Flexbox](/doc/21-Facilitando-a-vida-com-flexbox.md)
-22. [Multimídia](22-Multimidia.md)
-22. [Efeitos legais com Transição e Animação]()
+22. [Multimídia](/doc/22-Multimidia.md)
+22. [Efeitos legais com Transição e Animação](/doc/23-Efeitos-legais-com-transicao-e-animacao.md)
  
   
 &nbsp;
