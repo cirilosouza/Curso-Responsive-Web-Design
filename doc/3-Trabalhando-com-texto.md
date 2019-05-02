@@ -137,7 +137,7 @@ Caso você coloque vários espaços em branco em um parágrafo para melhorar o l
 ```
   
   
-![Espaço em branco](imagens/espaços_em_branco.png)
+![Espaço em branco](imagens/espacos_em_branco.png)
   
   
 &nbsp;
@@ -185,7 +185,7 @@ Existem outros elementos que trabalham com textos, sinta-se a vontade para pesqu
   
 | Elemento        | Descrição                                                                 |
 | ------------    | ------------------------                                                  |
-| [\<smal\>](https://www.w3schools.com/tags/tag_small.asp)        | Define um texto como pequeno                                              |
+| [\<small\>](https://www.w3schools.com/tags/tag_small.asp)        | Define um texto como pequeno                                              |
 | [\<ins\>](https://www.w3schools.com/tags/tag_ins.asp)         | Mostra que um texto foi inserido.                                         |
 | [\<del\>](https://www.w3schools.com/tags/tag_del.asp)         | Mostra que um texto foi removido.                                         |
 | [\<mark\>](https://www.w3schools.com/tags/tag_mark.asp)        | Mostra que um texto foi marcado.                                          |
