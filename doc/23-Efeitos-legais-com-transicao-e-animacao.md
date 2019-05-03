@@ -54,6 +54,116 @@ Neste caso, estamos informando ao navegador que quando o usuário passar o mouse
 &nbsp;
   
   
+### Rotate( ):
+  
+O valor rotate() rotaciona o elemento no sentido horário e anti-horário, dentro dos parênteses informamos o ângulo de rotação em graus. Se os graus forem negativos, o elemento será rotacionado no sentido anti-horário.
+  
+  
+```css
+.rotate{
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+```
+  
+![Rotate()](imagens/rotate.gif)
+  
+  
+&nbsp;
+  
+  
+### Scale( ):
+  
+Aumenta ou diminui um elemento de acordo com o valor das propriedades width e height. E pode receber dois valores scale(width, height), mas devemos ficar atentos porque os valores são em escala.
+  
+```css
+.scale{
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    transform: scale(2);
+    margin-left: 100px;
+}
+```
+
+Se passarmos como valor apenas um número, a escala será aplicada tanto para a largura (width) quanto para a altura (height) de forma proporcional.
+Neste caso, estamos falando para o navegador que queremos aumentar em 2 vezes o tamanho original do elemento.
+  
+  
+![Scale](imagens/scale.gif)
+  
+  
+&nbsp;
+  
+  
+Podemos informar valores diferentes para a largura e altura, neste caso o elemento não crescerá de maneira proporcional.
+Repare que todo o conteúdo da também aumenta, e acaba distorcendo. Por tanto, muito cuidado quando for utilizar o scale() para que imagens, textos, etc. não fiquem distorcidos.
+  
+  
+&nbsp;
+  
+  
+### Skew( ):
+  
+O método skew(), inclina o elemento de acordo com o eixo, skewX() (inclina no eixo X) e skewY() (inclina no eixo Y). 
+  
+  
+```css
+.skew{
+    -ms-transform: skew(20deg);
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    transform: skew(20deg);
+    margin-left: 100px;
+}
+
+.skewX{
+    -ms-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    transform: skewX(20deg);
+    margin-left: 100px;
+}
+
+.skewY{
+    -ms-transform: skewY(20deg);
+    -webkit-transform: skewY(20deg);
+    -moz-transform: skewY(20deg);
+    transform: skewY(20deg);
+    margin-left: 100px;
+}
+```
+  
+  
+![Skew](imagens/skew.gif)
+  
+  
+&nbsp;
+  
+  
+### Matrix( ):
+  
+O método matrix() reúne todos os valores dos outros métodos citados anteriormente.  Os valores são declarados na seguinte ondem: scaleX(), skewY(), skewX(),  scaleY(), translateX() e translateY(). 
+
+```css
+.matrix{
+    -ms-transform: matrix(1, 0, 0.5, 1, 150, 0);
+    -webkit-transform: matrix(1, 0, 0.5, 1, 150, 0);
+    -moz-transform: matrix(1, 0, 0.5, 1, 150, 0);
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+    margin-left: 20px;
+}
+```
+
+![Matrix](imagens/matrix.gif)
+
+  
+  
+&nbsp;
+  
+  
 [< Retornar à página principal](../README.md)
   
   
