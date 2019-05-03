@@ -50,7 +50,7 @@ O valor translate() move um elemento de acordo com os eixos X e Y.
 Neste caso, estamos informando ao navegador que quando o usuário passar o mouse sobre o elemento (hover) queremos movê-lo 50px para a direita e 50px para baixo. 
   
   
-![Transform](imagens/translate.gif)
+![Translate](imagens/translate.gif)
 
   
   
