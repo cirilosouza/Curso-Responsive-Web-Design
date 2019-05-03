@@ -5,8 +5,11 @@
   
   
 As transformações, transições e animações, permitem adicionar efeitos visuais aos elementos da página Web de forma que eles possam se movimentar na tela, ou interagir de acordo com um evento iniciado pelo usuário. Isso vai dar a nossa página Web um ar mais moderno, algo mais… “Descolado” (bem diferente das páginas estáticas). 
-
-
+  
+  
+&nbsp;
+  
+  
 ## Transformação 2D
   
   
