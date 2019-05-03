@@ -71,7 +71,7 @@ O valor rotate() rotaciona o elemento no sentido horário e anti-horário, dentr
 }
 ```
   
-![Rotate()](imagens/rotate.gif)
+![Rotate](imagens/rotate.gif)
   
   
 &nbsp;
