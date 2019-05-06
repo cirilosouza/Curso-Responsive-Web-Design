@@ -434,6 +434,12 @@ Configura o tempo que irá levar antes da transição ser iniciada, é important
 &nbsp;
   
   
+No site [cubic-bezier.com](https://cubic-bezier.com), você poderá encontrar mais exemplos de curvas e também criar a sua própria curva, lá tem uma área gráfica onde é possível estilizar a curva e também copiar o código para aplicar no seu CSS.
+  
+  
+&nbsp;
+  
+  
 [< Retornar à página principal](../README.md)
   
   
