@@ -332,8 +332,7 @@ A curva de transição defina a velocidade na qual a transição será executada
 &nbsp;
   
   
-<img src="imagens/linear.png" style="float: left">
-
+<img style="float: left;" src="imagens/linear.png">
 teste
   
   
