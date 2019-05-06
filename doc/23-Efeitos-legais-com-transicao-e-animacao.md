@@ -336,7 +336,7 @@ A curva de transição defina a velocidade na qual a transição será executada
   float: left;
 }
 
-![Linear](imagens/linear.png){.estilo}
+![Linear](imagens/linear.png){: .estilo}
 teste
   
   
