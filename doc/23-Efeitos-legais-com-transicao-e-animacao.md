@@ -332,7 +332,8 @@ A curva de transição defina a velocidade na qual a transição será executada
 &nbsp;
   
   
-![Linear](imagens/linear.png) Terá uma velocidade constante do início até o final da transição. ```css
+![Linear](imagens/linear.png) Terá uma velocidade constante do início até o final da transição. 
+```css
 .translate:hover{
     transform: translate(500px);
     transition: transform 6s;
