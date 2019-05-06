@@ -339,7 +339,7 @@ A curva de transição defina a velocidade na qual a transição será executada
 }
 </style>
 
-![Linear](imagens/linear.png){: .image-left } Terá uma velocidade constante do início até o final da transição. 
+![Linear](imagens/linear.png){ : .image-left } Terá uma velocidade constante do início até o final da transição. 
 
 ```css
 .translate:hover{
