@@ -6,7 +6,7 @@ Crie páginas Web incríveis, acessíveis e responsivas.
   
 
 Autor: Cirilo Souza  
-Data da última atualização: 02/05/2019
+Data da última atualização: 06/05/2019
   
   
 &nbsp;
