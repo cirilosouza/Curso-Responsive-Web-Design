@@ -231,7 +231,7 @@ O método rotateX() rotacional o elemento de acordo com o eixo X (horizontal),  
 ```
   
   
-![RotateZ](imagens/rotateZ.png)
+![RotateZ](imagens/rotateZ.gif)
   
   
 &nbsp;
@@ -332,7 +332,7 @@ A curva de transição defina a velocidade na qual a transição será executada
 &nbsp;
   
   
-![Linear](imagens/linear.png){:style="float: right;"}
+![Linear](imagens/linear.png){style="float: right;"}
   
   
 &nbsp;
