@@ -332,20 +332,101 @@ A curva de transição defina a velocidade na qual a transição será executada
 &nbsp;
   
   
-<style type="text/css">
-.image-left {
-  display: block;
-  float: right;
-}
-</style>
-
-![Linear](imagens/linear.png){ : .image-left } Terá uma velocidade constante do início até o final da transição. 
+![Linear](imagens/linear.png) Terá uma velocidade constante do início até o final da transição. 
 
 ```css
 .translate:hover{
     transform: translate(500px);
     transition: transform 6s;
     transition-timing-function: linear;
+}
+```
+
+  
+  
+&nbsp;
+  
+  
+![Ease](imagens/ease.png) A transição irá começar lenta, será mais rápida na metade e mais lenta no final.
+
+```css
+.translate:hover{
+    transform: translate(500px);
+    transition: transform 6s;
+    transition-timing-function: linear;
+}	
+```
+  
+  
+&nbsp;
+  
+  
+![Ease-in](imagens/ease-in.png) A transição será lenta no início, e seguirá uma velocidade constante a partir da metade até o final.
+
+```css
+.translate:hover{
+    transform: translate(500px);
+    transition: transform 6s;
+    transition-timing-function: ease-in;
+}	
+```
+  
+  
+&nbsp;
+  
+  
+![Ease-out](imagens/ease-out.png) A transição será lenta no início, e seguirá uma velocidade constante a partir da metade até o final.
+
+```css
+.translate:hover{
+    transform: translate(500px);
+    transition: transform 6s;
+    transition-timing-function: ease-out;
+}	
+```
+
+![Ease-in-out](imagens/ease-in-out.png) A transição será lenta no início, e seguirá uma velocidade constante a partir da metade e será lenta novamente no final.
+
+```css
+.translate:hover{
+    transform: translate(500px);
+    transition: transform 6s;
+    transition-timing-function: ease-in-out;
+}
+```
+  
+  
+&nbsp;
+  
+  
+### Curva de Bézier:
+
+A curva de Bézier permite que você insira os valores manualmente, alterando desta forma as características da curva de transição.
+
+```css
+.translate:hover{
+    transform: translate(500px);
+    transition: transform 5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+```
+
+O VSCode possui alguns valores prontos que podem ser adicionados, para usá-los, basta inserir a propriedade transition-timing-function, após inserir o : (dois pontos) o VSCode mostrará uma lista com diversas opções.
+  
+  
+&nbsp;
+  
+  
+### Transition delay:
+
+Configura o tempo que irá levar antes da transição ser iniciada, é importante não confundir com a duração da transição;
+
+```css
+.translate:hover{
+    transform: translate(500px);
+    transition: transform 5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: .5s;
 }
 ```
   
