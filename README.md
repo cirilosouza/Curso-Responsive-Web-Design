@@ -6,7 +6,7 @@ Crie páginas Web incríveis, acessíveis e responsivas.
   
 
 Autor: Cirilo Souza  
-Data da última atualização: 06/05/2019
+Data da última atualização: 07/05/2019
   
   
 &nbsp;
@@ -82,7 +82,8 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
   
   
 ### Introdução ao Javascript
-23. [Introdução ao Javascript]()
+23. [Introdução ao Javascript](/doc/24-Introducao-ao-javascript.md)
+24. [O que são variáveis?](/doc/25-O-que-sao-variaveis.md)
   
  
 
