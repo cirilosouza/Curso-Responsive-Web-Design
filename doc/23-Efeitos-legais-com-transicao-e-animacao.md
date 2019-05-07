@@ -443,4 +443,4 @@ No site [cubic-bezier.com](https://cubic-bezier.com), você poderá encontrar ma
 [< Retornar à página principal](../README.md)
   
   
-[Ir para a próxima página >]()
+[Ir para a próxima página >](./24-Introducao-ao-javascript.md)
