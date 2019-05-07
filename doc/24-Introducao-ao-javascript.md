@@ -36,13 +36,13 @@ Vamos criar a nossa primeira interação com o JavaScript. O elemento <script> p
 Todo o conteúdo que é escrito dentro do elemento <script> é interpretado pelo navegador como linguagem de script.
   
 ```html
-    <script>
-        document.getElementById('btn').onclick = mostraTexto;
+<script>
+    document.getElementById('btn').onclick = mostraTexto;
 
-        function mostraTexto(){
-            document.getElementById('root').innerHTML = "Hello World!";
-        }
-    </script>
+    function mostraTexto(){
+        document.getElementById('root').innerHTML = "Hello World!";
+    }
+</script>
 ```
   
   
@@ -54,7 +54,7 @@ Todo o conteúdo que é escrito dentro do elemento <script> é interpretado pelo
 Para utilizarmos um arquivo externo, basta adicionarmos o atributo src ao elemento script direcionando para o arquivo .js.
 
 ```html
-    <script src="animation.js"></script>
+<script src="animation.js"></script>
 ```
 
 Feito isso, temos que criar um arquivo com a extensão .JS (essa extensão indica ao navegador que este é um arquivo de código JavaScript), no exemplo acima, estamos criando um arquivo com o nome animation.js.
@@ -77,12 +77,12 @@ Repare que o mesmo código do exemplo anterior, porém no arquivo JS não utiliz
 ### In-line:
   
 ```html
-  <body>
-      <h1>Olha só como é fácil programar em JavaScript!</h1>
-      <h2 id="root"></h2>
+<body>
+    <h1>Olha só como é fácil programar em JavaScript!</h1>
+    <h2 id="root"></h2>
 
-      <button onclick="document.getElementById('root').innerHTML = 'Hello World!'">Clique me!</button>
-  </body>
+    <button onclick="document.getElementById('root').innerHTML = 'Hello World!'">Clique me!</button>
+</body>
 ```
   
   
