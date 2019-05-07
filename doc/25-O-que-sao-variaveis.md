@@ -30,12 +30,12 @@ As variáveis devem ser identificadas com nomes que descrevam a sua utilização
   
 Podemos declarar variáveis de três formas:
   
-*	**Variáveis globais: 
+*	Variáveis globais: 
   
 Declaramos o nome da variável e o valor ex: ***numero = 42*** ou ***var numero = 42***, esta variável se torna acessível em qualquer parte da aplicação. Não é recomendado criarmos variáveis globais sem que haja um motivo para isso.
   
   
-*	**Variáveis locais:
+*	Variáveis locais:
   
 Funcionam somente no escopo na qual foram criadas, não sendo acessíveis de outras partes do código (*vamos falar sobre isso daqui a pouco!*). São criadas com a utilização do ***let***.
 Os nomes das variáveis devem iniciar com letras, números, underline ou cifrão (dólar), os caracteres subsequentes também podem conter números de **[0-9]** ou letras **[a-z, A-Z]**. 
