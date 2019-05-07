@@ -5,7 +5,7 @@
 &nbsp;
   
   
-Existem cinco tipos de operadores no JavaScript, os operadores aritméticos, os operadores de atribuição e operadores lógicos, operadores de comparação e operadores bitwise.
+Existem cinco tipos de operadores no JavaScript, os **operadores aritméticos**, os **operadores de atribuição**, **operadores lógicos**, **operadores de comparação** e **operadores bitwise**.
   
   
 &nbsp;
@@ -64,6 +64,61 @@ Os operadores aritméticos nos permitem realizar operações matemáticas no Jav
 
     //DECREMENTO
     document.write("valor1--" +  valor2-- + "<br>");
+</script>
+```
+
+  
+  
+&nbsp;
+  
+  
+### Operadores de atribuição:
+  
+Os operadores de atribuição permitem atribuir valores às variáveis.
+  
+| Operador | Descrição                                                              |
+|----------|------------------------------------------------------------------------|
+| =        | Atribui o valor que está à direita à uma variável que está a esquerda. |
+| +=       | Atribuição com atribuição                                              |
+| -=       | Atribuição com subtração                                               |
+| *=       | Atribuição com multiplicação                                           |
+| /=       | Atribuição com divisão                                                 |
+| %=       | Atribuição com módulo                                                  |
+| **=**      | Atribuição com exponenciação                                           |
+| --       | Decrement                                                              |
+  
+  
+```html
+<script>
+    //OPERADORES DE ATRIBUIÇÃO
+
+    //ATRIBUIÇÃO
+    valor1 = valor2
+    document.write(valor1 + "<br>");
+
+    //ATRIBUIÇÃO COM SOMA
+    valor1 += valor2
+    document.write(valor1 + "<br>");
+
+    //ATRIBUIÇÃO COM SUBTRAÇÃO
+    valor1 -= valor2
+    document.write(valor1 + "<br>");
+
+    //ATRIBUIÇÃO COM MULTIPLICAÇÃO
+    valor1 *= valor2
+    document.write(valor1 + "<br>");
+
+    //ATRIBUIÇÃO COM DIVISÃO
+    valor1 /= valor2
+    document.write(valor1 + "<br>");
+
+    //ATRIBUIÇÃO COM MÓDULO
+    valor1 %= 2
+    document.write(valor1 + "<br>");
+
+    //ATRIBUIÇÃO COM EXPONENCIAÇÃO
+    valor1 **= 2
+    document.write(valor1 + "<br>");
 </script>
 ```
 
