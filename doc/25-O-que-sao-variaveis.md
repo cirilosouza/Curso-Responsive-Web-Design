@@ -80,7 +80,8 @@ let meuNome = "Cirilo";
   
   
 Não podemos dar qualquer nome às variáveis, existem algumas palavras que são reservadas pela linguagem e não podem ser usadas. São elas:
-  
+ 
+|--------------|-----------|------------|
 | abstract     | boolean   | Break      |
 | Byte         | Case      | Catch      |
 | Continue     | Default   | Do         |
