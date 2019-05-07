@@ -11,7 +11,7 @@ Podemos armazenar textos, números, listas, objetos ou até mesmo outras variáv
 No caso do JavaScript, para declararmos uma variável podemos utilizar as palavras reservadas **var** ou **let** seguidas pelo nome da variável e logo após o seu valor.
   
   
-![Var](imagens/var/png)
+![Var](imagens/var.png)
   
 ![Let](imagens/let.png)
   
