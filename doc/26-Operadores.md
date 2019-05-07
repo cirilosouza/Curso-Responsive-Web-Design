@@ -84,8 +84,7 @@ Os operadores de atribuição permitem atribuir valores às variáveis.
 | *=       | Atribuição com multiplicação                                           |
 | /=       | Atribuição com divisão                                                 |
 | %=       | Atribuição com módulo                                                  |
-| **=**      | Atribuição com exponenciação                                           |
-| --       | Decrement                                                              |
+| ** **=**      | Atribuição com exponenciação                                           |
   
   
 ```html
