@@ -86,7 +86,19 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 25. [Introdução ao Javascript](/doc/24-Introducao-ao-javascript.md)
 26. [O que são variáveis?](/doc/25-O-que-sao-variaveis.md)
 27. [Operadores](/doc/26-Operadores.md)
+ 
   
+&nbsp;
+  
+  
+## Avançado
+  
+  
+### HTML e CSS
+[Desenhando na página Web com Canvas]()
+[SVG é imagem ou código?]()
+  
+   
  
 
 
