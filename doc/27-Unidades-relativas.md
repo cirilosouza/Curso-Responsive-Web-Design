@@ -134,7 +134,8 @@ body{font-size: 20px}
   
   
 ### Outras medidas relativas:
-| ﻿Unidade     | Descrição                                                                                                                                                                                                                                   |
+
+| Unidade     | Descrição                                                                                                                                                                                                                                   |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CH**        | O CH vem de character (caractere em português), ou seja, ele é relativo à largura do caractere zero “0” da fonte que está sendo utilizada na página Web.                                                                                    |
 | **VW**        | É relativo à largura do viewport, é equivalente a 1% da largura.                                                                                                                                                                            |
