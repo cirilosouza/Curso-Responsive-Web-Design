@@ -42,4 +42,4 @@ No site [rockcontent.com](https://rockcontent.com/blog/web-design-responsivo/), 
 [< Retornar à página principal](../README.md)
   
   
-[Ir para a próxima página >](18-O-que-e-um-View-Port.md)
+[Ir para a próxima página >](27-Unidades-relativas.md)
