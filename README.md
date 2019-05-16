@@ -6,7 +6,7 @@ Crie páginas Web incríveis, acessíveis e responsivas.
   
 
 Autor: Cirilo Souza  
-Data da última atualização: 07/05/2019
+Data da última atualização: 16/05/2019
   
   
 &nbsp;
@@ -70,21 +70,22 @@ Você não vai encontrar exercícios (*pelo menos não nesta versão!*) porque c
 ### HTML e CSS
 16. [Um pouco mais de HTML](/doc/16-Um-pouco-mais-de-HTML.md) 
 17. [Páginas Responsivas](/doc/17-Páginas-Responsivas.md)
-18. [O que é um View Port?](/doc/18-O-que-e-um-View-Port.md)
-19. [Construindo um sistema de grid](/doc/19-Construindo-um-sistema-de-grid.md)
-20. [Media Queries](/doc/20-Media-Queries.md)
-21. [Facilitando a vida com Flexbox](/doc/21-Facilitando-a-vida-com-flexbox.md)
-22. [Multimídia](/doc/22-Multimidia.md)
-22. [Efeitos legais com Transição e Animação](/doc/23-Efeitos-legais-com-transicao-e-animacao.md)
+18. [Medidas relativas](/doc/27-Unidades-relativas.md)
+19. [O que é um View Port?](/doc/18-O-que-e-um-View-Port.md)
+20. [Construindo um sistema de grid](/doc/19-Construindo-um-sistema-de-grid.md)
+21. [Media Queries](/doc/20-Media-Queries.md)
+22. [Facilitando a vida com Flexbox](/doc/21-Facilitando-a-vida-com-flexbox.md)
+23. [Multimídia](/doc/22-Multimidia.md)
+24. [Efeitos legais com Transição e Animação](/doc/23-Efeitos-legais-com-transicao-e-animacao.md)
  
   
 &nbsp;
   
   
 ### Introdução ao Javascript
-23. [Introdução ao Javascript](/doc/24-Introducao-ao-javascript.md)
-24. [O que são variáveis?](/doc/25-O-que-sao-variaveis.md)
-25. [Operadores](/doc/26-Operadores.md)
+25. [Introdução ao Javascript](/doc/24-Introducao-ao-javascript.md)
+26. [O que são variáveis?](/doc/25-O-que-sao-variaveis.md)
+27. [Operadores](/doc/26-Operadores.md)
   
  
 
