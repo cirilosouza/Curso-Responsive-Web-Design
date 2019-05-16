@@ -27,6 +27,8 @@ As medidas absolutas têm esse nome porque são fixas, ou seja, independente do 
 ### Mas o que são pixels?
 
 Ao ampliarmos uma imagem percebemos que ela possui pequenos quadrados coloridos, estes quadradinhos são os pixels. Quando combinados eles geram formas que são as imagens que vemos no nosso dia-a-dia.
+  
+  
 ![Mulher](imagens/mulher.png)   ![Mulher ampliada](imagens/mulher_amplicada.png)
 
   
