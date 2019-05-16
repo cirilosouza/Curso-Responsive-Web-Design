@@ -30,7 +30,7 @@ Ao ampliarmos uma imagem percebemos que ela possui pequenos quadrados coloridos,
 ![Mulher](imagens/mulher.png)
   
   
-![Mulher ampliada](imagens/mulher_apliada.png)
+![Mulher ampliada](imagens/mulher_amplicada.png)
 
   
   
