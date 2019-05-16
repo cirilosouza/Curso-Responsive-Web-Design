@@ -43,11 +43,11 @@ Além do PX, temos outras unidades de medidas que também podem ser usadas no no
   
 | Unidade              | Descrição                                                                                                    |
 |----------------------|--------------------------------------------------------------------------------------------------------------|
-| CM (Centímetros)     | O centímetro é uma unidade de medida do sistema métrico, equivale a 1 centésimo de 1000 metros.              |
-| MM (milímetros)      | O centímetro é uma unidade de medida do sistema métrico, equivale a 1 milésimo de 1000 metros.               |
-| IN (POLEGADAS)       | É uma unidade de comprimento usada no sistema imperial de medidas. Uma polegada equivale a 2,54 centímetros. |
-| PT (PONTOS)          | Especifica o número de pontos individuais que existem em uma polegada.                                       |
-| PC (PICAS ou PAICAS) | Foi uma das primeiras unidades de medidas tipográficas criadas, equivale a 4,23 milímetros.                  |
+| **CM (Centímetros)**     | O centímetro é uma unidade de medida do sistema métrico, equivale a 1 centésimo de 1000 metros.              |
+| **MM (milímetros)**      | O centímetro é uma unidade de medida do sistema métrico, equivale a 1 milésimo de 1000 metros.               |
+| **IN (POLEGADAS)**       | É uma unidade de comprimento usada no sistema imperial de medidas. Uma polegada equivale a 2,54 centímetros. |
+| **PT (PONTOS)**          | Especifica o número de pontos individuais que existem em uma polegada.                                       |
+| **PC (PICAS ou PAICAS)** | Foi uma das primeiras unidades de medidas tipográficas criadas, equivale a 4,23 milímetros.                  |
   
   
 &nbsp;
@@ -136,10 +136,10 @@ body{font-size: 20px}
 ### Outras medidas relativas:
 | ﻿Unidade     | Descrição                                                                                                                                                                                                                                   |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CH          | O CH vem de character (caractere em português), ou seja, ele é relativo à largura do caractere zero “0” da fonte que está sendo utilizada na página Web.                                                                                    |
-| VW          | É relativo à largura do viewport, é equivalente a 1% da largura.                                                                                                                                                                            |
-| VH          | É relativo à altura do viewport, é equivalente a 1% da altura.                                                                                                                                                                              |
-| VMIN e VMAX | É relativo ao tamanho mínimo da largura e altura respectivamente. Se um navegador tiver uma largura de 1440px e uma altura de 920px, e configurarmos o width: 1vmax seria equivalente a 14,4px e o height: 1vmin seria equivalente a 9,2px. |
+| **CH**        | O CH vem de character (caractere em português), ou seja, ele é relativo à largura do caractere zero “0” da fonte que está sendo utilizada na página Web.                                                                                    |
+| **VW**        | É relativo à largura do viewport, é equivalente a 1% da largura.                                                                                                                                                                            |
+| **VH**          | É relativo à altura do viewport, é equivalente a 1% da altura.                                                                                                                                                                              |
+| **VMIN e VMAX** | É relativo ao tamanho mínimo da largura e altura respectivamente. Se um navegador tiver uma largura de 1440px e uma altura de 920px, e configurarmos o width: 1vmax seria equivalente a 14,4px e o height: 1vmin seria equivalente a 9,2px. |
   
   
 &nbsp;
