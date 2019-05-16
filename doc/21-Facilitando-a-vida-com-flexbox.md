@@ -131,7 +131,15 @@ Os valores podem ser as seguintes:
   
    
 ![FLex-direction: column](imagens/flex_direction_column.png)
-
+  
+  
+&nbsp;
+  
+  
+Devemos nos atentar ao fato de que ao utilizar o flex-direction: column o acontece é que o Flexbox não posiciona um elemento abaixo do outro em forma de blocos, mas ele gira o eixo principal do e faz com que o cross axis fique na parte superior ou inferior da tela. Neste caso, se quisermos alinhar os elementos no centro da página na vertical, devemos utilizar o justify-content e não o align-items.  Da mesma forma se quisermos alinhas na horizontal, utilizamos o align-itens ao invés do justify-content.
+  
+  
+![Flex-direction: column](imagens/flex_direction.png)
   
   
 &nbsp;
