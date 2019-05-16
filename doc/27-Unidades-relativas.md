@@ -135,10 +135,10 @@ body{font-size: 20px}
   
 ### Outras medidas relativas:
 
-| Unidade     | Descrição                                                                                                                                                                                                                                   |
+| Unidade     | Descrição |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **CH**        | O CH vem de character (caractere em português), ou seja, ele é relativo à largura do caractere zero “0” da fonte que está sendo utilizada na página Web.                                                                                    |
-| **VW**        | É relativo à largura do viewport, é equivalente a 1% da largura.                                                                                                                                                                            |
+| **CH**          | O CH vem de character (caractere em português), ou seja, ele é relativo à largura do caractere zero “0” da fonte que está sendo utilizada na página Web.                                                                                    |
+| **VW**          | É relativo à largura do viewport, é equivalente a 1% da largura.                                                                                                                                                                            |
 | **VH**          | É relativo à altura do viewport, é equivalente a 1% da altura.                                                                                                                                                                              |
 | **VMIN e VMAX** | É relativo ao tamanho mínimo da largura e altura respectivamente. Se um navegador tiver uma largura de 1440px e uma altura de 920px, e configurarmos o width: 1vmax seria equivalente a 14,4px e o height: 1vmin seria equivalente a 9,2px. |
   
