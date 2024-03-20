@@ -47,15 +47,7 @@ Para indicar o início do parágrafo utilizamos o \<p\> e para indicar o final u
 </html>
 ```
 
-As tags podem conter atributos que proveem informações adicionais sobre o conteúdo dos elementos. Eles aparecem dentro da tag de abertura e são compostos por duas partes **nome** e **valor**. 
 
-```html
-<html lang="en">
-```
-
-Repare que o valor é escrito entre “aspas” e eles são separados pelo sinal de igual ( = ). O nome do atributo indica que tipo de informação extra você está passando na tag, no exemplo acima estamos indicando que a linguagem da página será em Inglês. 
-  
-  
 &nbsp;
   
 ## Tags vazias
@@ -72,7 +64,21 @@ Algumas tags não têm conteúdo, como no caso da tag \<img\>, ela serve para ex
   
   
 &nbsp;
+
+## Atributos
+
+As tags podem conter atributos que proveem informações adicionais sobre o conteúdo dos elementos. Eles aparecem dentro da tag de abertura e são compostos por duas partes **nome** e **valor**. 
+
+```html
+<html lang="en">
+```
+
+Repare que o valor é escrito entre “aspas” e eles são separados pelo sinal de igual ( = ). O nome do atributo indica que tipo de informação extra você está passando na tag, no exemplo acima estamos indicando que a linguagem da página será em Inglês. 
+
+
+&nbsp;
   
+
 ## Estrutura da página HTML
 
 Toda página HTML deve começar com a tag \<!DOCTYPE\>, o doctype não é uma tag HTML, mas ele informa ao navegador que tipo de documento ele deve receber. Para informar ao navegador que o conteúdo que será exibido é uma página em formato HTML 5, devemos inserir \<!DOCTYPE\> no topo da página HTML.
