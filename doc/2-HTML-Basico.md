@@ -70,7 +70,11 @@ Algumas tags não têm conteúdo, como no caso da tag \<img\>, ela serve para ex
 Todos os elementos HTML podem conter atributos que proveem informações adicionais sobre o conteúdo dos elementos. Estes atributos são declarados dentro da tag de abertura e são compostos por duas partes **nome** e **valor**. 
 
 ```html
-<html lang="en">
+<html>
+  <body>
+    <a href="https://cirilosouza.com.br">Visit a minha página!</a>
+  </body>
+</html>
 ```
 
 Repare que o valor é escrito entre “aspas” e eles são separados pelo sinal de igual ( = ). O nome do atributo indica que tipo de informação extra você está passando na tag, no exemplo acima estamos indicando que a linguagem da página será em Inglês. 
