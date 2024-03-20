@@ -75,7 +75,11 @@ Algumas tags não têm conteúdo, como no caso da tag \<img\>, ela serve para ex
   
 ## Estrutura da página HTML
 
-Toda página HTML deve começar com a tag \<!DOCTYPE\>, ela mostra a versão da linguagem que será utilizada para criar a página Web, isso mesmo, existem versões diferentes da linguagem HTML, pois, novos recursos foram inseridos com o passar do tempo.
+Toda página HTML deve começar com a tag \<!DOCTYPE\>, o doctype não é uma tag HTML, mas ele informa ao navegador que tipo de documento ele deve receber. Para informar ao navegador que o conteúdo que será exibido é uma página em formato HTML 5, devemos inserir \<!DOCTYPE\> no topo da página HTML.
+Você deve estar se pergutando: "Existem versões diferentes da linguagem HTML?" 
+A resposta é sim, exitem! A versão mais atual do HTML é a 5 e desde sua criação, novos recursos foram inseridos ou depreciados fazendo com que novas versões fossem criadas.
+
+Versões do HTML
 
 | Versão    | Ano  |
 | ------    | ---  |
