@@ -67,7 +67,7 @@ Algumas tags não têm conteúdo, como no caso da tag \<img\>, ela serve para ex
 
 ## Atributos
 
-As tags podem conter atributos que proveem informações adicionais sobre o conteúdo dos elementos. Eles aparecem dentro da tag de abertura e são compostos por duas partes **nome** e **valor**. 
+Todos os elementos HTML podem conter atributos que proveem informações adicionais sobre o conteúdo dos elementos. Estes atributos são declarados dentro da tag de abertura e são compostos por duas partes **nome** e **valor**. 
 
 ```html
 <html lang="en">
