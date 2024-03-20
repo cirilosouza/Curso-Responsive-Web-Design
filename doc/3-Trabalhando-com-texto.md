@@ -10,7 +10,7 @@ Nesta sessão, vamos ver em detalhes os elementos que são usados para inserir t
 &nbsp;
   
 ## Cabeçalho:
-O cabeçalho possui seis níveis, iniciando pelo \<h1\> e finalizando no <\h6\> sendo o \<h1\> utilizado para o título principal, por isso deve ser único e os demais podem se repetir ao longo da página. Os navegadores mostram o conteúdo dos cabeçalhos em tamanhos diferentes, de acordo com a sua ordem, ou seja, o \<h1\> será o maior e o \<h6\> o menor.
+O cabeçalho possui seis níveis, iniciando pelo \<h1\> e finalizando no \<h6\> sendo o \<h1\> utilizado para o título principal, por isso deve ser único e os demais podem se repetir ao longo da página. Os navegadores mostram o conteúdo dos cabeçalhos em tamanhos diferentes, de acordo com a sua ordem, ou seja, o \<h1\> será o maior e o \<h6\> o menor.
 
 ```html
     <h1>Esse é um cabeçalho em &lt;h1&gt;</h1>
