@@ -72,7 +72,7 @@ Todos os elementos HTML podem conter atributos que proveem informações adicion
 ```html
 <html>
   <body>
-    <a href="https://cirilosouza.com.br">Visit a minha página!</a>
+    <a href="https://cirilosouza.com.br">Visite a minha página!</a>
   </body>
 </html>
 ```
