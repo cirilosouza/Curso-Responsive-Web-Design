@@ -148,8 +148,11 @@ Então a estrutura final do nosso arquivo será assim:
 <head>
     <meta charset="UTF-8">
 </head>
-<body>
-</body>
+  <body>
+    <h1>Hello World!</h1>
+    <h2>Essa é a nossa primeira página</h2>
+    <img src="menina.jpg" alt="Menina de cabelos cacheados usando jequeta">  
+  </body>
 </html>
 ```
   
