@@ -106,10 +106,10 @@ O \<!DOCTYPE\> deve ser declarado apenas uma vez e deve ser a primeira tag da p�
 <!DOCTYPE html>
 ```
 
-A tag <html> é conhecida como elemento raiz, e indica que tudo que está dentro dela é um conteúdo HTML. Lembram dos atributos que falamos agora a pouco na parte de Estrutura das TAGS? Então podemos ver sua utilização aqui! O atributo lang=”en” indica para o navegador que a página será escrita em Inglês.
+A tag <html> é conhecida como elemento raiz, e indica que tudo que está dentro dela é um conteúdo HTML. Lembram dos atributos que falamos agora a pouco na parte de Estrutura das TAGS? Então podemos ver sua utilização aqui! O atributo lang=”pt-BR” indica para o navegador a linguagem na qual a página é escrita, o valor é composto de duas partes, os dois primeiros caraceres definem a língua na qual a página é escrita e os dois últimos o país. Por tanto o atributo abaixo indica que a página será escrita em português-Brasil "pt-BR".
 
 ```html
-<html lang="en">
+<html lang="pt-BR">
     Conteúdo HTML aqui
 </html>
 ```
